@@ -1,0 +1,1848 @@
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946463590641197106",
+  "createdTimestamp": 1645724904452,
+  "type": "DEFAULT",
+  "content": "3p voce pensa que flamengo é time",
+  "authorId": "389563969540456458",
+  "nonce": "946463590343245824",
+  "cleanContent": "3p voce pensa que flamengo é time"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946463595112316938",
+  "createdTimestamp": 1645724905518,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 14:48:24\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p voce pensa que flamengo é time\n**🎲 ID de Registro:** ||mbjxauk340pf02tonrk5tojxr||",
+      "color": 16438033,
+      "timestamp": 1645724904452
+    }
+  ],
+  "attachments": [
+    "946463595192000562"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946463661126475827",
+  "createdTimestamp": 1645724921257,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "VOCE PENSA QUE FLAMENGO É TIME (WALLACE)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "30 seconds (0:30)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946463662221189150",
+  "createdTimestamp": 1645724921518,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 14:48:41\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||3qmgx9nro6ewqypkdoelglfmy||",
+      "color": 16438033,
+      "timestamp": 1645724921257
+    }
+  ],
+  "attachments": [
+    "946463662292484166"
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946463661126475827",
+    "createdTimestamp": 1645724921257,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "VOCE PENSA QUE FLAMENGO É TIME (WALLACE)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "30 seconds (0:30)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946463661126475827",
+    "createdTimestamp": 1645724921257,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "VOCE PENSA QUE FLAMENGO É TIME (WALLACE)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "30 seconds (0:30)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946463664758718484",
+  "createdTimestamp": 1645724922123,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 14:48:41\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** njdh9pcbiyt0mzk5y18g8hi9t",
+      "color": 16438033,
+      "timestamp": 1645724921257
+    }
+  ],
+  "attachments": [
+    "946463664880361492"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "946501677622636564",
+  "createdTimestamp": 1645733985096,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "946501691987984384",
+  "attachments": [
+    "946501677408747580"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946501680109862942",
+  "createdTimestamp": 1645733985689,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:19:45\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472227733988966410/946501677408747580/unknown.png) (403 Kb)\n\n**🎲 ID de Registro:** ||uh7o7g3wunrb18c71rjywshhk||",
+      "color": 16438033,
+      "timestamp": 1645733985096
+    }
+  ],
+  "attachments": [
+    "946501680193736814"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509801637163040",
+  "createdTimestamp": 1645735922012,
+  "type": "DEFAULT",
+  "content": "3p pau no cu pau na buceta",
+  "authorId": "599059525189894165",
+  "nonce": "946509797925060608",
+  "cleanContent": "3p pau no cu pau na buceta"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509806267670608",
+  "createdTimestamp": 1645735923116,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:02\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p pau no cu pau na buceta\n**🎲 ID de Registro:** ||jpcss0k5pvmw8kujyvzzb7sci||",
+      "color": 16438033,
+      "timestamp": 1645735922012
+    }
+  ],
+  "attachments": [
+    "946509806317994014"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509815914594305",
+  "createdTimestamp": 1645735925416,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "PAU NO C PAU NA BCT, SENTA E KIKA NA CASSETA ( DJ RYAAN ) TIKTOK ORIGINAL",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "161 seconds (2:41)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "doxedbyvini#0130",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509816300466227",
+  "createdTimestamp": 1645735925508,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||9phto3pozcmfgviz7fqub2ki7||",
+      "color": 16438033,
+      "timestamp": 1645735925416
+    }
+  ],
+  "attachments": [
+    "946509816451452998"
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946509815914594305",
+    "createdTimestamp": 1645735925416,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "PAU NO C PAU NA BCT, SENTA E KIKA NA CASSETA ( DJ RYAAN ) TIKTOK ORIGINAL",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "161 seconds (2:41)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "doxedbyvini#0130",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946509815914594305",
+    "createdTimestamp": 1645735925416,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "PAU NO C PAU NA BCT, SENTA E KIKA NA CASSETA ( DJ RYAAN ) TIKTOK ORIGINAL",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "161 seconds (2:41)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "doxedbyvini#0130",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509817399377961",
+  "createdTimestamp": 1645735925770,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 17:52:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** bk0w2340ykph8uv7mcnp65h7c",
+      "color": 16438033,
+      "timestamp": 1645735925416
+    }
+  ],
+  "attachments": [
+    "946509817424539738"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509967517696020",
+  "createdTimestamp": 1645735961561,
+  "type": "DEFAULT",
+  "content": "3p https://www.youtube.com/watch?v=05cCm7cLkhk",
+  "authorId": "897291486285156362",
+  "nonce": "946509983208439808",
+  "embeds": [
+    {
+      "type": "video",
+      "title": "Um gnomo estava andando em cima do asfalto (Daviz45) (Animação)",
+      "description": "vídeo extra pra não ter apenas animações do whindersson no canal kkkk\n\nProximo video do whindersson vai ser no outro ano 🙂\n\nDono do áudio: https://youtu.be/yI0MiLGrYsc\n\nvídeo que usei de inspiração para animar: https://youtu.be/HQl8sI0-O8A\n\nsketch: https://youtu.be/A_o3Am1iCa0",
+      "url": "https://www.youtube.com/watch?v=05cCm7cLkhk",
+      "color": 16711680
+    }
+  ],
+  "cleanContent": "3p https://www.youtube.com/watch?v=05cCm7cLkhk"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509967937126412",
+  "createdTimestamp": 1645735961661,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:41\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p https://www.youtube.com/watch?v=05cCm7cLkhk\n**🎲 ID de Registro:** ||x2rhq72vv66r6ib0m37wkb6hw||",
+      "color": 16438033,
+      "timestamp": 1645735961561
+    }
+  ],
+  "attachments": [
+    "946509968331374612"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509971925893181",
+  "createdTimestamp": 1645735962612,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 16776960,
+      "fields": [
+        {
+          "value": "Um gnomo estava andando em cima do asfalto (Daviz45) (Animação)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "34",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "henrique#0001",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509972458602536",
+  "createdTimestamp": 1645735962739,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:42\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||rf80j1xbcs4sr0nz9cp981wfw||",
+      "color": 16438033,
+      "timestamp": 1645735962612
+    }
+  ],
+  "attachments": [
+    "946509972546666546"
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946509971925893181",
+    "createdTimestamp": 1645735962612,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 16776960,
+        "fields": [
+          {
+            "value": "Um gnomo estava andando em cima do asfalto (Daviz45) (Animação)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "34",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "henrique#0001",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946509971925893181",
+    "createdTimestamp": 1645735962612,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 16776960,
+        "fields": [
+          {
+            "value": "Um gnomo estava andando em cima do asfalto (Daviz45) (Animação)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "34",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "henrique#0001",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509974484435084",
+  "createdTimestamp": 1645735963222,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 17:52:42\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** z1gtjpnlm6phcvgz87kc8jft0",
+      "color": 16438033,
+      "timestamp": 1645735962612
+    }
+  ],
+  "attachments": [
+    "946509974677368852"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509990372458556",
+  "createdTimestamp": 1645735967010,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "389563969540456458",
+  "nonce": "946509990431031296",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509991307780116",
+  "createdTimestamp": 1645735967233,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:47\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||1cuw6pjmb68nkxeaw7v186wt1||",
+      "color": 16438033,
+      "timestamp": 1645735967010
+    }
+  ],
+  "attachments": [
+    "946509991391690792"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946509991576207411",
+  "createdTimestamp": 1645735967297,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Um gnomo estava andando em cima do asfalto (Daviz45) (Animação)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "34",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "henrique#0001",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946509992452821043",
+  "createdTimestamp": 1645735967506,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:52:47\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||4t1equr20sen2ai5id1klzrdo||",
+      "color": 16438033,
+      "timestamp": 1645735967297
+    }
+  ],
+  "attachments": [
+    "946509992524132402"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510255305658408",
+  "createdTimestamp": 1645736030175,
+  "type": "DEFAULT",
+  "content": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA",
+  "authorId": "897291486285156362",
+  "nonce": "946510270937694208",
+  "cleanContent": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510255850917909",
+  "createdTimestamp": 1645736030305,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:53:50\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p https://www.youtube.com/watch?v=pcb_rJcRYpA\n**🎲 ID de Registro:** ||ua68qhfogs6h8452zbwy6dgtq||",
+      "color": 16438033,
+      "timestamp": 1645736030175
+    }
+  ],
+  "attachments": [
+    "946510255871909898"
+  ]
+}
+Message from henrique#0001 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510255305658408",
+    "createdTimestamp": 1645736030175,
+    "type": "DEFAULT",
+    "content": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA",
+    "authorId": "897291486285156362",
+    "nonce": "946510270937694208",
+    "cleanContent": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA"
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510255305658408",
+    "createdTimestamp": 1645736030175,
+    "type": "DEFAULT",
+    "content": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA",
+    "authorId": "897291486285156362",
+    "nonce": "946510270937694208",
+    "embeds": [
+      {
+        "type": "video",
+        "title": "A vingança do gnomo (Daviz45) (Animação)",
+        "description": "Vídeo original (Daviz45): https://youtu.be/6vpJMbqPF_Y\n\nesboço desta animação: https://youtu.be/LclYAHBJVhs\n\nParte 2 do Gnomo no asfalto 🐸\n\nDesculpe a a demora pra postar vídeo 😔\n\nessa animação foi feita em um programa diferente que ainda estou aprendendo a usar, por isso algumas coisas estão diferentes",
+        "url": "https://www.youtube.com/watch?v=pcb_rJcRYpA",
+        "color": 16711680
+      }
+    ],
+    "cleanContent": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510256870158456",
+  "createdTimestamp": 1645736030548,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 17:53:50\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** 3p https://www.youtube.com/watch?v=pcb_rJcRYpA\n**📝 Conteúdo Novo:** 3p https://www.youtube.com/watch?v=pcb_rJcRYpA\n**🎲 ID de Registro:** 3oiyzkupnpvtaaihr09bwx4fv",
+      "color": 16438033,
+      "timestamp": 1645736030175
+    }
+  ],
+  "attachments": [
+    "946510257000185986"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510259357376562",
+  "createdTimestamp": 1645736031141,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "A vingança do gnomo (Daviz45) (Animação)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "39",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "henrique#0001",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510259357376562",
+    "createdTimestamp": 1645736031141,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "A vingança do gnomo (Daviz45) (Animação)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "39",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "henrique#0001",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510259357376562",
+    "createdTimestamp": 1645736031141,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "A vingança do gnomo (Daviz45) (Animação)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "39",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "henrique#0001",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510260066209812",
+  "createdTimestamp": 1645736031310,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:53:51\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||x6btav6cwz0tmgw6n1z0gn5rd||",
+      "color": 16438033,
+      "timestamp": 1645736031141
+    }
+  ],
+  "attachments": [
+    "946510260137508934"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510261035077652",
+  "createdTimestamp": 1645736031541,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 17:53:51\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** tmy20iqxg3fj19z4jnvxf0qqp",
+      "color": 16438033,
+      "timestamp": 1645736031141
+    }
+  ],
+  "attachments": [
+    "946510261098000434"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510371227840642",
+  "createdTimestamp": 1645736057813,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510367004033024",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510371617919048",
+  "createdTimestamp": 1645736057906,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:17\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||j2gqgkaix5us6vk4bz4ixa61h||",
+      "color": 16438033,
+      "timestamp": 1645736057813
+    }
+  ],
+  "attachments": [
+    "946510371919892520"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510404882939924",
+  "createdTimestamp": 1645736065837,
+  "type": "DEFAULT",
+  "content": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA",
+  "authorId": "897291486285156362",
+  "nonce": "946510420519157760",
+  "embeds": [
+    {
+      "type": "video",
+      "title": "A vingança do gnomo (Daviz45) (Animação)",
+      "description": "Vídeo original (Daviz45): https://youtu.be/6vpJMbqPF_Y\n\nesboço desta animação: https://youtu.be/LclYAHBJVhs\n\nParte 2 do Gnomo no asfalto 🐸\n\nDesculpe a a demora pra postar vídeo 😔\n\nessa animação foi feita em um programa diferente que ainda estou aprendendo a usar, por isso algumas coisas estão diferentes",
+      "url": "https://www.youtube.com/watch?v=pcb_rJcRYpA",
+      "color": 16711680
+    }
+  ],
+  "cleanContent": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510406615183380",
+  "createdTimestamp": 1645736066250,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:25\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p https://www.youtube.com/watch?v=pcb_rJcRYpA\n**🎲 ID de Registro:** ||mfebuztpvf6aq15174ohb4bov||",
+      "color": 16438033,
+      "timestamp": 1645736065837
+    }
+  ],
+  "attachments": [
+    "946510406808141844"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510410926915594",
+  "createdTimestamp": 1645736067278,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "A vingança do gnomo (Daviz45) (Animação)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "39",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "henrique#0001",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510411426066452",
+  "createdTimestamp": 1645736067397,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:27\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||otbqz3vpymoh2hyjj74y6gf51||",
+      "color": 16438033,
+      "timestamp": 1645736067278
+    }
+  ],
+  "attachments": [
+    "946510411501555772"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510429721604137",
+  "createdTimestamp": 1645736071759,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510426034667520",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510430279442453",
+  "createdTimestamp": 1645736071892,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:31\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||go7qurp2ztnf7hhflb04s82qu||",
+      "color": 16438033,
+      "timestamp": 1645736071759
+    }
+  ],
+  "attachments": [
+    "946510430556262440"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510434704433182",
+  "createdTimestamp": 1645736072947,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510430518378496",
+  "cleanContent": "3s"
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510435354562590",
+  "createdTimestamp": 1645736073102,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510435442655242",
+  "createdTimestamp": 1645736073123,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:32\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||r4v5hwzteggwivt4ols1xp7jf||",
+      "color": 16438033,
+      "timestamp": 1645736072947
+    }
+  ],
+  "attachments": [
+    "946510435467796560"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510436159852544",
+  "createdTimestamp": 1645736073294,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:33\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||d3xqu77xpmmg2qy427g0yiuwj||",
+      "color": 16438033,
+      "timestamp": 1645736073102
+    }
+  ],
+  "attachments": [
+    "946510436206006342"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510436931625023",
+  "createdTimestamp": 1645736073478,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510433295007744",
+  "cleanContent": "3s"
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510437757906984",
+  "createdTimestamp": 1645736073675,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510437816610836",
+  "createdTimestamp": 1645736073689,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:33\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||eg1a0b96i3eo102n0r2k3n2s8||",
+      "color": 16438033,
+      "timestamp": 1645736073478
+    }
+  ],
+  "attachments": [
+    "946510437862735912"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510439150387240",
+  "createdTimestamp": 1645736074007,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:33\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||nlzp5r2yw3erwokvqm1ndqfqh||",
+      "color": 16438033,
+      "timestamp": 1645736073675
+    }
+  ],
+  "attachments": [
+    "946510439167189012"
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510440123486238",
+  "createdTimestamp": 1645736074239,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510436117774336",
+  "cleanContent": "3s"
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510440656150568",
+  "createdTimestamp": 1645736074366,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510442812043274",
+  "createdTimestamp": 1645736074880,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510439045398528",
+  "cleanContent": "3s"
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510443285979146",
+  "createdTimestamp": 1645736074993,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510445932597288",
+  "createdTimestamp": 1645736075624,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510442195320832",
+  "cleanContent": "3s"
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510446054240349",
+  "createdTimestamp": 1645736075653,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510449053147166",
+  "createdTimestamp": 1645736076368,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "946510445261357056",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510453901787157",
+  "createdTimestamp": 1645736077524,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:34\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||4ea2ohtffb3h8ulnc3t06wg4u||",
+      "color": 16438033,
+      "timestamp": 1645736074239
+    }
+  ],
+  "attachments": [
+    "946510454266671184"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510455214583818",
+  "createdTimestamp": 1645736077837,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:34\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||pdjot3e3cw825mvdmbn5t1l1l||",
+      "color": 16438033,
+      "timestamp": 1645736074366
+    }
+  ],
+  "attachments": [
+    "946510455277486080"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510455952797776",
+  "createdTimestamp": 1645736078013,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:34\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||pzfb2slqv1j02cyq7gacdx3k1||",
+      "color": 16438033,
+      "timestamp": 1645736074880
+    }
+  ],
+  "attachments": [
+    "946510455969558639"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510457123008522",
+  "createdTimestamp": 1645736078292,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:34\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||qetwb588eu1ldg360oqn8i2ee||",
+      "color": 16438033,
+      "timestamp": 1645736074993
+    }
+  ],
+  "attachments": [
+    "946510457194315816"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510457932513381",
+  "createdTimestamp": 1645736078485,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:35\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||5ndjqfldlbsb8xsng6ernkrqq||",
+      "color": 16438033,
+      "timestamp": 1645736075624
+    }
+  ],
+  "attachments": [
+    "946510457957646356"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510466442731530",
+  "createdTimestamp": 1645736080514,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "There is nothing playing that I could skip for you.",
+      "color": 15158332
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510478090338314",
+  "createdTimestamp": 1645736083291,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:35\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||yorun10z330981db1mi8linc0||",
+      "color": 16438033,
+      "timestamp": 1645736075653
+    }
+  ],
+  "attachments": [
+    "946510478111289344"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510478346166384",
+  "createdTimestamp": 1645736083352,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:36\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||w1m9wlypyl7q5hmlo7rhcpmmn||",
+      "color": 16438033,
+      "timestamp": 1645736076368
+    }
+  ],
+  "attachments": [
+    "946510478778200094"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510479738683473",
+  "createdTimestamp": 1645736083684,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:40\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||gucdzem9o8a3lxxbdlucnvfh4||",
+      "color": 16438033,
+      "timestamp": 1645736080514
+    }
+  ],
+  "attachments": [
+    "946510479826772009"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510525976694795",
+  "createdTimestamp": 1645736094708,
+  "type": "DEFAULT",
+  "content": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA",
+  "authorId": "897291486285156362",
+  "nonce": "946510542082670592",
+  "embeds": [
+    {
+      "type": "video",
+      "title": "A vingança do gnomo (Daviz45) (Animação)",
+      "description": "Vídeo original (Daviz45): https://youtu.be/6vpJMbqPF_Y\n\nesboço desta animação: https://youtu.be/LclYAHBJVhs\n\nParte 2 do Gnomo no asfalto 🐸\n\nDesculpe a a demora pra postar vídeo 😔\n\nessa animação foi feita em um programa diferente que ainda estou aprendendo a usar, por isso algumas coisas estão diferentes",
+      "url": "https://www.youtube.com/watch?v=pcb_rJcRYpA",
+      "color": 16711680
+    }
+  ],
+  "cleanContent": "3p https://www.youtube.com/watch?v=pcb_rJcRYpA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510527071408128",
+  "createdTimestamp": 1645736094969,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:54\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p https://www.youtube.com/watch?v=pcb_rJcRYpA\n**🎲 ID de Registro:** ||lpdvk4n8pqbqmvo8gmqmd8wc8||",
+      "color": 16438033,
+      "timestamp": 1645736094708
+    }
+  ],
+  "attachments": [
+    "946510527172075590"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510531060187207",
+  "createdTimestamp": 1645736095920,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "A vingança do gnomo (Daviz45) (Animação)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "39",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "henrique#0001",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510531693543424",
+  "createdTimestamp": 1645736096071,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:54:55\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||3446def7qu50wjhqcq3lucxrm||",
+      "color": 16438033,
+      "timestamp": 1645736095920
+    }
+  ],
+  "attachments": [
+    "946510531756433418"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510970644217976",
+  "createdTimestamp": 1645736200725,
+  "type": "DEFAULT",
+  "content": "3p sensacional, essas mina quer sentar",
+  "authorId": "389563969540456458",
+  "nonce": "946510971008974848",
+  "cleanContent": "3p sensacional, essas mina quer sentar"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510971206238268",
+  "createdTimestamp": 1645736200859,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:56:40\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p sensacional, essas mina quer sentar\n**🎲 ID de Registro:** ||ikmhytv1m2xqe5lcsu8locw6m||",
+      "color": 16438033,
+      "timestamp": 1645736200725
+    }
+  ],
+  "attachments": [
+    "946510971223027742"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "946510982249869352",
+  "createdTimestamp": 1645736203492,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Sensacional",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "189 seconds (3:09)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510982249869352",
+    "createdTimestamp": 1645736203492,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Sensacional",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "189 seconds (3:09)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "946510982249869352",
+    "createdTimestamp": 1645736203492,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Sensacional",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "189 seconds (3:09)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510982971293737",
+  "createdTimestamp": 1645736203664,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/02/2022 17:56:43\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||ps4fm44yhlc4nttwbx37bf9wm||",
+      "color": 16438033,
+      "timestamp": 1645736203492
+    }
+  ],
+  "attachments": [
+    "946510983344558161"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946510984313450577",
+  "createdTimestamp": 1645736203984,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/02/2022 17:56:43\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** w5c2q38lijvi0qhj2qctpprou",
+      "color": 16438033,
+      "timestamp": 1645736203492
+    }
+  ],
+  "attachments": [
+    "946510984363790416"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "946959719476641932",
+  "createdTimestamp": 1645843190784,
+  "type": "DEFAULT",
+  "content": "||@everyone||",
+  "authorId": "389563969540456458",
+  "nonce": "946959719170310144",
+  "cleanContent": "||@everyone||"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946959721166942288",
+  "createdTimestamp": 1645843191187,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 25/02/2022 23:39:50\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** ||@everyone||\n**🎲 ID de Registro:** ||eoublqrqugw1rgsugtavnprv4||",
+      "color": 16438033,
+      "timestamp": 1645843190784
+    }
+  ],
+  "attachments": [
+    "946959721196322886"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "946959719476641932",
+    "createdTimestamp": 1645843190784,
+    "type": "DEFAULT",
+    "content": "||@everyone||",
+    "authorId": "389563969540456458",
+    "nonce": "946959719170310144",
+    "cleanContent": "||@everyone||"
+  },
+  "new": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "946959719476641932",
+    "createdTimestamp": 1645843190784,
+    "type": "DEFAULT",
+    "content": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||",
+    "authorId": "389563969540456458",
+    "nonce": "946959719170310144",
+    "editedTimestamp": 1645843259038,
+    "cleanContent": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946960006291521536",
+  "createdTimestamp": 1645843259166,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 25/02/2022 23:40:59\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo Anterior:** ||@everyone||\n**📝 Conteúdo Novo:** Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||\n**🎲 ID de Registro:** x4w3zisukuqpbedbbog5bnsiq",
+      "color": 16438033,
+      "timestamp": 1645843259038
+    }
+  ],
+  "attachments": [
+    "946960006362857482"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "946959719476641932",
+    "createdTimestamp": 1645843190784,
+    "type": "DEFAULT",
+    "content": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||",
+    "authorId": "389563969540456458",
+    "nonce": "946959719170310144",
+    "editedTimestamp": 1645843259038,
+    "cleanContent": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||"
+  },
+  "new": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "946959719476641932",
+    "createdTimestamp": 1645843190784,
+    "type": "DEFAULT",
+    "content": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n||@everyone||",
+    "authorId": "389563969540456458",
+    "nonce": "946959719170310144",
+    "editedTimestamp": 1645843277016,
+    "cleanContent": "Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n||@everyone||"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946960081868701787",
+  "createdTimestamp": 1645843277185,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 25/02/2022 23:41:17\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo Anterior:** Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n\n\n\n\n\n\n\n\n||@everyone||\n**📝 Conteúdo Novo:** Tava pensando em fazer uma partidinha de Among us com uma galerinha, quem quiser me chama no privado do disc.\nE se tiver mais alguém pra entrar na play pode chamar\n||@everyone||\n**🎲 ID de Registro:** 4m2ncgnwn13eqi5xjikt8rs0y",
+      "color": 16438033,
+      "timestamp": 1645843277016
+    }
+  ],
+  "attachments": [
+    "946960082028072990"
+  ]
+}

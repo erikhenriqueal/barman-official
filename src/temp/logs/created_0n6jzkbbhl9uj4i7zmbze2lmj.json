@@ -1,0 +1,18 @@
+
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "940017452958494790",
+  "createdTimestamp": 1644188025465,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💥 Expulsar usuário - Buscando membros",
+      "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+      "color": 4360181,
+      "timestamp": 1644188027293
+    }
+  ]
+}

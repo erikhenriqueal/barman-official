@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "940042361877192726",
+  "createdTimestamp": 1644193964214,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 06/02/2022 21:32:44\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b.ban baatyz#5104\n**🎲 ID de Registro:** ||hfo36ivuj2owh6lh8boj8tpxj||",
+      "color": 16438033,
+      "timestamp": 1644193964142
+    }
+  ],
+  "attachments": [
+    "940042362170781776"
+  ]
+}

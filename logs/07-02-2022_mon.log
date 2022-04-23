@@ -1,0 +1,29 @@
+[04:03:01] /home/container/node_modules/discord.js/src/managers/GuildMemberManager.js:454
+[04:03:01]         reject(new Error('GUILD_MEMBERS_TIMEOUT'));
+[04:03:01]                ^
+[04:03:01] 
+[04:03:01] Error [GUILD_MEMBERS_TIMEOUT]: Members didn't arrive in time.
+[04:03:01]     at Timeout._onTimeout (/home/container/node_modules/discord.js/src/managers/GuildMemberManager.js:454:16)
+[04:03:01]     at listOnTimeout (node:internal/timers:557:17)
+[04:03:01]     at processTimers (node:internal/timers:500:7) {
+[04:03:01]   [Symbol(code)]: 'GUILD_MEMBERS_TIMEOUT'
+[04:03:01] }
+[04:03:01] Exiting application with code 1.
+[04:03:04] Bot foi iniciado.
+[04:03:13] [ DiscordJS ] Connected as Barman#1975.
+[04:03:13] Initializing "/home/container/src/apis/MySQL/index.js"...
+[04:03:13] [ MySQL ] Initializing...
+[04:03:13] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[04:03:13] Initializing "/home/container/src/handlers/utility.js"...
+[04:03:13] [ DiscordJS ] Handling utilities...
+[04:03:13] Initializing "/home/container/src/handlers/commands.js"...
+[04:03:13] [ DiscordJS ] Handling commands...
+[04:03:13] [ DiscordJS ] All commands successfully imported.
+[04:03:13] Initializing "/home/container/src/handlers/events.js"...
+[04:03:13] [ DiscordJS ] Handling events...
+[04:03:14] [ DiscordJS ] Listening to all events.
+[04:03:14] [ System ] The system is ready and running.
+[12:04:11] [ DiscordJS ] Command help executed by henrique#0001 (897291486285156362)
+[12:05:13] [ DiscordJS ] Command help executed by henrique#0001 (897291486285156362)
+[12:05:41] [ DiscordJS ] Command help executed by henrique#0001 (897291486285156362)
+[12:48:07] [ DiscordJS ] Command ajuda executed by henrique#0001 (897291486285156362)

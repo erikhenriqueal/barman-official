@@ -1,0 +1,16 @@
+
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "949704947090481152",
+  "createdTimestamp": 1646497704051,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "An unexpected error has occurred.\nPossible type `Error: Status code: 403`",
+      "color": 15158332
+    }
+  ]
+}

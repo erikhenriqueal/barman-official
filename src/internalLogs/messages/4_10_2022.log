@@ -1,0 +1,36 @@
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "962809015212064809",
+  "createdTimestamp": 1649621957353,
+  "type": "DEFAULT",
+  "content": "💪 😋",
+  "authorId": "897291486285156362",
+  "nonce": "968979794718883840",
+  "attachments": [
+    "962809015379853342"
+  ],
+  "cleanContent": "💪 😋"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962809016537481217",
+  "createdTimestamp": 1649621957669,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 10/04/2022 17:19:17\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** 💪 😋\n**📎 Itens Fixados:** • [94017bc8d5f299773851...5bb7_1.mp4](https://media.discordapp.net/attachments/472227733988966410/962809015379853342/94017bc8d5f299773851...5bb7_1.mp4) (270 Kb)\n\n**🎲 ID de Registro:** ||kyct4vmd1u3w3i8wwdl1l6mok||",
+      "color": 16438033,
+      "timestamp": 1649621957353
+    }
+  ],
+  "attachments": [
+    "962809016973668412"
+  ]
+}

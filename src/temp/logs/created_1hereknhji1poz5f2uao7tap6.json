@@ -1,0 +1,19 @@
+
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956353305771135056",
+  "createdTimestamp": 1648082796281,
+  "type": "DEFAULT",
+  "content": "https://www.mediafire.com/file/wfxojqbyay6mfos/Stardew.Valley.v1.5.4.rar/file",
+  "authorId": "752954400900907080",
+  "nonce": "956353312347652096",
+  "embeds": [
+    {
+      "type": "article",
+      "title": "Stardew.Valley.v1.5.4",
+      "url": "https://www.mediafire.com/file/wfxojqbyay6mfos/Stardew.Valley.v1.5.4.rar/file"
+    }
+  ],
+  "cleanContent": "https://www.mediafire.com/file/wfxojqbyay6mfos/Stardew.Valley.v1.5.4.rar/file"
+}

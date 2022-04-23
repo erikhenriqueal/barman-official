@@ -1,0 +1,32 @@
+
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "965451168442621982",
+  "createdTimestamp": 1650251895772,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Gemidão do Whatsapp REMIX",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "31 seconds (0:31)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}

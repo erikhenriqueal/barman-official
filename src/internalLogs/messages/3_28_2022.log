@@ -1,0 +1,33 @@
+Message from Calixto#0817:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "958527682235207762",
+  "createdTimestamp": 1648601208028,
+  "type": "DEFAULT",
+  "content": "Não quero ser chato mas como eu sei que vcs são pessoas dignas, eu duvido que vcs façam um pix pelo CPF:169 159 207 22 pra ajudar a comprar o meu PC, só os homens de verdade fazem isso reza a lenda. Eai tá com medinho???",
+  "authorId": "466043389952131072",
+  "nonce": "964698462933221376",
+  "cleanContent": "Não quero ser chato mas como eu sei que vcs são pessoas dignas, eu duvido que vcs façam um pix pelo CPF:169 159 207 22 pra ajudar a comprar o meu PC, só os homens de verdade fazem isso reza a lenda. Eai tá com medinho???"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "958527684999262248",
+  "createdTimestamp": 1648601208687,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 29/03/2022 21:46:48\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** Não quero ser chato mas como eu sei que vcs são pessoas dignas, eu duvido que vcs façam um pix pelo CPF:169 159 207 22 pra ajudar a comprar o meu PC, só os homens de verdade fazem isso reza a lenda. Eai tá com medinho???\n**🎲 ID de Registro:** ||s1ir6g5scnexwt7xs9s12ziem||",
+      "color": 16438033,
+      "timestamp": 1648601208028
+    }
+  ],
+  "attachments": [
+    "958527685049614376"
+  ]
+}

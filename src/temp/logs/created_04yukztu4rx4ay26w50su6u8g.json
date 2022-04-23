@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "949709236340932719",
+  "createdTimestamp": 1646498726688,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 05/03/2022 13:45:26\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p sahara\n**🎲 ID de Registro:** ||aqpta2y5mibazcm01k66wqe44||",
+      "color": 16438033,
+      "timestamp": 1646498726587
+    }
+  ],
+  "attachments": [
+    "949709236693270528"
+  ]
+}

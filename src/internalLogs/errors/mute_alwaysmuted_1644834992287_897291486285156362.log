@@ -1,0 +1,6 @@
+
+Couldn't mute baatyz#5104:
+Author: 897291486285156362
+Target: 850913914543013898
+Error:
+TypeError [INVALID_TYPE]: Supplied roles is not a Role, Snowflake or Array or Collection of Roles or Snowflakes.

@@ -1,0 +1,97 @@
+[17:05:24] Bot foi iniciado.
+[17:05:24] [ DiscordJS ] Connected as Barman#1975.
+[17:05:24] Initializing "/home/container/src/apis/MySQL/index.js"...
+[17:05:24] [ MySQL ] Initializing...
+[17:05:25] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[17:05:25] Initializing "/home/container/src/handlers/utility.js"...
+[17:05:25] [ DiscordJS ] Handling utilities...
+[17:05:25] Initializing "/home/container/src/handlers/commands.js"...
+[17:05:25] [ DiscordJS ] Handling commands...
+[17:05:25] [ DiscordJS ] All commands successfully imported.
+[17:05:25] Initializing "/home/container/src/handlers/events.js"...
+[17:05:25] [ DiscordJS ] Handling events...
+[17:05:25] [ DiscordJS ] Listening to all events.
+[17:05:25] [ System ] The system is ready and running.
+[17:05:36] [ DiscordJS ] Command reset executed by henrique#0001 (897291486285156362)
+[17:06:17] [ DiscordJS ] Couldn't send message to "📑│logs" (831174452606926929).
+[17:06:17] AbortError: The user aborted a request.
+[17:09:23] /home/container/node_modules/discord.js/src/managers/GuildMemberManager.js:454
+[17:09:23]         reject(new Error('GUILD_MEMBERS_TIMEOUT'));
+[17:09:23]                ^
+[17:09:23] 
+[17:09:23] Error [GUILD_MEMBERS_TIMEOUT]: Members didn't arrive in time.
+[17:09:23]     at Timeout._onTimeout (/home/container/node_modules/discord.js/src/managers/GuildMemberManager.js:454:16)
+[17:09:23]     at listOnTimeout (node:internal/timers:557:17)
+[17:09:23]     at processTimers (node:internal/timers:500:7) {
+[17:09:23]   [Symbol(code)]: 'GUILD_MEMBERS_TIMEOUT'
+[17:09:23] }
+[17:09:24] Exiting application with code 1.
+[17:09:25] Bot foi iniciado.
+[17:09:34] [ DiscordJS ] Connected as Barman#1975.
+[17:09:34] Initializing "/home/container/src/apis/MySQL/index.js"...
+[17:09:34] [ MySQL ] Initializing...
+[17:09:35] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[17:09:35] Initializing "/home/container/src/handlers/utility.js"...
+[17:09:35] [ DiscordJS ] Handling utilities...
+[17:09:35] Initializing "/home/container/src/handlers/commands.js"...
+[17:09:35] [ DiscordJS ] Handling commands...
+[17:09:35] /home/container/src/commands/admin/management/reset.js:10
+[17:09:35]         if (global.resetCommand) return await deleteMessage(await reply(message, { embeds: [ embed({
+[17:09:35]                                         ^^^^^
+[17:09:35] 
+[17:09:35] SyntaxError: await is only valid in async functions and the top level bodies of modules
+[17:09:35]     at Object.compileFunction (node:vm:352:18)
+[17:09:35]     at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+[17:09:35]     at Module._compile (node:internal/modules/cjs/loader:1065:27)
+[17:09:35]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+[17:09:35]     at Module.load (node:internal/modules/cjs/loader:981:32)
+[17:09:35]     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[17:09:35]     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[17:09:35]     at require (node:internal/modules/cjs/helpers:102:18)
+[17:09:35]     at /home/container/src/handlers/commands.js:13:39
+[17:09:35]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[17:09:35] Exiting application with code 1.
+[17:09:45] Bot foi iniciado.
+[17:09:55] [ DiscordJS ] Connected as Barman#1975.
+[17:09:55] Initializing "/home/container/src/apis/MySQL/index.js"...
+[17:09:55] [ MySQL ] Initializing...
+[17:09:55] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[17:09:55] Initializing "/home/container/src/handlers/utility.js"...
+[17:09:55] [ DiscordJS ] Handling utilities...
+[17:09:55] Initializing "/home/container/src/handlers/commands.js"...
+[17:09:55] [ DiscordJS ] Handling commands...
+[17:09:55] /home/container/src/commands/admin/management/reset.js:10
+[17:09:55]         if (global.resetCommand) return await deleteMessage(await reply(message, { embeds: [ embed({
+[17:09:55]                                         ^^^^^
+[17:09:55] 
+[17:09:55] SyntaxError: await is only valid in async functions and the top level bodies of modules
+[17:09:55]     at Object.compileFunction (node:vm:352:18)
+[17:09:55]     at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+[17:09:55]     at Module._compile (node:internal/modules/cjs/loader:1065:27)
+[17:09:55]     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+[17:09:55]     at Module.load (node:internal/modules/cjs/loader:981:32)
+[17:09:55]     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+[17:09:55]     at Module.require (node:internal/modules/cjs/loader:1005:19)
+[17:09:55]     at require (node:internal/modules/cjs/helpers:102:18)
+[17:09:55]     at /home/container/src/handlers/commands.js:13:39
+[17:09:55]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[17:09:55] Exiting application with code 1.
+[17:10:05] Bot foi iniciado.
+[17:10:12] Bot foi iniciado.
+[17:10:13] [ DiscordJS ] Connected as Barman#1975.
+[17:10:13] Initializing "/home/container/src/apis/MySQL/index.js"...
+[17:10:13] [ MySQL ] Initializing...
+[17:10:13] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[17:10:13] Initializing "/home/container/src/handlers/utility.js"...
+[17:10:13] [ DiscordJS ] Handling utilities...
+[17:10:13] Initializing "/home/container/src/handlers/commands.js"...
+[17:10:13] [ DiscordJS ] Handling commands...
+[17:10:13] [ DiscordJS ] All commands successfully imported.
+[17:10:13] Initializing "/home/container/src/handlers/events.js"...
+[17:10:13] [ DiscordJS ] Handling events...
+[17:10:13] [ DiscordJS ] Listening to all events.
+[17:10:13] [ System ] The system is ready and running.
+[17:10:19] [ DiscordJS ] Command reset executed by henrique#0001 (897291486285156362)
+[17:10:26] [ DiscordJS ] Command reset executed by henrique#0001 (897291486285156362)
+[17:10:41] [ DiscordJS ] Command reset executed by henrique#0001 (897291486285156362)
+[17:11:01] [ DiscordJS ] Command ajuda executed by henrique#0001 (897291486285156362)

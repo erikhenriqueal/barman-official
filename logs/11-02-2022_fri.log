@@ -1,0 +1,52 @@
+[15:18:17] [ MySQL ] Received an error on query "SELECT 1".
+[15:18:17] Error: read ECONNRESET
+[15:18:17]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[15:18:17]     --------------------
+[15:18:17]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+[15:18:17]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[15:18:17]     at /home/container/src/apis/MySQL/index.js:23:71
+[15:18:17]     at new Promise (<anonymous>)
+[15:18:17]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[15:18:17]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[15:18:17]     at listOnTimeout (node:internal/timers:557:17)
+[15:18:17]     at processTimers (node:internal/timers:500:7) {
+[15:18:17]   errno: -104,
+[15:18:17]   code: 'ECONNRESET',
+[15:18:17]   syscall: 'read',
+[15:18:17]   fatal: true
+[15:18:17] }
+[15:18:17] node:internal/process/promises:246
+[15:18:17]           triggerUncaughtException(err, true /* fromPromise */);
+[15:18:17]           ^
+[15:18:17] 
+[15:18:17] Error: read ECONNRESET
+[15:18:17]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[15:18:17]     --------------------
+[15:18:17]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+[15:18:17]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[15:18:17]     at /home/container/src/apis/MySQL/index.js:23:71
+[15:18:17]     at new Promise (<anonymous>)
+[15:18:17]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[15:18:17]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[15:18:17]     at listOnTimeout (node:internal/timers:557:17)
+[15:18:17]     at processTimers (node:internal/timers:500:7) {
+[15:18:17]   errno: -104,
+[15:18:17]   code: 'ECONNRESET',
+[15:18:17]   syscall: 'read',
+[15:18:17]   fatal: true
+[15:18:17] }
+[15:18:17] Exiting application with code 1.
+[15:18:19] Bot foi iniciado.
+[15:18:28] [ DiscordJS ] Connected as Barman#1975.
+[15:18:28] Initializing "/home/container/src/apis/MySQL/index.js"...
+[15:18:28] [ MySQL ] Initializing...
+[15:18:28] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[15:18:28] Initializing "/home/container/src/handlers/utility.js"...
+[15:18:28] [ DiscordJS ] Handling utilities...
+[15:18:28] Initializing "/home/container/src/handlers/commands.js"...
+[15:18:28] [ DiscordJS ] Handling commands...
+[15:18:29] [ DiscordJS ] All commands successfully imported.
+[15:18:29] Initializing "/home/container/src/handlers/events.js"...
+[15:18:29] [ DiscordJS ] Handling events...
+[15:18:29] [ DiscordJS ] Listening to all events.
+[15:18:29] [ System ] The system is ready and running.

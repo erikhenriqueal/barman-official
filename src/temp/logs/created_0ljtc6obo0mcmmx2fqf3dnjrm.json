@@ -1,0 +1,24 @@
+
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942437864959008898",
+  "createdTimestamp": 1644765096655,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "❓ Sistema de Ajuda - Lista de Comandos Disponíveis",
+      "description": "Olá <@897291486285156362> 👋\nVejo que precisa de ajuda com meus comandos, sem problemas!\nAqui está minha lista de comandos disponíveis para você, caso precise de informações mais precisas sobre um comando em específico, utilize **b!ajuda comando <nome do comando>**.",
+      "color": 16438033,
+      "timestamp": 1644765096566,
+      "fields": [
+        {
+          "value": "• ajuda (_help_)\n• banir (_ban_)\n• deletar (_del_, _delete_, _excluir_)\n• expulsar (_kick_)\n• reiniciar (_reload_, _rl_)\n• restaurar (_reset_, _rs_)\n\n❗ Aviso: esta mensagem será excluída após 1 minuto.",
+          "name": "📒 Comandos"
+        }
+      ]
+    }
+  ]
+}

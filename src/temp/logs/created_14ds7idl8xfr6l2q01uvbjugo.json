@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953462071771684944",
+  "createdTimestamp": 1647393472379,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:17:52\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p quem tava la\n**🎲 ID de Registro:** ||0tm2uz6sl2dvf2shvm4us2j82||",
+      "color": 16438033,
+      "timestamp": 1647393472273
+    }
+  ],
+  "attachments": [
+    "953462071792652321"
+  ]
+}

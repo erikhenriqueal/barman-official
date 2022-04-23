@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954543707418415106",
+  "createdTimestamp": 1647651354413,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 21:55:54\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Eu soltei os soldados no matagal\n**🎲 ID de Registro:** ||53zpjm5xcrp45fbd7w0dbxwox||",
+      "color": 16438033,
+      "timestamp": 1647651354365
+    }
+  ],
+  "attachments": [
+    "954543707787509780"
+  ]
+}

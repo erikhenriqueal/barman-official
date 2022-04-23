@@ -1,0 +1,34 @@
+Message from nanath#0102:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "962467817305808916",
+  "createdTimestamp": 1649540609433,
+  "type": "DEFAULT",
+  "authorId": "933189318678294638",
+  "nonce": "962467807730073600",
+  "attachments": [
+    "962467817033203792"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962467819096797274",
+  "createdTimestamp": 1649540609860,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 09/04/2022 18:43:29\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [trim_7BC569F5-97B2-4218-A709-7BBFB2D5BFF9.mov](https://media.discordapp.net/attachments/472227733988966410/962467817033203792/trim_7BC569F5-97B2-4218-A709-7BBFB2D5BFF9.mov) (918 Kb)\n\n**🎲 ID de Registro:** ||7fabb4lzujxi2ukqlt07c52ia||",
+      "color": 16438033,
+      "timestamp": 1649540609433
+    }
+  ],
+  "attachments": [
+    "962467819159695380"
+  ]
+}

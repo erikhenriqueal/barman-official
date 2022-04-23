@@ -1,0 +1,795 @@
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947333831793455104",
+  "createdTimestamp": 1645932386111,
+  "type": "DEFAULT",
+  "content": "> Olá à todos os membros da Equipe ButecoGamer, bem-vindos ao canal de Planejamento da nossa Comunidade. Este canal visa armazenar ideias para futuros projetos para melhoria da Experiência em nossa Rede. Cada ideia deve ser aprovada por pelo menos **2 administradores**, para que não haja futuros conflitos por falta de verificação. Para adicionar uma sugestão basta enviar sua mensagem aqui, com o máximo de detalhes possíveis sobre o projeto para ter-mos certeza do que pretende modificar.\n> ||@everyone||",
+  "authorId": "897291486285156362",
+  "nonce": "947333832938356736",
+  "cleanContent": "> Olá à todos os membros da Equipe ButecoGamer, bem-vindos ao canal de Planejamento da nossa Comunidade. Este canal visa armazenar ideias para futuros projetos para melhoria da Experiência em nossa Rede. Cada ideia deve ser aprovada por pelo menos **2 administradores**, para que não haja futuros conflitos por falta de verificação. Para adicionar uma sugestão basta enviar sua mensagem aqui, com o máximo de detalhes possíveis sobre o projeto para ter-mos certeza do que pretende modificar.\n> ||@everyone||"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947333835752878080",
+  "createdTimestamp": 1645932387055,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:26:26\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** > Olá à todos os membros da Equipe ButecoGamer, bem-vindos ao canal de Planejamento da nossa Comunidade. Este canal visa armazenar ideias para futuros projetos para melhoria da Experiência em nossa Rede. Cada ideia deve ser aprovada por pelo menos **2 administradores**, para que não haja futuros conflitos por falta de verificação. Para adicionar uma sugestão basta enviar sua mensagem aqui, com o máximo de detalhes possíveis sobre o projeto para ter-mos certeza do que pretende modificar.\n> ||@everyone||\n**🎲 ID de Registro:** ||phrvo0tycp8fiq3eya5ykmgpc||",
+      "color": 16438033,
+      "timestamp": 1645932386111
+    }
+  ],
+  "attachments": [
+    "947333835811586118"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947334831438725160",
+  "createdTimestamp": 1645932624445,
+  "type": "DEFAULT",
+  "content": "```\nProjeto Bot Barman\n+ Logs alterações no membro (cargos, avatar, nickname, etc)\n+ Logs canais de voz\n+ Logs gestão de canais\n+ Armazenar informações sobre duração nos canais de voz\n```",
+  "authorId": "897291486285156362",
+  "nonce": "947334832654909440",
+  "cleanContent": "```\nProjeto Bot Barman\n+ Logs alterações no membro (cargos, avatar, nickname, etc)\n+ Logs canais de voz\n+ Logs gestão de canais\n+ Armazenar informações sobre duração nos canais de voz\n```"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947334832025903124",
+  "createdTimestamp": 1645932624585,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:30:24\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ```\nProjeto Bot Barman\n+ Logs alterações no membro (cargos, avatar, nickname, etc)\n+ Logs canais de voz\n+ Logs gestão de canais\n+ Armazenar informações sobre duração nos canais de voz\n```\n**🎲 ID de Registro:** ||63phttb69yo05iren0kmstnr4||",
+      "color": 16438033,
+      "timestamp": 1645932624445
+    }
+  ],
+  "attachments": [
+    "947334832055267348"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947334936560554004",
+  "createdTimestamp": 1645932649508,
+  "type": "DEFAULT",
+  "content": "`\\`\\`\\`texto\\`\\`\\``",
+  "authorId": "897291486285156362",
+  "nonce": "947334937785139200",
+  "cleanContent": "`\\`\\`\\`texto\\`\\`\\``"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947334937009324052",
+  "createdTimestamp": 1645932649615,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:30:49\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** `\\`\\`\\`texto\\`\\`\\``\n**🎲 ID de Registro:** ||5m55xdyiz0cjulqpjo9u6m8jb||",
+      "color": 16438033,
+      "timestamp": 1645932649508
+    }
+  ],
+  "attachments": [
+    "947334937026113606"
+  ]
+}
+Message from henrique#0001 was deleted:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947334936560554004",
+  "createdTimestamp": 1645932649508,
+  "type": "DEFAULT",
+  "content": "`\\`\\`\\`texto\\`\\`\\``",
+  "authorId": "897291486285156362",
+  "nonce": "947334937785139200",
+  "cleanContent": "`\\`\\`\\`texto\\`\\`\\``"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947334976926535770",
+  "createdTimestamp": 1645932659132,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 27/02/2022 00:30:59\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** `\\`\\`\\`texto\\`\\`\\``\n**🎲 ID de Registro:** ||e6xoy4pha94tkbsjxdego1zqd||",
+      "color": 16438033,
+      "timestamp": 1645932659057
+    }
+  ],
+  "attachments": [
+    "947334976951713852"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947335063891234886",
+  "createdTimestamp": 1645932679866,
+  "type": "DEFAULT",
+  "content": "```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```",
+  "authorId": "897291486285156362",
+  "nonce": "947335065157763072",
+  "cleanContent": "```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335064029638727",
+  "createdTimestamp": 1645932679899,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:31:19\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```\n**🎲 ID de Registro:** ||wtickygkp1ljh8nrgyq3oy2z2||",
+      "color": 16438033,
+      "timestamp": 1645932679866
+    }
+  ],
+  "attachments": [
+    "947335064381976596"
+  ]
+}
+Message from henrique#0001 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335063891234886",
+    "createdTimestamp": 1645932679866,
+    "type": "DEFAULT",
+    "content": "```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```",
+    "authorId": "897291486285156362",
+    "nonce": "947335065157763072",
+    "cleanContent": "```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335063891234886",
+    "createdTimestamp": 1645932679866,
+    "type": "DEFAULT",
+    "content": "```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```",
+    "authorId": "897291486285156362",
+    "nonce": "947335065157763072",
+    "editedTimestamp": 1645932721124,
+    "cleanContent": "```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335237250220034",
+  "createdTimestamp": 1645932721198,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 00:32:01\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ```\n\\`\\`\\`\ntexto\n\\`\\`\\`\n```\n**📝 Conteúdo Novo:** ```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```\n**🎲 ID de Registro:** 9ujfetr13zb6g40ugtbqjmgl5",
+      "color": 16438033,
+      "timestamp": 1645932721124
+    }
+  ],
+  "attachments": [
+    "947335237493477386"
+  ]
+}
+Message from henrique#0001 was deleted:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947335063891234886",
+  "createdTimestamp": 1645932679866,
+  "type": "DEFAULT",
+  "content": "```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```",
+  "authorId": "897291486285156362",
+  "nonce": "947335065157763072",
+  "editedTimestamp": 1645932721124,
+  "cleanContent": "```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335270301315084",
+  "createdTimestamp": 1645932729078,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 27/02/2022 00:32:09\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ```js\n\"\\`\\`\\`texto\\`\\`\\`\"\n```\n**🎲 ID de Registro:** ||ygfzcve8dxyor3u84vz1rguif||",
+      "color": 16438033,
+      "timestamp": 1645932729039
+    }
+  ],
+  "attachments": [
+    "947335270515232808"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947335286847856731",
+  "createdTimestamp": 1645932733023,
+  "type": "DEFAULT",
+  "content": "cu",
+  "authorId": "897291486285156362",
+  "nonce": "947335288189878272",
+  "cleanContent": "cu"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335286856249435",
+  "createdTimestamp": 1645932733025,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:32:13\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** cu\n**🎲 ID de Registro:** ||lbeqfd3uhbhyyj1nzxs116ksd||",
+      "color": 16438033,
+      "timestamp": 1645932733023
+    }
+  ],
+  "attachments": [
+    "947335287254696056"
+  ]
+}
+Message from henrique#0001 was deleted:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947335286847856731",
+  "createdTimestamp": 1645932733023,
+  "type": "DEFAULT",
+  "content": "cu",
+  "authorId": "897291486285156362",
+  "nonce": "947335288189878272",
+  "cleanContent": "cu"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335293168656435",
+  "createdTimestamp": 1645932734530,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 27/02/2022 00:32:14\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** cu\n**🎲 ID de Registro:** ||4gto7l4ttm9plhzw15g6ppmq3||",
+      "color": 16438033,
+      "timestamp": 1645932734503
+    }
+  ],
+  "attachments": [
+    "947335293588090911"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947335508839763978",
+  "createdTimestamp": 1645932785950,
+  "type": "DEFAULT",
+  "content": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar'''",
+  "authorId": "389563969540456458",
+  "nonce": "947335508797685760",
+  "cleanContent": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar'''"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335509527642122",
+  "createdTimestamp": 1645932786114,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:33:05\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar'''\n**🎲 ID de Registro:** ||vsunlt8cekpnhk3veh4uh4dwf||",
+      "color": 16438033,
+      "timestamp": 1645932785950
+    }
+  ],
+  "attachments": [
+    "947335509615726592"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar'''",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "cleanContent": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar'''"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar '''",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932790729,
+    "cleanContent": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar '''"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335529152778282",
+  "createdTimestamp": 1645932790793,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 00:33:10\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**📝 Conteúdo Novo:** ''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**🎲 ID de Registro:** yry5gsl2kwnwkq8m6biqqwch6",
+      "color": 16438033,
+      "timestamp": 1645932790729
+    }
+  ],
+  "attachments": [
+    "947335529417031701"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar '''",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932790729,
+    "cleanContent": "''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar '''"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ' ' '",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932801752,
+    "cleanContent": "' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ' ' '"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335575608918026",
+  "createdTimestamp": 1645932801869,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 00:33:21\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ''' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**📝 Conteúdo Novo:** ' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever p...\n**🎲 ID de Registro:** xbc13lz1kpadxflfkfuncpkn6",
+      "color": 16438033,
+      "timestamp": 1645932801752
+    }
+  ],
+  "attachments": [
+    "947335575696990218"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ' ' '",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932801752,
+    "cleanContent": "' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ' ' '"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ```",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932843612,
+    "cleanContent": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ```"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947335752050696273",
+  "createdTimestamp": 1645932843936,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 00:34:03\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ' ' ' Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever p...\n**📝 Conteúdo Novo:** ``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**🎲 ID de Registro:** 1w44mqt0nzf9tp0ay50uo5526",
+      "color": 16438033,
+      "timestamp": 1645932843612
+    }
+  ],
+  "attachments": [
+    "947335752231043160"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ```",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932843612,
+    "cleanContent": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversar ```"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947335508839763978",
+    "createdTimestamp": 1645932785950,
+    "type": "DEFAULT",
+    "content": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversas e eles resolveriam coisas mais triviais, como desavenças e outros tipos de coisas. E deixariamos as coisas mais sérias para nós como bans e etc ```",
+    "authorId": "389563969540456458",
+    "nonce": "947335508797685760",
+    "editedTimestamp": 1645932906355,
+    "cleanContent": "``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever para a Staff do Buteco. Ao contrário da gente a Staff que ficaria de olho nas conversas e eles resolveriam coisas mais triviais, como desavenças e outros tipos de coisas. E deixariamos as coisas mais sérias para nós como bans e etc ```"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947336014484107274",
+  "createdTimestamp": 1645932906505,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 00:35:06\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**📝 Conteúdo Novo:** ``` Eu começo! Estava pesnando em aumentar ainda mais a Equipe do Buteco e expandir nossa comunidade, até porque eu queria que isso fosse grande e não apenas um servidor de amigos, então estava pensando em colocar um lugar no servidor para se inscrever par...\n**🎲 ID de Registro:** 1qpcsrzswvy3lvie6myyn5oym",
+      "color": 16438033,
+      "timestamp": 1645932906355
+    }
+  ],
+  "attachments": [
+    "947336014534426654"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947336391564591144",
+  "createdTimestamp": 1645932996408,
+  "type": "DEFAULT",
+  "content": "``` Além disso estava pensando em implementar o sistema de cargos pro BOT como a plataforma que joga e etc, além disso para votarmos se queremos ou não estava pensando em usar um emote de Correto para votarmos ```",
+  "authorId": "389563969540456458",
+  "nonce": "947336391614791680",
+  "cleanContent": "``` Além disso estava pensando em implementar o sistema de cargos pro BOT como a plataforma que joga e etc, além disso para votarmos se queremos ou não estava pensando em usar um emote de Correto para votarmos ```"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947336392084697128",
+  "createdTimestamp": 1645932996532,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:36:36\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ``` Além disso estava pensando em implementar o sistema de cargos pro BOT como a plataforma que joga e etc, além disso para votarmos se queremos ou não estava pensando em usar um emote de Correto para votarmos ```\n**🎲 ID de Registro:** ||pqapds5umx7gbknhdgf4jwxp1||",
+      "color": 16438033,
+      "timestamp": 1645932996408
+    }
+  ],
+  "attachments": [
+    "947336392130842684"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947620390061113394",
+  "createdTimestamp": 1646000706926,
+  "type": "DEFAULT",
+  "content": "```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```",
+  "authorId": "897291486285156362",
+  "nonce": "947620391323435008",
+  "cleanContent": "```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947620392930000928",
+  "createdTimestamp": 1646000707610,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 19:25:06\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```\n**🎲 ID de Registro:** ||if3zk1yvsm5fekacgzs8dm2ct||",
+      "color": 16438033,
+      "timestamp": 1646000706926
+    }
+  ],
+  "attachments": [
+    "947620393244565524"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947620503907098634",
+  "createdTimestamp": 1646000734069,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "947620504636751872",
+  "stickers": [
+    "904003920249102446"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947620504532041808",
+  "createdTimestamp": 1646000734218,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 19:25:34\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||6yveqxjehg341ub8a15fq6smw||",
+      "color": 16438033,
+      "timestamp": 1646000734069
+    }
+  ],
+  "attachments": [
+    "947620504561405972"
+  ]
+}
+Message from henrique#0001 was deleted:
+{
+  "channelId": "947332029547184230",
+  "guildId": "472200926820827157",
+  "id": "947620503907098634",
+  "createdTimestamp": 1646000734069,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "947620504636751872",
+  "stickers": [
+    "904003920249102446"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947620531799224420",
+  "createdTimestamp": 1646000740719,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 27/02/2022 19:25:40\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||bs3pnmfmb3n4587imx622pevh||",
+      "color": 16438033,
+      "timestamp": 1646000740655
+    }
+  ],
+  "attachments": [
+    "947620531845337189"
+  ]
+}
+Message from henrique#0001 was updated:
+{
+  "old": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947620390061113394",
+    "createdTimestamp": 1646000706926,
+    "type": "DEFAULT",
+    "content": "```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```",
+    "authorId": "897291486285156362",
+    "nonce": "947620391323435008",
+    "cleanContent": "```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```"
+  },
+  "new": {
+    "channelId": "947332029547184230",
+    "guildId": "472200926820827157",
+    "id": "947620390061113394",
+    "createdTimestamp": 1646000706926,
+    "type": "DEFAULT",
+    "content": "```\nCargos Administrativos\n\n+ Moderador:\n> Responsável por - Gerenciar mensagens (texto, imagens, vídeos, gifs e áudio) buscando filtrar conteúdos impróprios/ilegais previstos em nosso regimento; Conferir se os canais estão sendo utilizados para sua finalidade; Quando possível, advertir membros em uma chamada pública sobre assuntos possivelmente invasivos ou desrespeitosos; Verificar denúncias e aplicar as devidas penalidades; Também deverá prestar o cargo de Ajudante com menor frequência\n\n+ Ajudante:\n> Responsável por - Auxiliar membros nos canais de texto; Gerar interação nos canais de texto; Verificar conteúdos enviados nos canais, e caso apresente algo irregular (conteúdo explicito ou fora do lugar), advertir o responsável e repassar para um Moderador; Analisar e, quando possível, responder as dúvidas enviadas nos canais de ticket/suporte, ou se não estiver ao seu alcance, repassar para um Moderador\n```",
+    "authorId": "897291486285156362",
+    "nonce": "947620391323435008",
+    "editedTimestamp": 1646002757459,
+    "cleanContent": "```\nCargos Administrativos\n\n+ Moderador:\n> Responsável por - Gerenciar mensagens (texto, imagens, vídeos, gifs e áudio) buscando filtrar conteúdos impróprios/ilegais previstos em nosso regimento; Conferir se os canais estão sendo utilizados para sua finalidade; Quando possível, advertir membros em uma chamada pública sobre assuntos possivelmente invasivos ou desrespeitosos; Verificar denúncias e aplicar as devidas penalidades; Também deverá prestar o cargo de Ajudante com menor frequência\n\n+ Ajudante:\n> Responsável por - Auxiliar membros nos canais de texto; Gerar interação nos canais de texto; Verificar conteúdos enviados nos canais, e caso apresente algo irregular (conteúdo explicito ou fora do lugar), advertir o responsável e repassar para um Moderador; Analisar e, quando possível, responder as dúvidas enviadas nos canais de ticket/suporte, ou se não estiver ao seu alcance, repassar para um Moderador\n```"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947628992117223435",
+  "createdTimestamp": 1646002757816,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 27/02/2022 19:59:17\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo Anterior:** ```\nCargos Administrativos\n+ Moderador: Responsável por gerenciar mensagens (texto, imagens, vídeos, gifs, áudios)\n```\n**📝 Conteúdo Novo:** ```\nCargos Administrativos\n\n+ Moderador:\n> Responsável por - Gerenciar mensagens (texto, imagens, vídeos, gifs e áudio) buscando filtrar conteúdos impróprios/ilegais previstos em nosso regimento; Conferir se os canais estão sendo utilizados para sua finali...\n**🎲 ID de Registro:** 1bzyrwvdd8wl7ey3wecybi2kd",
+      "color": 16438033,
+      "timestamp": 1646002757459
+    }
+  ],
+  "attachments": [
+    "947628992205307955"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "947634207579066418",
+  "createdTimestamp": 1646004001279,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "Batalhão, temos um soldado ferido! Deem adeus à dalunciorafa...",
+      "color": 16438033,
+      "timestamp": 1646004001099
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947634208514392114",
+  "createdTimestamp": 1646004001502,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 20:20:01\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||icsv8kfw7w7x3jiwhnlntspcv||",
+      "color": 16438033,
+      "timestamp": 1646004001279
+    }
+  ],
+  "attachments": [
+    "947634208560533504"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "947634220422008862",
+  "createdTimestamp": 1646004004341,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "dalunciorafa abandonou nosso navio, infelizmente não sabia nadar e foi devorado por tubarões...",
+      "color": 16438033,
+      "timestamp": 1646004004288
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947634221042778183",
+  "createdTimestamp": 1646004004489,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 20:20:04\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||bl3xh53b9lc8e4qlvbpviidrv||",
+      "color": 16438033,
+      "timestamp": 1646004004341
+    }
+  ],
+  "attachments": [
+    "947634221143453736"
+  ]
+}

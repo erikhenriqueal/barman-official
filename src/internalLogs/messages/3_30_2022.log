@@ -1,0 +1,522 @@
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "959242284971487272",
+  "createdTimestamp": 1648771582597,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "VibeZ abandonou nosso navio, infelizmente não sabia nadar e foi devorado por tubarões...",
+      "color": 16438033,
+      "timestamp": 1648771582499
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959242285307035660",
+  "createdTimestamp": 1648771582677,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:06:22\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||eng56vmnbze6q4qepso8jnpmf||",
+      "color": 16438033,
+      "timestamp": 1648771582597
+    }
+  ],
+  "attachments": [
+    "959242285684490320"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "959246818598846506",
+  "createdTimestamp": 1648772663498,
+  "type": "DEFAULT",
+  "content": "<@271433325581697024>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) JoaoVictor ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer JoaoVictor! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1648772663421,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​JoaoVictor"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959246820037513246",
+  "createdTimestamp": 1648772663841,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:24:23\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@271433325581697024>\n**🎲 ID de Registro:** ||yob5hh68aih6c3wyedj4n5fil||",
+      "color": 16438033,
+      "timestamp": 1648772663498
+    }
+  ],
+  "attachments": [
+    "959246820117217310"
+  ]
+}
+Message from KD#7272:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248208062734427",
+  "createdTimestamp": 1648772994772,
+  "type": "DEFAULT",
+  "content": "3p mlk neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248208855302144",
+  "cleanContent": "3p mlk neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248208930963456",
+  "createdTimestamp": 1648772994979,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:29:54\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p mlk neutro musica\n**🎲 ID de Registro:** ||psivmersuiemwfszfz6d7wxqy||",
+      "color": 16438033,
+      "timestamp": 1648772994772
+    }
+  ],
+  "attachments": [
+    "959248208972873779"
+  ]
+}
+Message from KD#7272 was deleted:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248208062734427",
+  "createdTimestamp": 1648772994772,
+  "type": "DEFAULT",
+  "content": "3p mlk neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248208855302144",
+  "cleanContent": "3p mlk neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248251972878376",
+  "createdTimestamp": 1648773005241,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 30/03/2022 21:30:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p mlk neutro musica\n**🎲 ID de Registro:** ||5mzm5dshnehrp7sz9txl1mpdv||",
+      "color": 16438033,
+      "timestamp": 1648686605167
+    }
+  ],
+  "attachments": [
+    "959248252019023952"
+  ]
+}
+Message from KD#7272:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248347082915850",
+  "createdTimestamp": 1648773027917,
+  "type": "DEFAULT",
+  "content": "3p muleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248347988754432",
+  "cleanContent": "3p muleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248347720454174",
+  "createdTimestamp": 1648773028069,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:30:27\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p muleque neutro musica\n**🎲 ID de Registro:** ||5wh7lqvw5rvo75bz80jzfw1v7||",
+      "color": 16438033,
+      "timestamp": 1648773027917
+    }
+  ],
+  "attachments": [
+    "959248347749810216"
+  ]
+}
+Message from KD#7272 was deleted:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248347082915850",
+  "createdTimestamp": 1648773027917,
+  "type": "DEFAULT",
+  "content": "3p muleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248347988754432",
+  "cleanContent": "3p muleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248391362207784",
+  "createdTimestamp": 1648773038474,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 30/03/2022 21:30:38\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p muleque neutro musica\n**🎲 ID de Registro:** ||m7ek349onerzc66bhvibpgw7w||",
+      "color": 16438033,
+      "timestamp": 1648686638397
+    }
+  ],
+  "attachments": [
+    "959248391387353118"
+  ]
+}
+Message from KD#7272:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248475365736448",
+  "createdTimestamp": 1648773058502,
+  "type": "DEFAULT",
+  "content": "3s meleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248476036661248",
+  "cleanContent": "3s meleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248475994853416",
+  "createdTimestamp": 1648773058652,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:30:58\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s meleque neutro musica\n**🎲 ID de Registro:** ||pr7boffnc94j22yhh0aivdqdo||",
+      "color": 16438033,
+      "timestamp": 1648773058502
+    }
+  ],
+  "attachments": [
+    "959248476020023336"
+  ]
+}
+Message from KD#7272 was deleted:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248475365736448",
+  "createdTimestamp": 1648773058502,
+  "type": "DEFAULT",
+  "content": "3s meleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248476036661248",
+  "cleanContent": "3s meleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248499814322198",
+  "createdTimestamp": 1648773064331,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 30/03/2022 21:31:04\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s meleque neutro musica\n**🎲 ID de Registro:** ||2u65g1j2upi6g3w5hvf9wt3un||",
+      "color": 16438033,
+      "timestamp": 1648686664274
+    }
+  ],
+  "attachments": [
+    "959248500053401670"
+  ]
+}
+Message from KD#7272:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248573537587285",
+  "createdTimestamp": 1648773081908,
+  "type": "DEFAULT",
+  "content": "!p muleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248574502141952",
+  "cleanContent": "!p muleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248574028333086",
+  "createdTimestamp": 1648773082025,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:31:21\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** !p muleque neutro musica\n**🎲 ID de Registro:** ||soowyqllxdsuri9x81sy1r3w3||",
+      "color": 16438033,
+      "timestamp": 1648773081908
+    }
+  ],
+  "attachments": [
+    "959248574049296415"
+  ]
+}
+Message from Rythm#3722:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248574309347338",
+  "createdTimestamp": 1648773082092,
+  "type": "DEFAULT",
+  "authorId": "235088799074484224",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "5 years and counting...",
+      "description": "To comply with a notice we received from Youtube - Rythm has ended its service. But don’t kick us out yet! This isn’t the end for us. We're working on something brand new in the music space that will revolutionize how we all listen to music. For more information about what we’re working on in the coming months, subscribe to our newsletter by clicking the button below!\n\nThank you everyone for an amazing 5 years. It’s been incredible for us as a team to watch Rythm grow to over 20 million communities, connecting people all around the world and bringing joy to so many people. We know Discord won't be the same without Rythm and are so glad we were able to go on this journey with you. We hope you'll continue to be part of our journey as we work on our next project.\n\nIf you would like to support Rythm’s future and receive early updates, check out our Patreon page or [join our Discord community](https://discord.gg/rythm). Your support will help us create the future of music listening! :heart:\n\nStay tuned, this is not the end.\n- ImBursting, creator of Rythm <:rythmsmall:886182821754966026>\n\nP.S - If you would like to get rid of this message change Rythm's prefix by using `!settings prefix <newprefix>`"
+    }
+  ],
+  "components": [
+    {
+      "type": "ACTION_ROW",
+      "components": [
+        {
+          "type": "BUTTON",
+          "label": "More information",
+          "style": "LINK",
+          "url": "https://rythm.fm/"
+        },
+        {
+          "type": "BUTTON",
+          "label": "Sign up for Rythm newsletter",
+          "customId": "newsletter-signup",
+          "style": "PRIMARY"
+        },
+        {
+          "type": "BUTTON",
+          "label": "Support us on Patreon",
+          "style": "LINK",
+          "url": "https://patreon.com/rythm"
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248574863015997",
+  "createdTimestamp": 1648773082224,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 21:31:22\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||2n0r02fc7n0yrkemveh2l6qp1||",
+      "color": 16438033,
+      "timestamp": 1648773082092
+    }
+  ],
+  "attachments": [
+    "959248574925922324"
+  ]
+}
+Message from KD#7272 was deleted:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "959248573537587285",
+  "createdTimestamp": 1648773081908,
+  "type": "DEFAULT",
+  "content": "!p muleque neutro musica",
+  "authorId": "776949453918699530",
+  "nonce": "959248574502141952",
+  "cleanContent": "!p muleque neutro musica"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959248607612133386",
+  "createdTimestamp": 1648773090032,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 30/03/2022 21:31:29\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** !p muleque neutro musica\n**🎲 ID de Registro:** ||9ploqubmq5d4ggnmf7wxp23kt||",
+      "color": 16438033,
+      "timestamp": 1648686689876
+    }
+  ],
+  "attachments": [
+    "959248607662469190"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "959266600064790538",
+  "createdTimestamp": 1648777379767,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "959266601037725696",
+  "attachments": [
+    "959266599418859550"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959266600723288175",
+  "createdTimestamp": 1648777379924,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 22:42:59\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472409959695384579/959266599418859550/unknown.png) (138 Kb)\n\n**🎲 ID de Registro:** ||8lcg4dv99nqefg7bcvjo79rxt||",
+      "color": 16438033,
+      "timestamp": 1648777379767
+    }
+  ],
+  "attachments": [
+    "959266600782020628"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "959266663591723089",
+  "createdTimestamp": 1648777394913,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "959266663105036288",
+  "attachments": [
+    "959266662488629249"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959266663948255233",
+  "createdTimestamp": 1648777394998,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 22:43:14\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472409959695384579/959266662488629249/unknown.png) (2 Mb)\n\n**🎲 ID de Registro:** ||cxxfd7vp2acnbh05h05cvx65i||",
+      "color": 16438033,
+      "timestamp": 1648777394913
+    }
+  ],
+  "attachments": [
+    "959266664187314196"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "959266787608899685",
+  "createdTimestamp": 1648777424481,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "959266731417665536",
+  "attachments": [
+    "959266786325446656"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959266788040917002",
+  "createdTimestamp": 1648777424584,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 22:43:44\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472409959695384579/959266786325446656/unknown.png) (2 Mb)\n\n**🎲 ID de Registro:** ||1f5vrz96vee4kr3ymupf6i4js||",
+      "color": 16438033,
+      "timestamp": 1648777424481
+    }
+  ],
+  "attachments": [
+    "959266788061892698"
+  ]
+}

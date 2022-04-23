@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954543510047055902",
+  "createdTimestamp": 1647651307356,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 21:55:07\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Fiquei a aula toda de oe no banheiro\n**🎲 ID de Registro:** ||06m74u3wb61exvl9fdecm8dge||",
+      "color": 16438033,
+      "timestamp": 1647651307236
+    }
+  ],
+  "attachments": [
+    "954543510072217620"
+  ]
+}

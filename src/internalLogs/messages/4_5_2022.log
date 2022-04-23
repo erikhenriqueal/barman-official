@@ -1,0 +1,200 @@
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "961015910645243964",
+  "createdTimestamp": 1649194447910,
+  "type": "DEFAULT",
+  "content": "<@484208454173458445>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Sthe ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer Sthe! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1649194447796,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​Sthe"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961015912167800862",
+  "createdTimestamp": 1649194448273,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 05/04/2022 18:34:07\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@484208454173458445>\n**🎲 ID de Registro:** ||tkt1cskllzobk7tfkfqvd0vkl||",
+      "color": 16438033,
+      "timestamp": 1649194447910
+    }
+  ],
+  "attachments": [
+    "961015912251670548"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "961015910645243964",
+    "createdTimestamp": 1649194447910,
+    "type": "DEFAULT",
+    "content": "<@484208454173458445>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Sthe ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer Sthe! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1649194447796,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Sthe"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "961015910645243964",
+    "createdTimestamp": 1649194447910,
+    "type": "DEFAULT",
+    "content": "<@484208454173458445>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Sthe ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer Sthe! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1649194447796,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Sthe"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961015920317333579",
+  "createdTimestamp": 1649194450216,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 05/04/2022 18:34:07\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@484208454173458445>\n**📝 Conteúdo Novo:** <@484208454173458445>\n**🎲 ID de Registro:** 21vxff0hwwmjjzc8ilzln2gki",
+      "color": 16438033,
+      "timestamp": 1649194447910
+    }
+  ],
+  "attachments": [
+    "961015920711581736"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "961018259434504242",
+  "createdTimestamp": 1649195007905,
+  "type": "DEFAULT",
+  "content": "<@311898630724255758>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) lxzcss_ ao ButecoGamer🍻🎮",
+      "description": "Saudações lxzcss_. Com muito prazer te convido à imergir em nosso Servidor. O ButecoGamer🍻🎮 é uma comunidade de amigos e amigas, onde nos reunimos para jogar, conversar, e todo o resto, espero que goste!",
+      "color": 16438033,
+      "timestamp": 1649195007818,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​lxzcss_"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961018260340502589",
+  "createdTimestamp": 1649195008121,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 05/04/2022 18:43:27\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@311898630724255758>\n**🎲 ID de Registro:** ||bk8eig0ncvlkrv6oq8iblybjc||",
+      "color": 16438033,
+      "timestamp": 1649195007905
+    }
+  ],
+  "attachments": [
+    "961018260424368188"
+  ]
+}

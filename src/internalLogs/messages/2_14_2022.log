@@ -1,0 +1,904 @@
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942728797864742943",
+  "createdTimestamp": 1644834460465,
+  "type": "DEFAULT",
+  "content": "b!ajuda comandos",
+  "authorId": "897291486285156362",
+  "nonce": "948899573420523520",
+  "cleanContent": "b!ajuda comandos"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942728798930075658",
+  "createdTimestamp": 1644834460719,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:27:40\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!ajuda comandos\n**🎲 ID de Registro:** ||wjstp3832dbsoaebg3krri5l7||",
+      "color": 16438033,
+      "timestamp": 1644834460465
+    }
+  ],
+  "attachments": [
+    "942728798951051284"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942728801845125121",
+  "createdTimestamp": 1644834461414,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "❓ Sistema de Ajuda - Lista de Comandos Disponíveis",
+      "description": "Olá <@897291486285156362> 👋\nVejo que precisa de ajuda com meus comandos, sem problemas!\nAqui está minha lista de comandos disponíveis para você, caso precise de informações mais precisas sobre um comando em específico, utilize **b!ajuda comando <nome do comando>**.",
+      "color": 16438033,
+      "timestamp": 1644834461276,
+      "fields": [
+        {
+          "value": "• ajuda (_help_)\n• banir (_ban_)\n• deletar (_del_, _delete_, _excluir_)\n• expulsar (_kick_)\n• reiniciar (_reload_, _rl_)\n• restaurar (_reset_, _rs_)\n• silenciar (_mute_)\n\n❗ Aviso: esta mensagem será excluída após 1 minuto.",
+          "name": "📒 Comandos"
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942728802763694130",
+  "createdTimestamp": 1644834461633,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:27:41\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||am9y4d5klbzewzxibslciebyj||",
+      "color": 16438033,
+      "timestamp": 1644834461414
+    }
+  ],
+  "attachments": [
+    "942728802885312552"
+  ]
+}
+Message from Barman#1975 was deleted:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942728801845125121",
+  "createdTimestamp": 1644834461414,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "❓ Sistema de Ajuda - Lista de Comandos Disponíveis",
+      "description": "Olá <@897291486285156362> 👋\nVejo que precisa de ajuda com meus comandos, sem problemas!\nAqui está minha lista de comandos disponíveis para você, caso precise de informações mais precisas sobre um comando em específico, utilize **b!ajuda comando <nome do comando>**.",
+      "color": 16438033,
+      "timestamp": 1644834461276,
+      "fields": [
+        {
+          "value": "• ajuda (_help_)\n• banir (_ban_)\n• deletar (_del_, _delete_, _excluir_)\n• expulsar (_kick_)\n• reiniciar (_reload_, _rl_)\n• restaurar (_reset_, _rs_)\n• silenciar (_mute_)\n\n❗ Aviso: esta mensagem será excluída após 1 minuto.",
+          "name": "📒 Comandos"
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942729011883290654",
+  "createdTimestamp": 1644834511491,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 14/02/2022 07:28:31\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||s2i9dbhdmaxtyuq82ydj575y8||",
+      "color": 16438033,
+      "timestamp": 1644834511353
+    }
+  ],
+  "attachments": [
+    "942729012009123860"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942729063766835200",
+  "createdTimestamp": 1644834523861,
+  "type": "DEFAULT",
+  "content": "b!silenciar <@599059525189894165> 1min",
+  "authorId": "897291486285156362",
+  "nonce": "948899843244294144",
+  "cleanContent": "b!silenciar @​doxedbyvini 1min"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942729064362430504",
+  "createdTimestamp": 1644834524003,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:28:43\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!silenciar <@599059525189894165> 1min\n**🎲 ID de Registro:** ||ljo4aas38fjmb2sn9u4sqlci3||",
+      "color": 16438033,
+      "timestamp": 1644834523861
+    }
+  ],
+  "attachments": [
+    "942729064412745748"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942729065205465108",
+  "createdTimestamp": 1644834524204,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🔇 Silenciar usuário - Buscando membros",
+      "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+      "color": 4360181,
+      "timestamp": 1644834524116
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942729065746558996",
+  "createdTimestamp": 1644834524333,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:28:44\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||8zl3e1b52dr6tlyq06o4e27hx||",
+      "color": 16438033,
+      "timestamp": 1644834524204
+    }
+  ],
+  "attachments": [
+    "942729065805254666"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942729065205465108",
+    "createdTimestamp": 1644834524204,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Buscando membros",
+        "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+        "color": 4360181,
+        "timestamp": 1644834524116
+      }
+    ]
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942729065205465108",
+    "createdTimestamp": 1644834524204,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Busca finalizada",
+        "description": "<@897291486285156362>, já sei de todos os membros da rede, agora vou buscar pelo usuário que pediu, um segundo...",
+        "color": 4360181,
+        "timestamp": 1644834524331
+      }
+    ],
+    "editedTimestamp": 1644834524423
+  }
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942729065205465108",
+    "createdTimestamp": 1644834524204,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Busca finalizada",
+        "description": "<@897291486285156362>, já sei de todos os membros da rede, agora vou buscar pelo usuário que pediu, um segundo...",
+        "color": 4360181,
+        "timestamp": 1644834524331
+      }
+    ],
+    "editedTimestamp": 1644834524423
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942729065205465108",
+    "createdTimestamp": 1644834524204,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "❌ Permissões insuficientes",
+        "description": "<@897291486285156362>, você só pode silenciar membros com cargos inferiores ao seu.",
+        "color": 16388369,
+        "timestamp": 1644834524478
+      }
+    ],
+    "editedTimestamp": 1644834524549
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942729066707038218",
+  "createdTimestamp": 1644834524562,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 14/02/2022 07:28:44\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** vs3lxeetcoho3lpmive02tgp0",
+      "color": 16438033,
+      "timestamp": 1644834524423
+    }
+  ],
+  "attachments": [
+    "942729066786750464"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942729067424280586",
+  "createdTimestamp": 1644834524733,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 14/02/2022 07:28:44\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 07olrfqlqpuyxukxnjwym36wm",
+      "color": 16438033,
+      "timestamp": 1644834524549
+    }
+  ],
+  "attachments": [
+    "942729067516559390"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942731025740619786",
+  "createdTimestamp": 1644834991632,
+  "type": "DEFAULT",
+  "content": "b!silenciar 850913914543013898 1d",
+  "authorId": "897291486285156362",
+  "nonce": "948901806388281344",
+  "cleanContent": "b!silenciar 850913914543013898 1d"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942731026315214878",
+  "createdTimestamp": 1644834991769,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:36:31\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!silenciar 850913914543013898 1d\n**🎲 ID de Registro:** ||8rql3dfn86bck12t4pi5jp3fh||",
+      "color": 16438033,
+      "timestamp": 1644834991632
+    }
+  ],
+  "attachments": [
+    "942731026348802068"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942731027305086986",
+  "createdTimestamp": 1644834992005,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🔇 Silenciar usuário - Buscando membros",
+      "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+      "color": 4360181,
+      "timestamp": 1644834991924
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942731027703562260",
+  "createdTimestamp": 1644834992100,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 07:36:32\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||f303a123552dexy6h401lzptr||",
+      "color": 16438033,
+      "timestamp": 1644834992005
+    }
+  ],
+  "attachments": [
+    "942731027741306900"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942731027305086986",
+    "createdTimestamp": 1644834992005,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Buscando membros",
+        "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+        "color": 4360181,
+        "timestamp": 1644834991924
+      }
+    ]
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942731027305086986",
+    "createdTimestamp": 1644834992005,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Busca finalizada",
+        "description": "<@897291486285156362>, já sei de todos os membros da rede, agora vou buscar pelo usuário que pediu, um segundo...",
+        "color": 4360181,
+        "timestamp": 1644834992182
+      }
+    ],
+    "editedTimestamp": 1644834992240
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942731028710178866",
+  "createdTimestamp": 1644834992340,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 14/02/2022 07:36:32\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** uua1tg74fqt5zskb2v4if6pzn",
+      "color": 16438033,
+      "timestamp": 1644834992240
+    }
+  ],
+  "attachments": [
+    "942731028794073108"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942731029519683595",
+  "createdTimestamp": 1644834992533,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💥 Não foi possível silenciar baatyz",
+      "description": "Recebi este erro ao tentar silenciar baatyz#5104 (850913914543013898):\nTypeError [INVALID_TYPE]: Supplied roles is not a Role, Snowflake or Array or Collection of Roles or Snowflakes.",
+      "color": 16388369,
+      "timestamp": 1644834992288
+    }
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942731027305086986",
+    "createdTimestamp": 1644834992005,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🔇 Silenciar usuário - Busca finalizada",
+        "description": "<@897291486285156362>, já sei de todos os membros da rede, agora vou buscar pelo usuário que pediu, um segundo...",
+        "color": 4360181,
+        "timestamp": 1644834992182
+      }
+    ],
+    "editedTimestamp": 1644834992240
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942731027305086986",
+    "createdTimestamp": 1644834992005,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "❌ Punição já em andamento",
+        "description": "<@897291486285156362>, o usuário mencionado já possuí um silenciamento ativo. Você deve aguardar até que a punição atual acabe para silenciá-lo novamente.\n• Nota: Caso tenha acontecido algum erro, e do nada ele deixou de ser punido, fica tranquilo porquê eu já arrumei isso.",
+        "color": 16388369,
+        "timestamp": 1644834992626
+      }
+    ],
+    "editedTimestamp": 1644834992681
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942731030291443799",
+  "createdTimestamp": 1644834992717,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 14/02/2022 07:36:32\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** sqizou5a1xe4ndh1u82pgdhlx",
+      "color": 16438033,
+      "timestamp": 1644834992681
+    }
+  ],
+  "attachments": [
+    "942731030790541312"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942743071030902835",
+  "createdTimestamp": 1644837863453,
+  "type": "DEFAULT",
+  "content": "b!rl",
+  "authorId": "897291486285156362",
+  "nonce": "948913851133329408",
+  "cleanContent": "b!rl"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942743071764914196",
+  "createdTimestamp": 1644837863628,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:24:23\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!rl\n**🎲 ID de Registro:** ||l4krtongbnij4xbs0wflm6qxr||",
+      "color": 16438033,
+      "timestamp": 1644837863453
+    }
+  ],
+  "attachments": [
+    "942743071790071838"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942743072465383444",
+  "createdTimestamp": 1644837863795,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": ":arrows_counterclockwise: Reiniciando aplicação",
+      "description": "Meu sistema será reinciado e logo estará pronto para ser utilizado novamente.\nDica: minha **atividade** será definida como \"Jogando **Online novamente!**\" quando eu estiver com os sistemas novamente disponíveis.",
+      "color": 4360181,
+      "timestamp": 1644837863733
+    }
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942744032591872012",
+  "createdTimestamp": 1644838092707,
+  "type": "DEFAULT",
+  "content": "b!rl",
+  "authorId": "897291486285156362",
+  "nonce": "948914800887332864",
+  "cleanContent": "b!rl"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942744033573351424",
+  "createdTimestamp": 1644838092941,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:28:12\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!rl\n**🎲 ID de Registro:** ||r8w084ddcdfwm1zf8ox18ylt4||",
+      "color": 16438033,
+      "timestamp": 1644838092707
+    }
+  ],
+  "attachments": [
+    "942744033615314984"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942744034391261226",
+  "createdTimestamp": 1644838093136,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+      "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação?",
+      "color": 16438033,
+      "timestamp": 1644838093064
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942744034861006918",
+  "createdTimestamp": 1644838093248,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:28:13\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||5r23fvcyvrnny5tbaej6reemm||",
+      "color": 16438033,
+      "timestamp": 1644838093136
+    }
+  ],
+  "attachments": [
+    "942744034928128061"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942744034391261226",
+    "createdTimestamp": 1644838093136,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+        "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação?",
+        "color": 16438033,
+        "timestamp": 1644838093064
+      }
+    ]
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942744034391261226",
+    "createdTimestamp": 1644838093136,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciando aplicação...",
+        "description": "Meu sistema será reinciado e logo estará pronto para ser utilizado novamente.\nDica: minha **atividade** será definida como \"Jogando **Online novamente!**\" quando eu estiver com os sistemas novamente disponíveis.",
+        "color": 4360181,
+        "timestamp": 1644838104616
+      }
+    ],
+    "editedTimestamp": 1644838104698
+  }
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942746409663332393",
+  "createdTimestamp": 1644838659445,
+  "type": "DEFAULT",
+  "content": "b!rl",
+  "authorId": "897291486285156362",
+  "nonce": "948917167921823744",
+  "cleanContent": "b!rl"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942746410204409887",
+  "createdTimestamp": 1644838659574,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:37:39\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!rl\n**🎲 ID de Registro:** ||3vsmfu87kvsxgnu1ylxemu2s5||",
+      "color": 16438033,
+      "timestamp": 1644838659445
+    }
+  ],
+  "attachments": [
+    "942746410565111808"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942746411668217886",
+  "createdTimestamp": 1644838659923,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+      "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação? Isso fará com que meus arquivos sejam atualizados, e se houver algum erro, não vou conseguir iniciar para reportá-lo!",
+      "color": 16438033,
+      "timestamp": 1644838659835
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942746412083466240",
+  "createdTimestamp": 1644838660022,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:37:39\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||cviwe473m17s80tpoft30hht8||",
+      "color": 16438033,
+      "timestamp": 1644838659923
+    }
+  ],
+  "attachments": [
+    "942746412121194516"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942746411668217886",
+    "createdTimestamp": 1644838659923,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+        "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação? Isso fará com que meus arquivos sejam atualizados, e se houver algum erro, não vou conseguir iniciar para reportá-lo!",
+        "color": 16438033,
+        "timestamp": 1644838659835
+      }
+    ]
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942746411668217886",
+    "createdTimestamp": 1644838659923,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciando aplicação...",
+        "description": "Meu sistema será reinciado e logo estará pronto para ser utilizado novamente.\nDica: minha **atividade** será definida como \"Jogando **Online novamente!**\" quando eu estiver com os sistemas novamente disponíveis.",
+        "color": 4360181,
+        "timestamp": 1644838660078
+      }
+    ],
+    "editedTimestamp": 1644838660445
+  }
+}
+Message from henrique#0001:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942747976361730099",
+  "createdTimestamp": 1644839032975,
+  "type": "DEFAULT",
+  "content": "b!rl",
+  "authorId": "897291486285156362",
+  "nonce": "948918756870979584",
+  "cleanContent": "b!rl"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942747977217347606",
+  "createdTimestamp": 1644839033179,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:43:52\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** b!rl\n**🎲 ID de Registro:** ||dzojxxpjyckfronusw6dcbzcf||",
+      "color": 16438033,
+      "timestamp": 1644839032975
+    }
+  ],
+  "attachments": [
+    "942747977368363088"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942747978114924584",
+  "createdTimestamp": 1644839033393,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+      "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação? Isso fará com que meus arquivos sejam atualizados, e se houver algum erro, não vou conseguir iniciar para reportá-lo!",
+      "color": 16438033,
+      "timestamp": 1644839033329
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942747978752466944",
+  "createdTimestamp": 1644839033545,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/02/2022 08:43:53\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||3vmpvgep628shr0yc0k4z7u9r||",
+      "color": 16438033,
+      "timestamp": 1644839033393
+    }
+  ],
+  "attachments": [
+    "942747978857316353"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942747978114924584",
+    "createdTimestamp": 1644839033393,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciar aplicação - Confirmar",
+        "description": "<@897291486285156362>, tem certeza que deseja reiniciar a aplicação? Isso fará com que meus arquivos sejam atualizados, e se houver algum erro, não vou conseguir iniciar para reportá-lo!",
+        "color": 16438033,
+        "timestamp": 1644839033329
+      }
+    ]
+  },
+  "new": {
+    "channelId": "858214878770626591",
+    "guildId": "472200926820827157",
+    "id": "942747978114924584",
+    "createdTimestamp": 1644839033393,
+    "type": "REPLY",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": ":arrows_counterclockwise: Reiniciando aplicação...",
+        "description": "Meu sistema será reinciado e logo estará pronto para ser utilizado novamente.\nDica: minha **atividade** será definida como \"Jogando **Online novamente!**\" quando eu estiver com os sistemas novamente disponíveis.",
+        "color": 4360181,
+        "timestamp": 1644839033630
+      }
+    ],
+    "editedTimestamp": 1644839033736
+  }
+}

@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947336392084697128",
+  "createdTimestamp": 1645932996532,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 27/02/2022 00:36:36\n**🎯 Canal:** <#947332029547184230>\n**📝 Conteúdo:** ``` Além disso estava pensando em implementar o sistema de cargos pro BOT como a plataforma que joga e etc, além disso para votarmos se queremos ou não estava pensando em usar um emote de Correto para votarmos ```\n**🎲 ID de Registro:** ||pqapds5umx7gbknhdgf4jwxp1||",
+      "color": 16438033,
+      "timestamp": 1645932996408
+    }
+  ],
+  "attachments": [
+    "947336392130842684"
+  ]
+}

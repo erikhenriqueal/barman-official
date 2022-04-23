@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954142619317973113",
+  "createdTimestamp": 1647555727558,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 17/03/2022 19:22:07\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p dancing in the dark - imagine dragons\n**🎲 ID de Registro:** ||k907x0wpj3tgs84nb9lzq38y5||",
+      "color": 16438033,
+      "timestamp": 1647555727323
+    }
+  ],
+  "attachments": [
+    "954142619380908183"
+  ]
+}

@@ -1,0 +1,420 @@
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "956532246028894268",
+  "createdTimestamp": 1648125458963,
+  "type": "DEFAULT",
+  "content": "<@696524092399943691>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Gabrielso ao ButecoGamer🍻🎮",
+      "description": "Olá Gabrielso! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+      "color": 16438033,
+      "timestamp": 1648125458841,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​Gabrielso"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956532246758690826",
+  "createdTimestamp": 1648125459137,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 09:37:38\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@696524092399943691>\n**🎲 ID de Registro:** ||cxns4o1s1onk7lxdr75vuvr8k||",
+      "color": 16438033,
+      "timestamp": 1648125458963
+    }
+  ],
+  "attachments": [
+    "956532246834200646"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "956532246028894268",
+    "createdTimestamp": 1648125458963,
+    "type": "DEFAULT",
+    "content": "<@696524092399943691>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Gabrielso ao ButecoGamer🍻🎮",
+        "description": "Olá Gabrielso! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+        "color": 16438033,
+        "timestamp": 1648125458841,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Gabrielso"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "956532246028894268",
+    "createdTimestamp": 1648125458963,
+    "type": "DEFAULT",
+    "content": "<@696524092399943691>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Gabrielso ao ButecoGamer🍻🎮",
+        "description": "Olá Gabrielso! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+        "color": 16438033,
+        "timestamp": 1648125458841,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Gabrielso"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956532252781727788",
+  "createdTimestamp": 1648125460573,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 24/03/2022 09:37:38\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@696524092399943691>\n**📝 Conteúdo Novo:** <@696524092399943691>\n**🎲 ID de Registro:** c9a6uyfmuxs2tt6p8mn7j5z32",
+      "color": 16438033,
+      "timestamp": 1648125458963
+    }
+  ],
+  "attachments": [
+    "956532253356343326"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "956671431045963787",
+  "createdTimestamp": 1648158643257,
+  "type": "DEFAULT",
+  "content": "<@527304650362191873>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) VibeZ ao ButecoGamer🍻🎮",
+      "description": "Saudações VibeZ. Com muito prazer te convido à imergir em nosso Servidor. O ButecoGamer🍻🎮 é uma comunidade de amigos e amigas, onde nos reunimos para jogar, conversar, e todo o resto, espero que goste!",
+      "color": 16438033,
+      "timestamp": 1648158642945,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​VibeZ"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956671432123908147",
+  "createdTimestamp": 1648158643514,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 18:50:43\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@527304650362191873>\n**🎲 ID de Registro:** ||8snmyuhisyqy8dj6k15bf83fw||",
+      "color": 16438033,
+      "timestamp": 1648158643257
+    }
+  ],
+  "attachments": [
+    "956671432186806373"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "956676951215587368",
+  "createdTimestamp": 1648159959368,
+  "type": "DEFAULT",
+  "content": "<@318425656243257345>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) BuoZi ao ButecoGamer🍻🎮",
+      "description": "Muito legal te ver por aqui, BuoZi! Espero que consiga socializar em nossa comunidade, nosso intuito é fazer você conhecer novas pessoas, fazer novas amizades, zoar e se divertir com todos nossos membros.",
+      "color": 16438033,
+      "timestamp": 1648159959280,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​BuoZi"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956676952062828674",
+  "createdTimestamp": 1648159959570,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 19:12:39\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@318425656243257345>\n**🎲 ID de Registro:** ||4yitk4otk7woyuv0btscq163s||",
+      "color": 16438033,
+      "timestamp": 1648159959368
+    }
+  ],
+  "attachments": [
+    "956676952142528512"
+  ]
+}
+Message from Worm#5404:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956694703330451466",
+  "createdTimestamp": 1648164191802,
+  "type": "DEFAULT",
+  "content": "EU N TENHO PODER DE DAR CARGO",
+  "authorId": "317837412279648256",
+  "nonce": "956694691510747136",
+  "cleanContent": "EU N TENHO PODER DE DAR CARGO"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956694708862713917",
+  "createdTimestamp": 1648164193121,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 20:23:11\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** EU N TENHO PODER DE DAR CARGO\n**🎲 ID de Registro:** ||cqii6czzfi0nvk6r5on8i7267||",
+      "color": 16438033,
+      "timestamp": 1648164191802
+    }
+  ],
+  "attachments": [
+    "956694708913053736"
+  ]
+}
+Message from Worm#5404:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956694723660226580",
+  "createdTimestamp": 1648164196649,
+  "type": "DEFAULT",
+  "content": "SOU O LIDER DA TROPA",
+  "authorId": "317837412279648256",
+  "nonce": "956694711848927232",
+  "cleanContent": "SOU O LIDER DA TROPA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956694724222259211",
+  "createdTimestamp": 1648164196783,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 20:23:16\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** SOU O LIDER DA TROPA\n**🎲 ID de Registro:** ||2yz1oprosvd3ugvn9hbndfqoa||",
+      "color": 16438033,
+      "timestamp": 1648164196649
+    }
+  ],
+  "attachments": [
+    "956694724360699974"
+  ]
+}
+Message from Worm#5404:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956694734645112882",
+  "createdTimestamp": 1648164199268,
+  "type": "DEFAULT",
+  "content": "N DO SERVER",
+  "authorId": "317837412279648256",
+  "nonce": "956694721986560000",
+  "cleanContent": "N DO SERVER"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956694736012460052",
+  "createdTimestamp": 1648164199594,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 20:23:19\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** N DO SERVER\n**🎲 ID de Registro:** ||aw6pic2aubtlg2ijjibcgpjuw||",
+      "color": 16438033,
+      "timestamp": 1648164199268
+    }
+  ],
+  "attachments": [
+    "956694736041828352"
+  ]
+}
+Message from Worm#5404:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956694740353576970",
+  "createdTimestamp": 1648164200629,
+  "type": "DEFAULT",
+  "content": "BURRA",
+  "authorId": "317837412279648256",
+  "nonce": "956694726730317824",
+  "cleanContent": "BURRA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956694741100163142",
+  "createdTimestamp": 1648164200807,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 20:23:20\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** BURRA\n**🎲 ID de Registro:** ||zze9xyojfrnzo5576j280d7d9||",
+      "color": 16438033,
+      "timestamp": 1648164200629
+    }
+  ],
+  "attachments": [
+    "956694741121118238"
+  ]
+}
+Message from luar#8159:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "956697052128112720",
+  "createdTimestamp": 1648164751799,
+  "type": "DEFAULT",
+  "content": "<@!389563969540456458> ae irmao quer me comer mas n quer me dar cargo",
+  "authorId": "557697669917704204",
+  "nonce": "956697027830349824",
+  "cleanContent": "@​RockyAloW ae irmao quer me comer mas n quer me dar cargo"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "956697052715302912",
+  "createdTimestamp": 1648164751939,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 24/03/2022 20:32:31\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** <@!389563969540456458> ae irmao quer me comer mas n quer me dar cargo\n**🎲 ID de Registro:** ||usp16ruge4ajzl4s8ez4c1u7z||",
+      "color": 16438033,
+      "timestamp": 1648164751799
+    }
+  ],
+  "attachments": [
+    "956697052753039440"
+  ]
+}

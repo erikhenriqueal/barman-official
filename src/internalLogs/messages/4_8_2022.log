@@ -1,0 +1,33 @@
+Message from XUAUUMM#1209:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "962097411642232872",
+  "createdTimestamp": 1649452297841,
+  "type": "DEFAULT",
+  "content": "vem ca jv",
+  "authorId": "544952205598261269",
+  "nonce": "962097394768412672",
+  "cleanContent": "vem ca jv"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962097412355260507",
+  "createdTimestamp": 1649452298011,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 08/04/2022 18:11:37\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** vem ca jv\n**🎲 ID de Registro:** ||rkb01bqiehobgovph3mnn0rrj||",
+      "color": 16438033,
+      "timestamp": 1649452297841
+    }
+  ],
+  "attachments": [
+    "962097412716003378"
+  ]
+}

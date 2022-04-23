@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "947292264839913512",
+  "createdTimestamp": 1645922475777,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 26/02/2022 21:41:15\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p  amor pq me trata assim eu so quero te fazer\n**🎲 ID de Registro:** ||u1h0z00fqsgztdbmsikryggdc||",
+      "color": 16438033,
+      "timestamp": 1645922475256
+    }
+  ],
+  "attachments": [
+    "947292264873484288"
+  ]
+}

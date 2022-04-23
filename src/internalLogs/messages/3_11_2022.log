@@ -1,0 +1,66 @@
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "951940720749596742",
+  "createdTimestamp": 1647030754030,
+  "type": "DEFAULT",
+  "content": "mano.",
+  "authorId": "389563969540456458",
+  "nonce": "951940670514266112",
+  "cleanContent": "mano."
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "951940721722687519",
+  "createdTimestamp": 1647030754262,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 11/03/2022 17:32:34\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** mano.\n**🎲 ID de Registro:** ||zkd05yh6czs3iypdpa4ohv0yg||",
+      "color": 16438033,
+      "timestamp": 1647030754030
+    }
+  ],
+  "attachments": [
+    "951940722116931614"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "951940738562809876",
+  "createdTimestamp": 1647030758277,
+  "type": "DEFAULT",
+  "content": "foda",
+  "authorId": "389563969540456458",
+  "nonce": "951940688323280896",
+  "cleanContent": "foda"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "951940739238076516",
+  "createdTimestamp": 1647030758438,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 11/03/2022 17:32:38\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** foda\n**🎲 ID de Registro:** ||r43g505um53uxbkvzcf00re5g||",
+      "color": 16438033,
+      "timestamp": 1647030758277
+    }
+  ],
+  "attachments": [
+    "951940739288424459"
+  ]
+}

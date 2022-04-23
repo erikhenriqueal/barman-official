@@ -1,0 +1,462 @@
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954442708771045388",
+  "createdTimestamp": 1647627274459,
+  "type": "DEFAULT",
+  "content": "3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+  "authorId": "599059525189894165",
+  "nonce": "954442705272832000",
+  "cleanContent": "3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\""
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954442709689565277",
+  "createdTimestamp": 1647627274678,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 15:14:34\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"\n**🎲 ID de Registro:** ||7xywj6js8gvdotd5wfc8o6hba||",
+      "color": 16438033,
+      "timestamp": 1647627274459
+    }
+  ],
+  "attachments": [
+    "954442709962211338"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954442797316972625",
+  "createdTimestamp": 1647627295570,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "246 seconds (4:06)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "vinicin#1658",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "954442797316972625",
+    "createdTimestamp": 1647627295570,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "246 seconds (4:06)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "954442797316972625",
+    "createdTimestamp": 1647627295570,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "246 seconds (4:06)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954442797950316584",
+  "createdTimestamp": 1647627295721,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 15:14:55\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||9fk5t7i31db5ub6t8dxplg6uf||",
+      "color": 16438033,
+      "timestamp": 1647627295570
+    }
+  ],
+  "attachments": [
+    "954442798004838460"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954442799053439088",
+  "createdTimestamp": 1647627295984,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 18/03/2022 15:14:55\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 81zui45gl2rw84ttq2obwdx8e",
+      "color": 16438033,
+      "timestamp": 1647627295570
+    }
+  ],
+  "attachments": [
+    "954442799082791022"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954485453980074045",
+  "createdTimestamp": 1647637465711,
+  "type": "DEFAULT",
+  "content": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+  "authorId": "599059525189894165",
+  "nonce": "954485449785606144",
+  "cleanContent": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\""
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954485454869237872",
+  "createdTimestamp": 1647637465923,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 18:04:25\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"\n**🎲 ID de Registro:** ||trif4sc23czf4vm4qft7bd68y||",
+      "color": 16438033,
+      "timestamp": 1647637465711
+    }
+  ],
+  "attachments": [
+    "954485454898606220"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954485470086185030",
+  "createdTimestamp": 1647637469551,
+  "type": "DEFAULT",
+  "content": "3pDrake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+  "authorId": "599059525189894165",
+  "nonce": "954485465929482240",
+  "cleanContent": "3pDrake - Toosie Slide (Lyrics) \"left foot up right foot slide\""
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954485470631432294",
+  "createdTimestamp": 1647637469681,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 18:04:29\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3pDrake - Toosie Slide (Lyrics) \"left foot up right foot slide\"\n**🎲 ID de Registro:** ||cc4spfgr8gt3ez7kjwmx8ikxn||",
+      "color": 16438033,
+      "timestamp": 1647637469551
+    }
+  ],
+  "attachments": [
+    "954485470673371156"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954485485143719976",
+  "createdTimestamp": 1647637473141,
+  "type": "DEFAULT",
+  "content": "3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+  "authorId": "599059525189894165",
+  "nonce": "954485480974450688",
+  "cleanContent": "3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\""
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954485485600923728",
+  "createdTimestamp": 1647637473250,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 18:04:33\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"\n**🎲 ID de Registro:** ||60w2csuo537f23630obh80xk6||",
+      "color": 16438033,
+      "timestamp": 1647637473141
+    }
+  ],
+  "attachments": [
+    "954485485626097694"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "954485579821756417",
+  "createdTimestamp": 1647637495714,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Drake - Toosie Slide (Lyrics) \"left foot up right foot slide\"",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "246 seconds (4:06)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "vinicin#1658",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954485580543180841",
+  "createdTimestamp": 1647637495886,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 18:04:55\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||sj4y06d8vfv1ffngnidoop0mw||",
+      "color": 16438033,
+      "timestamp": 1647637495714
+    }
+  ],
+  "attachments": [
+    "954485580559962202"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "954505199559524372",
+  "createdTimestamp": 1647642173424,
+  "type": "DEFAULT",
+  "content": "aí <@!389563969540456458>, que carai de cargo é esse? T. L.",
+  "authorId": "897291486285156362",
+  "nonce": "954505198854733824",
+  "cleanContent": "aí @​RockyAloW, que carai de cargo é esse? T. L."
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954505200738111549",
+  "createdTimestamp": 1647642173705,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 19:22:53\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** aí <@!389563969540456458>, que carai de cargo é esse? T. L.\n**🎲 ID de Registro:** ||ly8mkv83ytni9q6768oik8vd9||",
+      "color": 16438033,
+      "timestamp": 1647642173424
+    }
+  ],
+  "attachments": [
+    "954505200855572530"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "954515173178241024",
+  "createdTimestamp": 1647644551320,
+  "type": "DEFAULT",
+  "content": "TROPA DO LUAN",
+  "authorId": "389563969540456458",
+  "nonce": "954515150965047296",
+  "cleanContent": "TROPA DO LUAN"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954515173828354078",
+  "createdTimestamp": 1647644551475,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 20:02:31\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** TROPA DO LUAN\n**🎲 ID de Registro:** ||4iniqgswwy4glgxbhuif1pgtx||",
+      "color": 16438033,
+      "timestamp": 1647644551320
+    }
+  ],
+  "attachments": [
+    "954515173849333770"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "954516585719160942",
+  "createdTimestamp": 1647644888096,
+  "type": "DEFAULT",
+  "content": "desrespeitou a tropa",
+  "authorId": "389563969540456458",
+  "nonce": "954516563749240832",
+  "cleanContent": "desrespeitou a tropa"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954516586251821116",
+  "createdTimestamp": 1647644888223,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/03/2022 20:08:08\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** desrespeitou a tropa\n**🎲 ID de Registro:** ||w96mc3n1mgb6c4qfel4085p5s||",
+      "color": 16438033,
+      "timestamp": 1647644888096
+    }
+  ],
+  "attachments": [
+    "954516586276982804"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "954899781900185710",
+  "createdTimestamp": 1647736249185,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "Batalhão, temos um soldado ferido! Deem adeus à Arthorios...",
+      "color": 16438033,
+      "timestamp": 1647736249034
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954899782709698600",
+  "createdTimestamp": 1647736249378,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 19/03/2022 21:30:49\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||7z3slt6icpelnxd2x1go8270n||",
+      "color": 16438033,
+      "timestamp": 1647736249185
+    }
+  ],
+  "attachments": [
+    "954899782755831849"
+  ]
+}

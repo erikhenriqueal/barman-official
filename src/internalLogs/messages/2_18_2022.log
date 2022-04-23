@@ -1,0 +1,80 @@
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "944370106107060244",
+  "createdTimestamp": 1645225778844,
+  "type": "REPLY",
+  "content": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA",
+  "authorId": "389563969540456458",
+  "nonce": "944370090982244352",
+  "cleanContent": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "944370112012636270",
+  "createdTimestamp": 1645225780252,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/02/2022 20:09:38\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA\n**🎲 ID de Registro:** ||o7etjizgn4fdloeir2vgnuf4q||",
+      "color": 16438033,
+      "timestamp": 1645225778844
+    }
+  ],
+  "attachments": [
+    "944370112041975841"
+  ]
+}
+Message from RockyAloW#1177 was updated:
+{
+  "old": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "944370106107060244",
+    "createdTimestamp": 1645225778844,
+    "type": "REPLY",
+    "content": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA",
+    "authorId": "389563969540456458",
+    "nonce": "944370090982244352",
+    "cleanContent": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA"
+  },
+  "new": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "944370106107060244",
+    "createdTimestamp": 1645225778844,
+    "type": "REPLY",
+    "content": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nEAI MARQUIN DJ SOLTA O SAMPLE DE GUITARRA",
+    "authorId": "389563969540456458",
+    "nonce": "944370090982244352",
+    "editedTimestamp": 1645225792804,
+    "cleanContent": "BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nEAI MARQUIN DJ SOLTA O SAMPLE DE GUITARRA"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "944370165225783336",
+  "createdTimestamp": 1645225792939,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 18/02/2022 20:09:52\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo Anterior:** BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nHÃ MARQUIN DJ SOLTA O SAMPLE DE GUITARRA\n**📝 Conteúdo Novo:** BOTA NA CABEÇA QUE ESTILO NÃO É MARRA\nEAI MARQUIN DJ SOLTA O SAMPLE DE GUITARRA\n**🎲 ID de Registro:** hnbrsy5j9kilfr79v81eui4t9",
+      "color": 16438033,
+      "timestamp": 1645225792804
+    }
+  ],
+  "attachments": [
+    "944370165313851452"
+  ]
+}

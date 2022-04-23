@@ -1,0 +1,120 @@
+Message from doxedbyvini#0130:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "948324591720341525",
+  "createdTimestamp": 1646168601685,
+  "type": "DEFAULT",
+  "content": "3p sou teu fan",
+  "authorId": "599059525189894165",
+  "nonce": "948324590822621184",
+  "cleanContent": "3p sou teu fan"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "948324593402257479",
+  "createdTimestamp": 1646168602086,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 01/03/2022 18:03:21\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p sou teu fan\n**🎲 ID de Registro:** ||bqzrggqlgqm23i93e4hkp2fx4||",
+      "color": 16438033,
+      "timestamp": 1646168601685
+    }
+  ],
+  "attachments": [
+    "948324593465192478"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "948324607298002954",
+  "createdTimestamp": 1646168605399,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Dennis & Bruno Martini feat Vitin - Sou Teu Fã (Video Oficial)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "194 seconds (3:14)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "doxedbyvini#0130",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "948324608103292989",
+  "createdTimestamp": 1646168605591,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 01/03/2022 18:03:25\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||zfx0izvmdjpibquq0eqssc98f||",
+      "color": 16438033,
+      "timestamp": 1646168605399
+    }
+  ],
+  "attachments": [
+    "948324608300429382"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "948740872776851487",
+  "createdTimestamp": 1646267850823,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "954911652921212928",
+  "attachments": [
+    "948740872873345024"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "948740874689454140",
+  "createdTimestamp": 1646267851279,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 02/03/2022 21:37:30\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [e814a9b9a5404bf5314e...38f3_1.mp4](https://media.discordapp.net/attachments/472227733988966410/948740872873345024/e814a9b9a5404bf5314e...38f3_1.mp4) (396 Kb)\n\n**🎲 ID de Registro:** ||phvk03r2pzt18twtydieuqv5w||",
+      "color": 16438033,
+      "timestamp": 1646267850823
+    }
+  ],
+  "attachments": [
+    "948740874718826566"
+  ]
+}

@@ -1,0 +1,303 @@
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "961641520807706724",
+  "createdTimestamp": 1649343604996,
+  "type": "DEFAULT",
+  "content": "3p lacrimosa mozart",
+  "authorId": "389563969540456458",
+  "nonce": "961641510300811264",
+  "cleanContent": "3p lacrimosa mozart"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961641527426293850",
+  "createdTimestamp": 1649343606574,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 07/04/2022 12:00:04\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p lacrimosa mozart\n**🎲 ID de Registro:** ||et280eghamm2p3sznm0xrdnrl||",
+      "color": 16438033,
+      "timestamp": 1649343604996
+    }
+  ],
+  "attachments": [
+    "961641527451476068"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "961641542840352808",
+  "createdTimestamp": 1649343610249,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Mozart - Lacrimosa",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "201 seconds (3:21)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961641543737937931",
+  "createdTimestamp": 1649343610463,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 07/04/2022 12:00:10\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||ider7xj3o5det66ly8v6n82kb||",
+      "color": 16438033,
+      "timestamp": 1649343610249
+    }
+  ],
+  "attachments": [
+    "961641543796662392"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "961641680153477240",
+  "createdTimestamp": 1649343642987,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "389563969540456458",
+  "nonce": "961641669453676544",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "961641680694546523",
+  "createdTimestamp": 1649343643116,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 07/04/2022 12:00:42\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||35bk4nexjvmwx1lkbeit6mytu||",
+      "color": 16438033,
+      "timestamp": 1649343642987
+    }
+  ],
+  "attachments": [
+    "961641680744886322"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "962149721609228328",
+  "createdTimestamp": 1649464769509,
+  "type": "DEFAULT",
+  "content": "<@953025606394716160>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) notarobot ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer notarobot! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1649464769405,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​notarobot"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962149723500855328",
+  "createdTimestamp": 1649464769960,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 08/04/2022 21:39:29\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@953025606394716160>\n**🎲 ID de Registro:** ||kvn1pz8me3mbl39ztnq5pg0r1||",
+      "color": 16438033,
+      "timestamp": 1649464769509
+    }
+  ],
+  "attachments": [
+    "962149723580555275"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "962149721609228328",
+    "createdTimestamp": 1649464769509,
+    "type": "DEFAULT",
+    "content": "<@953025606394716160>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) notarobot ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer notarobot! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1649464769405,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​notarobot"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "962149721609228328",
+    "createdTimestamp": 1649464769509,
+    "type": "DEFAULT",
+    "content": "<@953025606394716160>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) notarobot ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer notarobot! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1649464769405,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​notarobot"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962149724415225926",
+  "createdTimestamp": 1649464770178,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 08/04/2022 21:39:29\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@953025606394716160>\n**📝 Conteúdo Novo:** <@953025606394716160>\n**🎲 ID de Registro:** 7yq2seghufoy0sbt0qpvx7ixy",
+      "color": 16438033,
+      "timestamp": 1649464769509
+    }
+  ],
+  "attachments": [
+    "962149724549427271"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "962159155131588669",
+  "createdTimestamp": 1649467018636,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "notarobot abandonou nosso navio, infelizmente não sabia nadar e foi devorado por tubarões...",
+      "color": 16438033,
+      "timestamp": 1649467018523
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "962159155504885851",
+  "createdTimestamp": 1649467018725,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 08/04/2022 22:16:58\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||i6u2cyflbbtg43evecnk8y40m||",
+      "color": 16438033,
+      "timestamp": 1649467018636
+    }
+  ],
+  "attachments": [
+    "962159155886555146"
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "944698447993393263",
+  "createdTimestamp": 1645304061650,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "You didn't poivide want i want to play",
+      "color": 15158332
+    }
+  ]
+}

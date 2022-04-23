@@ -1,0 +1,34 @@
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "949448549983191112",
+  "createdTimestamp": 1646436574217,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "949448546447261696",
+  "attachments": [
+    "949448549228232714"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "949448551946158160",
+  "createdTimestamp": 1646436574685,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 04/03/2022 20:29:34\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [Parabuains_CR7_e_NEYMARE.mp4](https://media.discordapp.net/attachments/472227733988966410/949448549228232714/Parabuains_CR7_e_NEYMARE.mp4) (6 Mb)\n\n**🎲 ID de Registro:** ||4xjs13w8ilot5eqmkcktywkm2||",
+      "color": 16438033,
+      "timestamp": 1646436574217
+    }
+  ],
+  "attachments": [
+    "949448551979704350"
+  ]
+}

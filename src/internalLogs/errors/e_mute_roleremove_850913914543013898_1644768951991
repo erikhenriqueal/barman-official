@@ -1,0 +1,8 @@
+
+Couldn't remove (unmute) baatyz#5104's role:
+Author: 897291486285156362
+Target: 850913914543013898
+Duration: 60000
+Reason: Não definido.
+Error:
+TypeError [INVALID_TYPE]: Supplied roles is not a Role, Snowflake or Array or Collection of Roles or Snowflakes.

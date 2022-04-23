@@ -1,0 +1,350 @@
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "965451135806746724",
+  "createdTimestamp": 1650251887991,
+  "type": "DEFAULT",
+  "content": "3p gemidão do zap remix",
+  "authorId": "389563969540456458",
+  "nonce": "965451124293238784",
+  "cleanContent": "3p gemidão do zap remix"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965451137694187520",
+  "createdTimestamp": 1650251888441,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/04/2022 00:18:07\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p gemidão do zap remix\n**🎲 ID de Registro:** ||c6uevjmo7twdndyb6e4zb2nbs||",
+      "color": 16438033,
+      "timestamp": 1650251887991
+    }
+  ],
+  "attachments": [
+    "965451137773883433"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "965451168442621982",
+  "createdTimestamp": 1650251895772,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Gemidão do Whatsapp REMIX",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "31 seconds (0:31)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "965451168442621982",
+    "createdTimestamp": 1650251895772,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Gemidão do Whatsapp REMIX",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "31 seconds (0:31)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "965451168442621982",
+    "createdTimestamp": 1650251895772,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Gemidão do Whatsapp REMIX",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "31 seconds (0:31)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "RockyAloW#1177",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965451168962715688",
+  "createdTimestamp": 1650251895896,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/04/2022 00:18:15\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||04e6sr4wjv3ofe1kmipyu5pkp||",
+      "color": 16438033,
+      "timestamp": 1650251895772
+    }
+  ],
+  "attachments": [
+    "965451169055010927"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965451170007089252",
+  "createdTimestamp": 1650251896145,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 18/04/2022 00:18:15\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 7xb2clvj4db596zjfpry4iduw",
+      "color": 16438033,
+      "timestamp": 1650251895772
+    }
+  ],
+  "attachments": [
+    "965451170120368188"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "965451242857955438",
+  "createdTimestamp": 1650251913514,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "389563969540456458",
+  "nonce": "965451230950195200",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965451243436797962",
+  "createdTimestamp": 1650251913652,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/04/2022 00:18:33\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||uoif6pm0o8g8cx2ko93iwtscx||",
+      "color": 16438033,
+      "timestamp": 1650251913514
+    }
+  ],
+  "attachments": [
+    "965451243470336081"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "965693001936564286",
+  "createdTimestamp": 1650309553370,
+  "type": "DEFAULT",
+  "content": "<@215630395771715585>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) CharlieBR ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer CharlieBR! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1650309553236,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​CharlieBR"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965693002947379260",
+  "createdTimestamp": 1650309553611,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 18/04/2022 16:19:13\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@215630395771715585>\n**🎲 ID de Registro:** ||0canyptwiq6y0beic9di5hrw8||",
+      "color": 16438033,
+      "timestamp": 1650309553370
+    }
+  ],
+  "attachments": [
+    "965693003064827934"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "965693001936564286",
+    "createdTimestamp": 1650309553370,
+    "type": "DEFAULT",
+    "content": "<@215630395771715585>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) CharlieBR ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer CharlieBR! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1650309553236,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​CharlieBR"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "965693001936564286",
+    "createdTimestamp": 1650309553370,
+    "type": "DEFAULT",
+    "content": "<@215630395771715585>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) CharlieBR ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer CharlieBR! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1650309553236,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​CharlieBR"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "965693009297551441",
+  "createdTimestamp": 1650309555125,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 18/04/2022 16:19:13\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@215630395771715585>\n**📝 Conteúdo Novo:** <@215630395771715585>\n**🎲 ID de Registro:** t2bcyjjn2hqn3rhiuzf4t7tle",
+      "color": 16438033,
+      "timestamp": 1650309553370
+    }
+  ],
+  "attachments": [
+    "965693009406595072"
+  ]
+}

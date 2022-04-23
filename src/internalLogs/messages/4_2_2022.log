@@ -1,0 +1,121 @@
+Message from Agar#1047:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "959935196352880640",
+  "createdTimestamp": 1648936785544,
+  "type": "REPLY",
+  "content": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+  "authorId": "351502534936100864",
+  "nonce": "959935195526463488",
+  "cleanContent": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959935198810738708",
+  "createdTimestamp": 1648936786130,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 02/04/2022 18:59:45\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK\n**🎲 ID de Registro:** ||bxhi72ftjep6btcp684xy6f6e||",
+      "color": 16438033,
+      "timestamp": 1648936785544
+    }
+  ],
+  "attachments": [
+    "959935198856880159"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "960351229630873631",
+  "createdTimestamp": 1649035975607,
+  "type": "DEFAULT",
+  "content": "https://www.youtube.com/watch?v=Ye08Ans13Io",
+  "authorId": "599059525189894165",
+  "nonce": "960351231132303360",
+  "cleanContent": "https://www.youtube.com/watch?v=Ye08Ans13Io"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "960351230520078447",
+  "createdTimestamp": 1649035975819,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 03/04/2022 22:32:55\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** https://www.youtube.com/watch?v=Ye08Ans13Io\n**🎲 ID de Registro:** ||79wknx4wjgcp4td0vq44835u6||",
+      "color": 16438033,
+      "timestamp": 1649035975607
+    }
+  ],
+  "attachments": [
+    "960351230863999007"
+  ]
+}
+Message from vinicin#1658 was updated:
+{
+  "old": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "960351229630873631",
+    "createdTimestamp": 1649035975607,
+    "type": "DEFAULT",
+    "content": "https://www.youtube.com/watch?v=Ye08Ans13Io",
+    "authorId": "599059525189894165",
+    "nonce": "960351231132303360",
+    "cleanContent": "https://www.youtube.com/watch?v=Ye08Ans13Io"
+  },
+  "new": {
+    "channelId": "472227733988966410",
+    "guildId": "472200926820827157",
+    "id": "960351229630873631",
+    "createdTimestamp": 1649035975607,
+    "type": "DEFAULT",
+    "content": "https://www.youtube.com/watch?v=Ye08Ans13Io",
+    "authorId": "599059525189894165",
+    "nonce": "960351231132303360",
+    "embeds": [
+      {
+        "type": "video",
+        "title": "OBSERVAÇÕES DIÁRIAS (EP. 171)",
+        "description": "Todo conteúdo deste vídeo tem o objetivo de educar as pessoas sobre as boas práticas no trânsito! Assista e aprenda a pilotar e/ou dirigir de maneira mais correta e segura!\nCRÉDITOS (Previamente autorizado pelos canais):\n\n00:19 GAH114 - https://youtu.be/gHgkQhtXqUQ\r\n01:18 GB ZERA – Envio de inscrito sem canal no Youtube\n01:42 Daniel Loureiro – E...",
+        "url": "https://www.youtube.com/watch?v=Ye08Ans13Io",
+        "color": 16711680
+      }
+    ],
+    "cleanContent": "https://www.youtube.com/watch?v=Ye08Ans13Io"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "960351232101335182",
+  "createdTimestamp": 1649035976196,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 03/04/2022 22:32:55\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo Anterior:** https://www.youtube.com/watch?v=Ye08Ans13Io\n**📝 Conteúdo Novo:** https://www.youtube.com/watch?v=Ye08Ans13Io\n**🎲 ID de Registro:** avhyw4vwm4zk4pjy6o73qf2z6",
+      "color": 16438033,
+      "timestamp": 1649035975607
+    }
+  ],
+  "attachments": [
+    "960351232160067634"
+  ]
+}

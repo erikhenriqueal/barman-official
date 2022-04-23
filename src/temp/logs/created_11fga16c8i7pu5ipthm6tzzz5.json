@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "942405519535140884",
+  "createdTimestamp": 1644757384905,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🗑️ Mensagem Deletada",
+      "description": "**⏰ Data:** 13/02/2022 10:03:04\n**🎯 Canal:** <#858214878770626591>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||ybic2x7irdbg2h5mgl38hh533||",
+      "color": 16438033,
+      "timestamp": 1644757384845
+    }
+  ],
+  "attachments": [
+    "942405519577075752"
+  ]
+}

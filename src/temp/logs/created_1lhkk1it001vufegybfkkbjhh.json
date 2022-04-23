@@ -1,0 +1,18 @@
+
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "942421045850279977",
+  "createdTimestamp": 1644761086667,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🔒 Banir usuário - Buscando membros",
+      "description": "<@897291486285156362>, estou fazendo uma busca pelos membros do servidor para encontrar o usuário solicitado. Este processo deve demorar mais nas primeiras vezes após a reinicialização do sistema.",
+      "color": 4360181,
+      "timestamp": 1644761087800
+    }
+  ]
+}

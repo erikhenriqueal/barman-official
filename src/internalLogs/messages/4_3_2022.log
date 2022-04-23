@@ -1,0 +1,36 @@
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "960147846160601108",
+  "createdTimestamp": 1648987485209,
+  "type": "DEFAULT",
+  "content": "ibe-iberê? 😳",
+  "authorId": "897291486285156362",
+  "nonce": "960147846240141312",
+  "attachments": [
+    "960147845741154324"
+  ],
+  "cleanContent": "ibe-iberê? 😳"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "960147854171734039",
+  "createdTimestamp": 1648987487119,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 03/04/2022 09:04:45\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** ibe-iberê? 😳\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472227733988966410/960147845741154324/unknown.png) (1 Mb)\n\n**🎲 ID de Registro:** ||wjtzyjakf0vj2qcj0701vnrhy||",
+      "color": 16438033,
+      "timestamp": 1648987485209
+    }
+  ],
+  "attachments": [
+    "960147854536605736"
+  ]
+}

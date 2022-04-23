@@ -1,0 +1,100 @@
+Message from henrique#0001:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "950032366909423636",
+  "createdTimestamp": 1646575767019,
+  "type": "REPLY",
+  "content": "<:__:814624021953118239>",
+  "authorId": "897291486285156362",
+  "nonce": "950032365399310336",
+  "cleanContent": "<:__:814624021953118239>"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "950032372970192966",
+  "createdTimestamp": 1646575768464,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 06/03/2022 11:09:27\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** :__:\n**🎲 ID de Registro:** ||qqrd9mzk53nkoia0mmmsthxbq||",
+      "color": 16438033,
+      "timestamp": 1646575767019
+    }
+  ],
+  "attachments": [
+    "950032373049851984"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "950032854765690910",
+  "createdTimestamp": 1646575883333,
+  "type": "DEFAULT",
+  "authorId": "897291486285156362",
+  "nonce": "950032854035726336",
+  "attachments": [
+    "950032854442721340"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "950032856003010600",
+  "createdTimestamp": 1646575883628,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 06/03/2022 11:11:23\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472227733988966410/950032854442721340/unknown.png) (20 Kb)\n\n**🎲 ID de Registro:** ||khhhfid2iynj9ho5lbw8vondm||",
+      "color": 16438033,
+      "timestamp": 1646575883333
+    }
+  ],
+  "attachments": [
+    "950032856082677760"
+  ]
+}
+Message from betinh01#7001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "950040265501077554",
+  "createdTimestamp": 1646577650190,
+  "type": "DEFAULT",
+  "content": "pão",
+  "authorId": "903626054218965012",
+  "nonce": "950040261554077696",
+  "cleanContent": "pão"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "950040268403536023",
+  "createdTimestamp": 1646577650882,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 06/03/2022 11:40:50\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** pão\n**🎲 ID de Registro:** ||5s5xr9g4zygaieyy86q4h0l3i||",
+      "color": 16438033,
+      "timestamp": 1646577650190
+    }
+  ],
+  "attachments": [
+    "950040268441255986"
+  ]
+}

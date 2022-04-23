@@ -1,0 +1,545 @@
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "953047822184362014",
+  "createdTimestamp": 1647294707581,
+  "type": "DEFAULT",
+  "content": "<@272042298898907137>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) ju1ce ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer ju1ce! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1647294707507,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​ju1ce"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953047823128072274",
+  "createdTimestamp": 1647294707806,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/03/2022 18:51:47\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@272042298898907137>\n**🎲 ID de Registro:** ||b3oyem4fnjulnj8tk5bgr65nd||",
+      "color": 16438033,
+      "timestamp": 1647294707581
+    }
+  ],
+  "attachments": [
+    "953047823203586098"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "953047822184362014",
+    "createdTimestamp": 1647294707581,
+    "type": "DEFAULT",
+    "content": "<@272042298898907137>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) ju1ce ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer ju1ce! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1647294707507,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​ju1ce"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "953047822184362014",
+    "createdTimestamp": 1647294707581,
+    "type": "DEFAULT",
+    "content": "<@272042298898907137>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) ju1ce ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer ju1ce! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1647294707507,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​ju1ce"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953047832481398804",
+  "createdTimestamp": 1647294710036,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 14/03/2022 18:51:47\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@272042298898907137>\n**📝 Conteúdo Novo:** <@272042298898907137>\n**🎲 ID de Registro:** lf7qv9ddh0ynoo3ttwp8xo1ok",
+      "color": 16438033,
+      "timestamp": 1647294707581
+    }
+  ],
+  "attachments": [
+    "953047832624001074"
+  ]
+}
+Message from noshii#6865:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "953060376621228183",
+  "createdTimestamp": 1647297700792,
+  "type": "DEFAULT",
+  "content": "Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔",
+  "authorId": "548277965960773643",
+  "nonce": "953060374750429184",
+  "cleanContent": "Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953060377955024906",
+  "createdTimestamp": 1647297701110,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/03/2022 19:41:40\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pilantragem 😔😔😔😔😔😔😔😔😔😔😔Pi...\n**🎲 ID de Registro:** ||iklt4dn5lwg7hz4074kh183fi||",
+      "color": 16438033,
+      "timestamp": 1647297700792
+    }
+  ],
+  "attachments": [
+    "953060378290561054"
+  ]
+}
+Message from noshii#6865:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "953060679089278997",
+  "createdTimestamp": 1647297772906,
+  "type": "DEFAULT",
+  "content": "Bem eu não sei se isso é considerado uma reclamação mas vamos lá.\nEu realmente me decepcionei muito ultimamente com essa comunidade em sentido do que é destacado ou não, praticamente todos os blogs são \"perfeitos\", com uma estética e uma capa  lindas maravilhosas, mesmo que o que o blog fale seja bem \"sem graça\" ( depende da opiniã nesse caso) tudo está bem bonito. O problema é que realmente existem blogs simples que são bons, existem blogs que não precisam de uma introdução explicando tudo direitinho. \nVou dar como exemplo o meu blog sobre o meu poema ( um poema que eu escrevi porque eu estava passando uma fase ruim, basicamente aquilo defenia como eu me sentia naquele momento), eu mandei para destaque, e rapiadamente veio uma revisora ( esqueci o nome) vir me falar dos erros etc. Eu corrigi tudo, mas algo que me incomodou um pouco foi ela pedir para eu explicar na introdução/finalização o que o poema significava e falar mais sobre como eu peguei \"inspiração\" bem, eu sou uma pessoa que acredita que nem tudo precisa de uma explicação, tem coisas que se tu não entender simplesmente deixe assim, mas mesmo assim eu arrumei, apesar disso a moça foi muito simpática comigo, meu blog então foi \"aprovado\", na epoca eu não sabia que tinha que mandar denovo então meio que depois de um tempo eu não mandei. \nEu acabei por mandar denovo depois de uma amiga falar pra mim sobre isso, ja fazia uns 2 meses que eu tinha sido \"aprovada\", nesse meio tempo a pessoa que me aprovou tinha até deixado de ser \"revisora\".\nEntão eu mandei denovo e o comentario que eu recebi foi \"Seu poema é muito pequeno, reprovado\" \nOk, então agora para eu ter um blog aprovado eu tenho que aumentar ele,  mas o que realmente me incomodou foi ele pedir para aumentar o poema, eu achei estúpido ( desculpe a palavra)",
+  "authorId": "548277965960773643",
+  "nonce": "953060675775627264",
+  "cleanContent": "Bem eu não sei se isso é considerado uma reclamação mas vamos lá.\nEu realmente me decepcionei muito ultimamente com essa comunidade em sentido do que é destacado ou não, praticamente todos os blogs são \"perfeitos\", com uma estética e uma capa  lindas maravilhosas, mesmo que o que o blog fale seja bem \"sem graça\" ( depende da opiniã nesse caso) tudo está bem bonito. O problema é que realmente existem blogs simples que são bons, existem blogs que não precisam de uma introdução explicando tudo direitinho. \nVou dar como exemplo o meu blog sobre o meu poema ( um poema que eu escrevi porque eu estava passando uma fase ruim, basicamente aquilo defenia como eu me sentia naquele momento), eu mandei para destaque, e rapiadamente veio uma revisora ( esqueci o nome) vir me falar dos erros etc. Eu corrigi tudo, mas algo que me incomodou um pouco foi ela pedir para eu explicar na introdução/finalização o que o poema significava e falar mais sobre como eu peguei \"inspiração\" bem, eu sou uma pessoa que acredita que nem tudo precisa de uma explicação, tem coisas que se tu não entender simplesmente deixe assim, mas mesmo assim eu arrumei, apesar disso a moça foi muito simpática comigo, meu blog então foi \"aprovado\", na epoca eu não sabia que tinha que mandar denovo então meio que depois de um tempo eu não mandei. \nEu acabei por mandar denovo depois de uma amiga falar pra mim sobre isso, ja fazia uns 2 meses que eu tinha sido \"aprovada\", nesse meio tempo a pessoa que me aprovou tinha até deixado de ser \"revisora\".\nEntão eu mandei denovo e o comentario que eu recebi foi \"Seu poema é muito pequeno, reprovado\" \nOk, então agora para eu ter um blog aprovado eu tenho que aumentar ele,  mas o que realmente me incomodou foi ele pedir para aumentar o poema, eu achei estúpido ( desculpe a palavra)"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953060679340937247",
+  "createdTimestamp": 1647297772966,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/03/2022 19:42:52\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Bem eu não sei se isso é considerado uma reclamação mas vamos lá.\nEu realmente me decepcionei muito ultimamente com essa comunidade em sentido do que é destacado ou não, praticamente todos os blogs são \"perfeitos\", com uma estética e uma capa  lindas maravilhosas, mesmo que o que o blog fale seja bem \"sem graça\" ( depende da opiniã nesse caso) tudo está bem bonito. O problema é que realmente existem blogs simples que são bons, existem blogs que não precisam de uma introdução explicando tudo direitinho. \nVou...\n**🎲 ID de Registro:** ||ykhcj42ci74xhdxl9vx4y6t6e||",
+      "color": 16438033,
+      "timestamp": 1647297772906
+    }
+  ],
+  "attachments": [
+    "953060679718412388"
+  ]
+}
+Message from noshii#6865:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "953061412891140097",
+  "createdTimestamp": 1647297947858,
+  "type": "DEFAULT",
+  "content": "Vcs são estranhos",
+  "authorId": "548277965960773643",
+  "nonce": "953061410751905792",
+  "cleanContent": "Vcs são estranhos"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953061413771948053",
+  "createdTimestamp": 1647297948068,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 14/03/2022 19:45:47\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Vcs são estranhos\n**🎲 ID de Registro:** ||ryb99zvnsbncuct6dhzig2r5i||",
+      "color": 16438033,
+      "timestamp": 1647297947858
+    }
+  ],
+  "attachments": [
+    "953061413834870824"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "953453353264877578",
+  "createdTimestamp": 1647391393725,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "953453352274886656",
+  "attachments": [
+    "953453352262455387"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953453353998909490",
+  "createdTimestamp": 1647391393900,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 21:43:13\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [b67c9898dfe2a67084f2a7e1f363e43ae2643303a4ee02340838e35c928ec8a4_1.png](https://media.discordapp.net/attachments/472409959695384579/953453352262455387/b67c9898dfe2a67084f2a7e1f363e43ae2643303a4ee02340838e35c928ec8a4_1.png) (705 Kb)\n\n**🎲 ID de Registro:** ||sj9visx7isps17bzzggpju8rk||",
+      "color": 16438033,
+      "timestamp": 1647391393725
+    }
+  ],
+  "attachments": [
+    "953453354040823848"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "953453480637505597",
+  "createdTimestamp": 1647391424093,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "953453466942963712",
+  "attachments": [
+    "953453465340887050"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953453481212141608",
+  "createdTimestamp": 1647391424230,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 21:43:44\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [fallen_negro.jpg](https://media.discordapp.net/attachments/472409959695384579/953453465340887050/fallen_negro.jpg) (13 Kb)\n\n**🎲 ID de Registro:** ||zfyrl3vi145hx1zh45kfg1zi8||",
+      "color": 16438033,
+      "timestamp": 1647391424093
+    }
+  ],
+  "attachments": [
+    "953453481262481478"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "953453711919820830",
+  "createdTimestamp": 1647391479235,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "953453712087449600",
+  "attachments": [
+    "953453711215169636"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953453713819844649",
+  "createdTimestamp": 1647391479688,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 21:44:39\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [pipiu_malvado_png.png](https://media.discordapp.net/attachments/472409959695384579/953453711215169636/pipiu_malvado_png.png) (67 Kb)\n\n**🎲 ID de Registro:** ||dmbjzw9j385pl0eg7krx4ayk9||",
+      "color": 16438033,
+      "timestamp": 1647391479235
+    }
+  ],
+  "attachments": [
+    "953453713870180513"
+  ]
+}
+Message from ju1ce#1054:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "953453773236338719",
+  "createdTimestamp": 1647391493854,
+  "type": "DEFAULT",
+  "authorId": "272042298898907137",
+  "nonce": "953453774083457024",
+  "attachments": [
+    "953453772556869692"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953453774012293170",
+  "createdTimestamp": 1647391494039,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 21:44:53\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [sova_cat.jpg](https://media.discordapp.net/attachments/472409959695384579/953453772556869692/sova_cat.jpg) (49 Kb)\n\n**🎲 ID de Registro:** ||r8lgbuym7nm7hpbtaidqt4w4o||",
+      "color": 16438033,
+      "timestamp": 1647391493854
+    }
+  ],
+  "attachments": [
+    "953453774029062204"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953461287814328370",
+  "createdTimestamp": 1647393285469,
+  "type": "DEFAULT",
+  "content": "3p to doidinho pra ver o seu pircing no peito",
+  "authorId": "599059525189894165",
+  "nonce": "953461283477258240",
+  "cleanContent": "3p to doidinho pra ver o seu pircing no peito"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953461288816754758",
+  "createdTimestamp": 1647393285708,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:14:45\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p to doidinho pra ver o seu pircing no peito\n**🎲 ID de Registro:** ||zvgu0selonsdhx4kfou69kd5a||",
+      "color": 16438033,
+      "timestamp": 1647393285469
+    }
+  ],
+  "attachments": [
+    "953461288862900244"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953461484095164456",
+  "createdTimestamp": 1647393332266,
+  "type": "DEFAULT",
+  "content": "3p to doidinho pra ver o seu pircing no peito",
+  "authorId": "599059525189894165",
+  "nonce": "953461479829405696",
+  "cleanContent": "3p to doidinho pra ver o seu pircing no peito"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953461484518776842",
+  "createdTimestamp": 1647393332367,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:15:32\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p to doidinho pra ver o seu pircing no peito\n**🎲 ID de Registro:** ||ti0u65edkh5ezx0q0punqse7m||",
+      "color": 16438033,
+      "timestamp": 1647393332266
+    }
+  ],
+  "attachments": [
+    "953461484552335410"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953461861569945610",
+  "createdTimestamp": 1647393422263,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "953461857157382144",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953461862266196058",
+  "createdTimestamp": 1647393422429,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:17:02\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||xpwm0q12ukk1hgqc8q9wbwj4p||",
+      "color": 16438033,
+      "timestamp": 1647393422263
+    }
+  ],
+  "attachments": [
+    "953461862287151134"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953461868238864424",
+  "createdTimestamp": 1647393423853,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "953461863906017280",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953461869039992832",
+  "createdTimestamp": 1647393424044,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:17:03\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||h9hmqz8flqmu0x625n8u1zvas||",
+      "color": 16438033,
+      "timestamp": 1647393423853
+    }
+  ],
+  "attachments": [
+    "953461869107085372"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953462071327064114",
+  "createdTimestamp": 1647393472273,
+  "type": "DEFAULT",
+  "content": "3p quem tava la",
+  "authorId": "599059525189894165",
+  "nonce": "953462067040354304",
+  "cleanContent": "3p quem tava la"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953462071771684944",
+  "createdTimestamp": 1647393472379,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 22:17:52\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p quem tava la\n**🎲 ID de Registro:** ||0tm2uz6sl2dvf2shvm4us2j82||",
+      "color": 16438033,
+      "timestamp": 1647393472273
+    }
+  ],
+  "attachments": [
+    "953462071792652321"
+  ]
+}

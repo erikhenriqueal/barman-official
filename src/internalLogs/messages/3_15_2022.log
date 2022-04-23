@@ -1,0 +1,773 @@
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153478736379915",
+  "createdTimestamp": 1647319898066,
+  "type": "DEFAULT",
+  "content": "2p ed sherren",
+  "authorId": "599059525189894165",
+  "nonce": "953153476311908352",
+  "cleanContent": "2p ed sherren"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153480422461550",
+  "createdTimestamp": 1647319898468,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:51:38\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 2p ed sherren\n**🎲 ID de Registro:** ||3fgvov8s06rknjy0tsc6fgill||",
+      "color": 16438033,
+      "timestamp": 1647319898066
+    }
+  ],
+  "attachments": [
+    "953153480447639612"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153530095603722",
+  "createdTimestamp": 1647319910311,
+  "type": "DEFAULT",
+  "content": "3p vai no c",
+  "authorId": "599059525189894165",
+  "nonce": "953153527138484224",
+  "cleanContent": "3p vai no c"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153531077095464",
+  "createdTimestamp": 1647319910545,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:51:50\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p vai no c\n**🎲 ID de Registro:** ||g6lnlznc3fp4de21sd8wpg4vq||",
+      "color": 16438033,
+      "timestamp": 1647319910311
+    }
+  ],
+  "attachments": [
+    "953153531148374077"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153554611331082",
+  "createdTimestamp": 1647319916156,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Ananda, Joker Beats - Quero Que Tu Vá",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "141 seconds (2:21)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "vinicin#1658",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153554611331082",
+    "createdTimestamp": 1647319916156,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Ananda, Joker Beats - Quero Que Tu Vá",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "141 seconds (2:21)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153554611331082",
+    "createdTimestamp": 1647319916156,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Ananda, Joker Beats - Quero Que Tu Vá",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "141 seconds (2:21)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153555068514364",
+  "createdTimestamp": 1647319916265,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:51:56\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||na7bo47g4taw9vefckn5pxngl||",
+      "color": 16438033,
+      "timestamp": 1647319916156
+    }
+  ],
+  "attachments": [
+    "953153555160764416"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153555844436028",
+  "createdTimestamp": 1647319916450,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 15/03/2022 01:51:56\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 10yqzvwwz3xdlkb11myi5jt2b",
+      "color": 16438033,
+      "timestamp": 1647319916156
+    }
+  ],
+  "attachments": [
+    "953153555961888798"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153577738719232",
+  "createdTimestamp": 1647319921670,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "953153575016464384",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153578170728458",
+  "createdTimestamp": 1647319921773,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:01\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||7puf0sshprd8812wrvjefngly||",
+      "color": 16438033,
+      "timestamp": 1647319921670
+    }
+  ],
+  "attachments": [
+    "953153578191708220"
+  ]
+}
+Message from noshii#6865:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153578967654430",
+  "createdTimestamp": 1647319921963,
+  "type": "DEFAULT",
+  "content": "3p mundo colorido rapxis",
+  "authorId": "548277965960773643",
+  "nonce": "953153577952477184",
+  "cleanContent": "3p mundo colorido rapxis"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153579429027910",
+  "createdTimestamp": 1647319922073,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:01\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p mundo colorido rapxis\n**🎲 ID de Registro:** ||v2sitexu1r1pk3k3qv7af2lbv||",
+      "color": 16438033,
+      "timestamp": 1647319921963
+    }
+  ],
+  "attachments": [
+    "953153579445796914"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153594545279016",
+  "createdTimestamp": 1647319925677,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Rapxis & Gohann - Mundo Colorido",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "165 seconds (2:45)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "noshii#6865",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153595019260004",
+  "createdTimestamp": 1647319925790,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||7dvjrzvffqyu32eb1tqkpnkjq||",
+      "color": 16438033,
+      "timestamp": 1647319925677
+    }
+  ],
+  "attachments": [
+    "953153595044401162"
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153594545279016",
+    "createdTimestamp": 1647319925677,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Rapxis & Gohann - Mundo Colorido",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "165 seconds (2:45)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "noshii#6865",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153594545279016",
+    "createdTimestamp": 1647319925677,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Rapxis & Gohann - Mundo Colorido",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "165 seconds (2:45)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "noshii#6865",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153595593859103",
+  "createdTimestamp": 1647319925927,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 15/03/2022 01:52:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** oztrzikp0olbmwpcu4vn3m0n0",
+      "color": 16438033,
+      "timestamp": 1647319925677
+    }
+  ],
+  "attachments": [
+    "953153596017496104"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153606993997834",
+  "createdTimestamp": 1647319928645,
+  "type": "DEFAULT",
+  "content": "3p vai no chão doidona",
+  "authorId": "599059525189894165",
+  "nonce": "953153604225597440",
+  "cleanContent": "3p vai no chão doidona"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153607023333427",
+  "createdTimestamp": 1647319928652,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:08\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p vai no chão doidona\n**🎲 ID de Registro:** ||84ejsypuf1d8tftjgxgt6m28z||",
+      "color": 16438033,
+      "timestamp": 1647319928645
+    }
+  ],
+  "attachments": [
+    "953153607421788180"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953153616984809473",
+  "createdTimestamp": 1647319931027,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 16776960,
+      "fields": [
+        {
+          "value": "MC Vittin PV - Vai no Chão Doidona (Funk Explode)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "172 seconds (2:52)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "vinicin#1658",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153616984809473",
+    "createdTimestamp": 1647319931027,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 16776960,
+        "fields": [
+          {
+            "value": "MC Vittin PV - Vai no Chão Doidona (Funk Explode)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "172 seconds (2:52)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "953153616984809473",
+    "createdTimestamp": 1647319931027,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 16776960,
+        "fields": [
+          {
+            "value": "MC Vittin PV - Vai no Chão Doidona (Funk Explode)",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "172 seconds (2:52)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "vinicin#1658",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153619052613632",
+  "createdTimestamp": 1647319931520,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:11\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||lg4c46dek78ccopbvh24zvdtp||",
+      "color": 16438033,
+      "timestamp": 1647319931027
+    }
+  ],
+  "attachments": [
+    "953153619157467146"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153619828559892",
+  "createdTimestamp": 1647319931705,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 15/03/2022 01:52:11\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 3rew2c9obvgwllrtoxqmdlrxv",
+      "color": 16438033,
+      "timestamp": 1647319931027
+    }
+  ],
+  "attachments": [
+    "953153620000510003"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953154286815154178",
+  "createdTimestamp": 1647320090727,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "MC Vittin PV - Vai no Chão Doidona (Funk Explode)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "172 seconds (2:52)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "vinicin#1658",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953154287435923497",
+  "createdTimestamp": 1647320090875,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:54:50\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||og2gwoatw3623q6258ezkqynx||",
+      "color": 16438033,
+      "timestamp": 1647320090727
+    }
+  ],
+  "attachments": [
+    "953154287767269386"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953154577589481482",
+  "createdTimestamp": 1647320160053,
+  "type": "DEFAULT",
+  "content": "3s",
+  "authorId": "599059525189894165",
+  "nonce": "953154574665908224",
+  "cleanContent": "3s"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953154578042458123",
+  "createdTimestamp": 1647320160161,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:56:00\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3s\n**🎲 ID de Registro:** ||3f1ypsdzpvi2ll0juj3nbchjw||",
+      "color": 16438033,
+      "timestamp": 1647320160053
+    }
+  ],
+  "attachments": [
+    "953154578059247687"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "953271858579529748",
+  "createdTimestamp": 1647348122020,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "Batalhão, temos um soldado ferido! Deem adeus à João victor...",
+      "color": 16438033,
+      "timestamp": 1647348121897
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953271859292557322",
+  "createdTimestamp": 1647348122190,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 09:42:02\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||n9rrfkun4pqynugr4w22hyb2l||",
+      "color": 16438033,
+      "timestamp": 1647348122020
+    }
+  ],
+  "attachments": [
+    "953271859347070976"
+  ]
+}
+Message from noshii#6865:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "953385883548151879",
+  "createdTimestamp": 1647375307691,
+  "type": "DEFAULT",
+  "content": "Já volto",
+  "authorId": "548277965960773643",
+  "nonce": "953385882038042624",
+  "cleanContent": "Já volto"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953385885582385293",
+  "createdTimestamp": 1647375308176,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 17:15:07\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** Já volto\n**🎲 ID de Registro:** ||sfbirigsfd8uoww0gpub3p4sn||",
+      "color": 16438033,
+      "timestamp": 1647375307691
+    }
+  ],
+  "attachments": [
+    "953385885653667850"
+  ]
+}
+Message from vinicin#1658:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "953396923346350110",
+  "createdTimestamp": 1647377939784,
+  "type": "DEFAULT",
+  "content": "3p quem tava la",
+  "authorId": "599059525189894165",
+  "nonce": "953396918644375552",
+  "cleanContent": "3p quem tava la"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953396923992273007",
+  "createdTimestamp": 1647377939938,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 17:58:59\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p quem tava la\n**🎲 ID de Registro:** ||zvxkuy6wc6pm2yxlouk8noee5||",
+      "color": 16438033,
+      "timestamp": 1647377939784
+    }
+  ],
+  "attachments": [
+    "953396924034199572"
+  ]
+}

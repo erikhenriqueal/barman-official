@@ -1,0 +1,224 @@
+[19:00:40] [ MySQL ] Received an unexpected error:
+[19:00:40] Error: Packets out of order. Got: 1 Expected: 7
+[19:00:41] [ MySQL ] Received an error on query "SELECT * FROM `users` WHERE `id`="itsliterralynotanid"".
+[19:00:42] Error: Cannot enqueue Query after fatal error.
+[19:00:42]     at Protocol._validateEnqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+[19:00:42]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+[19:00:42]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[19:00:42]     at /home/container/src/apis/MySQL/index.js:23:71
+[19:00:42]     at new Promise (<anonymous>)
+[19:00:42]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[19:00:42]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[19:00:42]     at listOnTimeout (node:internal/timers:559:17)
+[19:00:42]     at processTimers (node:internal/timers:502:7) {
+[19:00:42]   code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+[19:00:42]   fatal: false
+[19:00:42] }
+[19:00:42] node:internal/process/promises:279
+[19:00:42]             triggerUncaughtException(err, true /* fromPromise */);
+[19:00:42]             ^
+[19:00:42] 
+[19:00:42] Error: Cannot enqueue Query after fatal error.
+[19:00:42]     at Protocol._validateEnqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+[19:00:42]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+[19:00:42]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[19:00:42]     at /home/container/src/apis/MySQL/index.js:23:71
+[19:00:42]     at new Promise (<anonymous>)
+[19:00:42]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[19:00:42]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[19:00:42]     at listOnTimeout (node:internal/timers:559:17)
+[19:00:42]     at processTimers (node:internal/timers:502:7) {
+[19:00:42]   code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+[19:00:42]   fatal: false
+[19:00:42] }
+[19:00:42] Exiting application with code 1.
+[19:00:44] Bot foi iniciado.
+[19:00:53] [ DiscordJS ] Connected as Barman#1975.
+[19:00:53] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:00:53] [ MySQL ] Initializing...
+[19:00:54] [ MySQL ] Received an error on startup, more info bellow.
+[19:00:54] /home/container/src/apis/MySQL/index.js:15
+[19:00:54]             throw new Error(err);
+[19:00:54]             ^
+[19:00:54] 
+[19:00:54] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:00:54]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:00:54]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:00:54]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:00:54]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:00:54]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:00:54]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:00:54]     at Socket.emit (node:events:526:28)
+[19:00:54]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:00:54]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:00:54]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:00:54] Exiting application with code 1.
+[19:01:04] Bot foi iniciado.
+[19:01:13] [ DiscordJS ] Connected as Barman#1975.
+[19:01:13] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:01:13] [ MySQL ] Initializing...
+[19:01:13] [ MySQL ] Received an error on startup, more info bellow.
+[19:01:13] /home/container/src/apis/MySQL/index.js:15
+[19:01:13]             throw new Error(err);
+[19:01:13]             ^
+[19:01:13] 
+[19:01:13] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:01:13]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:01:13]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:01:13]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:01:13]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:01:13]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:01:13]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:01:13]     at Socket.emit (node:events:526:28)
+[19:01:13]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:01:13]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:01:13]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:01:14] Exiting application with code 1.
+[19:01:24] Bot foi iniciado.
+[19:01:34] [ DiscordJS ] Connected as Barman#1975.
+[19:01:34] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:01:34] [ MySQL ] Initializing...
+[19:01:34] [ MySQL ] Received an error on startup, more info bellow.
+[19:01:34] /home/container/src/apis/MySQL/index.js:15
+[19:01:34]             throw new Error(err);
+[19:01:34]             ^
+[19:01:34] 
+[19:01:34] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:01:34]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:01:34]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:01:34]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:01:34]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:01:34]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:01:34]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:01:34]     at Socket.emit (node:events:526:28)
+[19:01:34]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:01:34]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:01:34]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:01:34] Exiting application with code 1.
+[19:01:44] Bot foi iniciado.
+[19:01:54] [ DiscordJS ] Connected as Barman#1975.
+[19:01:54] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:01:54] [ MySQL ] Initializing...
+[19:01:54] [ MySQL ] Received an error on startup, more info bellow.
+[19:01:54] /home/container/src/apis/MySQL/index.js:15
+[19:01:54]             throw new Error(err);
+[19:01:54]             ^
+[19:01:54] 
+[19:01:54] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:01:54]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:01:54]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:01:54]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:01:54]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:01:54]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:01:54]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:01:54]     at Socket.emit (node:events:526:28)
+[19:01:54]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:01:54]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:01:54]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:01:54] Exiting application with code 1.
+[19:02:04] Bot foi iniciado.
+[19:02:14] [ DiscordJS ] Connected as Barman#1975.
+[19:02:14] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:02:14] [ MySQL ] Initializing...
+[19:02:14] [ MySQL ] Received an error on startup, more info bellow.
+[19:02:14] /home/container/src/apis/MySQL/index.js:15
+[19:02:14]             throw new Error(err);
+[19:02:14]             ^
+[19:02:14] 
+[19:02:14] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:02:14]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:02:14]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:02:14]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:02:14]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:02:14]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:02:14]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:02:14]     at Socket.emit (node:events:526:28)
+[19:02:14]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:02:14]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:02:14]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:02:14] Exiting application with code 1.
+[19:02:24] Bot foi iniciado.
+[19:02:34] [ DiscordJS ] Connected as Barman#1975.
+[19:02:34] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:02:34] [ MySQL ] Initializing...
+[19:02:34] [ MySQL ] Received an error on startup, more info bellow.
+[19:02:34] /home/container/src/apis/MySQL/index.js:15
+[19:02:34]             throw new Error(err);
+[19:02:34]             ^
+[19:02:34] 
+[19:02:34] Error: Error: connect ECONNREFUSED 144.126.138.113:3306
+[19:02:34]     at Handshake.<anonymous> (/home/container/src/apis/MySQL/index.js:15:19)
+[19:02:34]     at Handshake.<anonymous> (/home/container/node_modules/mysql/lib/Connection.js:526:10)
+[19:02:34]     at Handshake._callback (/home/container/node_modules/mysql/lib/Connection.js:488:16)
+[19:02:34]     at Handshake.Sequence.end (/home/container/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+[19:02:34]     at Protocol.handleNetworkError (/home/container/node_modules/mysql/lib/protocol/Protocol.js:369:14)
+[19:02:34]     at Connection._handleNetworkError (/home/container/node_modules/mysql/lib/Connection.js:418:18)
+[19:02:34]     at Socket.emit (node:events:526:28)
+[19:02:34]     at emitErrorNT (node:internal/streams/destroy:157:8)
+[19:02:34]     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+[19:02:34]     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:02:34] Exiting application with code 1.
+[19:02:44] Bot foi iniciado.
+[19:02:54] [ DiscordJS ] Connected as Barman#1975.
+[19:02:54] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:02:54] [ MySQL ] Initializing...
+[19:02:54] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[19:02:54] Initializing "/home/container/src/handlers/utility.js"...
+[19:02:54] [ DiscordJS ] Handling utilities...
+[19:02:54] Initializing "/home/container/src/handlers/commands.js"...
+[19:02:54] [ DiscordJS ] Handling commands...
+[19:02:55] [ DiscordJS ] All commands successfully imported.
+[19:02:55] Initializing "/home/container/src/handlers/events.js"...
+[19:02:55] [ DiscordJS ] Handling events...
+[19:02:55] [ DiscordJS ] Listening to all events.
+[19:02:55] Initializing "/home/container/src/systems/timers.js"...
+[19:02:55] [ System ] The system is ready and running.
+[19:03:56] [ MySQL ] Received an unexpected error:
+[19:03:56] Error: Packets out of order. Got: 1 Expected: 7
+[19:04:25] [ MySQL ] Received an error on query "SELECT * FROM `users` WHERE `id`="itsliterralynotanid"".
+[19:04:25] Error: Cannot enqueue Query after fatal error.
+[19:04:25]     at Protocol._validateEnqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+[19:04:25]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+[19:04:25]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[19:04:25]     at /home/container/src/apis/MySQL/index.js:23:71
+[19:04:25]     at new Promise (<anonymous>)
+[19:04:25]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[19:04:25]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[19:04:25]     at listOnTimeout (node:internal/timers:559:17)
+[19:04:25]     at processTimers (node:internal/timers:502:7) {
+[19:04:25]   code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+[19:04:25]   fatal: false
+[19:04:25] }
+[19:04:25] node:internal/process/promises:279
+[19:04:25]             triggerUncaughtException(err, true /* fromPromise */);
+[19:04:25]             ^
+[19:04:25] 
+[19:04:25] Error: Cannot enqueue Query after fatal error.
+[19:04:25]     at Protocol._validateEnqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+[19:04:25]     at Protocol._enqueue (/home/container/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+[19:04:25]     at Connection.query (/home/container/node_modules/mysql/lib/Connection.js:198:25)
+[19:04:25]     at /home/container/src/apis/MySQL/index.js:23:71
+[19:04:25]     at new Promise (<anonymous>)
+[19:04:25]     at global.query (/home/container/src/apis/MySQL/index.js:23:34)
+[19:04:25]     at Timeout._onTimeout (/home/container/src/apis/MySQL/index.js:32:34)
+[19:04:25]     at listOnTimeout (node:internal/timers:559:17)
+[19:04:25]     at processTimers (node:internal/timers:502:7) {
+[19:04:25]   code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+[19:04:25]   fatal: false
+[19:04:25] }
+[19:04:25] Exiting application with code 1.
+[19:04:26] Bot foi iniciado.
+[19:04:35] [ DiscordJS ] Connected as Barman#1975.
+[19:04:35] Initializing "/home/container/src/apis/MySQL/index.js"...
+[19:04:35] [ MySQL ] Initializing...
+[19:04:43] [ MySQL ] Connected to "database.haskhosting.com.br:3306" as "u387_OwpXLRBeV3" in "s387_barman"
+[19:04:43] Initializing "/home/container/src/handlers/utility.js"...
+[19:04:43] [ DiscordJS ] Handling utilities...
+[19:04:43] Initializing "/home/container/src/handlers/commands.js"...
+[19:04:43] [ DiscordJS ] Handling commands...
+[19:04:43] [ DiscordJS ] All commands successfully imported.
+[19:04:43] Initializing "/home/container/src/handlers/events.js"...
+[19:04:43] [ DiscordJS ] Handling events...
+[19:04:43] [ DiscordJS ] Listening to all events.
+[19:04:43] Initializing "/home/container/src/systems/timers.js"...
+[19:04:43] [ System ] The system is ready and running.

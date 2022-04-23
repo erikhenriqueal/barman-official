@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "954140575819501598",
+  "createdTimestamp": 1647555240350,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 17/03/2022 19:14:00\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||jiwttlt00rphf13y5ht1n8zgg||",
+      "color": 16438033,
+      "timestamp": 1647555240253
+    }
+  ],
+  "attachments": [
+    "954140575844696074"
+  ]
+}

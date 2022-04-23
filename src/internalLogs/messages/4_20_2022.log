@@ -1,0 +1,765 @@
+Message from Caiou#5155:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966186748948381776",
+  "createdTimestamp": 1650427271831,
+  "type": "DEFAULT",
+  "content": "3p abertura caillou",
+  "authorId": "752954400900907080",
+  "nonce": "972357529554124800",
+  "cleanContent": "3p abertura caillou"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966186751217528842",
+  "createdTimestamp": 1650427272372,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 01:01:11\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p abertura caillou\n**🎲 ID de Registro:** ||ghrh88ei6yy1sb0tsdyuo3yen||",
+      "color": 16438033,
+      "timestamp": 1650427271831
+    }
+  ],
+  "attachments": [
+    "966186751242686574"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966186769836027944",
+  "createdTimestamp": 1650427276811,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Abertura Caillou",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "47 seconds (0:47)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "Caiou#5155",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966186770796539904",
+  "createdTimestamp": 1650427277040,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 01:01:16\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||ua4gm4ynshle5jm1uz1n20gvd||",
+      "color": 16438033,
+      "timestamp": 1650427276811
+    }
+  ],
+  "attachments": [
+    "966186770825871400"
+  ]
+}
+Message from Miku Music#2160 was updated:
+{
+  "old": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "966186769836027944",
+    "createdTimestamp": 1650427276811,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Abertura Caillou",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "47 seconds (0:47)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "Caiou#5155",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  },
+  "new": {
+    "channelId": "472228705893351435",
+    "guildId": "472200926820827157",
+    "id": "966186769836027944",
+    "createdTimestamp": 1650427276811,
+    "type": "DEFAULT",
+    "authorId": "822983883015454731",
+    "embeds": [
+      {
+        "type": "rich",
+        "color": 3447003,
+        "fields": [
+          {
+            "value": "Abertura Caillou",
+            "name": "Name",
+            "inline": true
+          },
+          {
+            "value": "47 seconds (0:47)",
+            "name": "Duration",
+            "inline": true
+          },
+          {
+            "value": "Caiou#5155",
+            "name": "Requested by",
+            "inline": true
+          }
+        ]
+      }
+    ]
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966186771585040394",
+  "createdTimestamp": 1650427277228,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 20/04/2022 01:01:16\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo Anterior:** --\n**📝 Conteúdo Novo:** --\n**🎲 ID de Registro:** 5u30hchre34d0vy101or11gxp",
+      "color": 16438033,
+      "timestamp": 1650427276811
+    }
+  ],
+  "attachments": [
+    "966186771610226738"
+  ]
+}
+Message from Worm#5404:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966337947953688666",
+  "createdTimestamp": 1650463320483,
+  "type": "DEFAULT",
+  "content": "3p adidas mr polska",
+  "authorId": "317837412279648256",
+  "nonce": "966337937660706816",
+  "cleanContent": "3p adidas mr polska"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966337949304233986",
+  "createdTimestamp": 1650463320805,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 11:02:00\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p adidas mr polska\n**🎲 ID de Registro:** ||xr0zspsvnyj2643sc5n7v1bd9||",
+      "color": 16438033,
+      "timestamp": 1650463320483
+    }
+  ],
+  "attachments": [
+    "966337949623017643"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966337974054834176",
+  "createdTimestamp": 1650463326706,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Russian Village Boys & Mr. Polska - Adidas (Official Music Video)",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "136 seconds (2:16)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "Worm#5404",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966337975829008434",
+  "createdTimestamp": 1650463327129,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 11:02:06\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||gbmgvgmdjszsdv3704y3n0jzc||",
+      "color": 16438033,
+      "timestamp": 1650463326706
+    }
+  ],
+  "attachments": [
+    "966337975954858014"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966338454948561006",
+  "createdTimestamp": 1650463441360,
+  "type": "DEFAULT",
+  "content": "3p super idol",
+  "authorId": "389563969540456458",
+  "nonce": "966338446652080128",
+  "cleanContent": "3p super idol"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966338455686766692",
+  "createdTimestamp": 1650463441536,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 11:04:01\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p super idol\n**🎲 ID de Registro:** ||3qumvy3fgb5nd3zs81xhfz3h6||",
+      "color": 16438033,
+      "timestamp": 1650463441360
+    }
+  ],
+  "attachments": [
+    "966338455728697415"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966338464750637087",
+  "createdTimestamp": 1650463443697,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 16776960,
+      "fields": [
+        {
+          "value": "Super idol",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "15 seconds (0:15)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966338465400750150",
+  "createdTimestamp": 1650463443852,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 11:04:03\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||njnn2le3pzm11501vk9dmts8j||",
+      "color": 16438033,
+      "timestamp": 1650463443697
+    }
+  ],
+  "attachments": [
+    "966338465434333204"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966338547500068876",
+  "createdTimestamp": 1650463463426,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Super idol",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "15 seconds (0:15)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966338548397649930",
+  "createdTimestamp": 1650463463640,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 11:04:23\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||z03q0c8x2g2nwnjqygjzbb1t6||",
+      "color": 16438033,
+      "timestamp": 1650463463426
+    }
+  ],
+  "attachments": [
+    "966338548422807602"
+  ]
+}
+Message from Caiou#5155:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966360351941754920",
+  "createdTimestamp": 1650468662010,
+  "type": "DEFAULT",
+  "content": "3p abertura do caillou",
+  "authorId": "752954400900907080",
+  "nonce": "972531132576825344",
+  "cleanContent": "3p abertura do caillou"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966360352939999273",
+  "createdTimestamp": 1650468662248,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:31:02\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p abertura do caillou\n**🎲 ID de Registro:** ||0o63p4gz6ihtsuzcj9djguzf0||",
+      "color": 16438033,
+      "timestamp": 1650468662010
+    }
+  ],
+  "attachments": [
+    "966360352973545554"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966360362817581097",
+  "createdTimestamp": 1650468664603,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Abertura Caillou",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "47 seconds (0:47)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "Caiou#5155",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966360363455086602",
+  "createdTimestamp": 1650468664755,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:31:04\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||cnpfxm8273psn6pypx53iqnlb||",
+      "color": 16438033,
+      "timestamp": 1650468664603
+    }
+  ],
+  "attachments": [
+    "966360363513819187"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966360366516940912",
+  "createdTimestamp": 1650468665485,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "An unexpected error has occurred.\nPossible type `Error: Status code: 403`",
+      "color": 15158332
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966360366898622466",
+  "createdTimestamp": 1650468665576,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:31:05\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||7f42kx3b3bo8feu3h9gxm17b4||",
+      "color": 16438033,
+      "timestamp": 1650468665485
+    }
+  ],
+  "attachments": [
+    "966360367217393794"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966360405024837672",
+  "createdTimestamp": 1650468674666,
+  "type": "DEFAULT",
+  "content": "3p abertura cailou",
+  "authorId": "389563969540456458",
+  "nonce": "966360404450082816",
+  "cleanContent": "3p abertura cailou"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966360405586874398",
+  "createdTimestamp": 1650468674800,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:31:14\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p abertura cailou\n**🎲 ID de Registro:** ||1r5wtfw0zez0tn0gtqde98d9b||",
+      "color": 16438033,
+      "timestamp": 1650468674666
+    }
+  ],
+  "attachments": [
+    "966360405603676210"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966360413484757072",
+  "createdTimestamp": 1650468676683,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Abertura Caillou",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "47 seconds (0:47)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "RockyAloW#1177",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966360415032463430",
+  "createdTimestamp": 1650468677052,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:31:16\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||theu3eg0ouqnj7y1zdv35qsvm||",
+      "color": 16438033,
+      "timestamp": 1650468676683
+    }
+  ],
+  "attachments": [
+    "966360415066009630"
+  ]
+}
+Message from Crows#3248:
+{
+  "channelId": "472409959695384579",
+  "guildId": "472200926820827157",
+  "id": "966363667727777853",
+  "createdTimestamp": 1650469452555,
+  "type": "DEFAULT",
+  "authorId": "452491228257189888",
+  "nonce": "966363662979694592",
+  "attachments": [
+    "966363666851196968"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966363668763775056",
+  "createdTimestamp": 1650469452802,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 12:44:12\n**🎯 Canal:** <#472409959695384579>\n**📝 Conteúdo:** --\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472409959695384579/966363666851196968/unknown.png) (596 Kb)\n\n**🎲 ID de Registro:** ||fghrrj628qm3nnm0f5u5cp5ub||",
+      "color": 16438033,
+      "timestamp": 1650469452555
+    }
+  ],
+  "attachments": [
+    "966363668822507520"
+  ]
+}
+Message from KD#7272:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966446851932954684",
+  "createdTimestamp": 1650489285215,
+  "type": "DEFAULT",
+  "content": "3p it has to be this way",
+  "authorId": "776949453918699530",
+  "nonce": "966446856554938368",
+  "cleanContent": "3p it has to be this way"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966446861294653451",
+  "createdTimestamp": 1650489287447,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 18:14:45\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p it has to be this way\n**🎲 ID de Registro:** ||exhz81tokmilw1b17a8pfvst2||",
+      "color": 16438033,
+      "timestamp": 1650489285215
+    }
+  ],
+  "attachments": [
+    "966446861508558948"
+  ]
+}
+Message from Miku Music#2160:
+{
+  "channelId": "472228705893351435",
+  "guildId": "472200926820827157",
+  "id": "966446871830749234",
+  "createdTimestamp": 1650489289959,
+  "type": "DEFAULT",
+  "authorId": "822983883015454731",
+  "embeds": [
+    {
+      "type": "rich",
+      "color": 3447003,
+      "fields": [
+        {
+          "value": "Metal Gear Rising: Revengeance OST   It Has To Be This Way Extended",
+          "name": "Name",
+          "inline": true
+        },
+        {
+          "value": "303 seconds (5:03)",
+          "name": "Duration",
+          "inline": true
+        },
+        {
+          "value": "KD#7272",
+          "name": "Requested by",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966446872812212304",
+  "createdTimestamp": 1650489290193,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 18:14:49\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||5v7n3pq64oa74b8voxg8f6kw3||",
+      "color": 16438033,
+      "timestamp": 1650489289959
+    }
+  ],
+  "attachments": [
+    "966446872870928414"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "966481261512228904",
+  "createdTimestamp": 1650497489098,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "dek deixou nossa Rede. Espero que um dia ele(a) volte!",
+      "color": 16438033,
+      "timestamp": 1650497488986
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "966481262980243517",
+  "createdTimestamp": 1650497489448,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/04/2022 20:31:29\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||cx9em6freky4x5sxjzdetpfs4||",
+      "color": 16438033,
+      "timestamp": 1650497489098
+    }
+  ],
+  "attachments": [
+    "966481263139647529"
+  ]
+}

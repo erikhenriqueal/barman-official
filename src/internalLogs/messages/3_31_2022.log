@@ -1,0 +1,181 @@
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "959206031660052540",
+  "createdTimestamp": 1648762939134,
+  "type": "DEFAULT",
+  "content": "<@527304650362191873>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) VibeZ ao ButecoGamer🍻🎮",
+      "description": "Que bom te conhecer VibeZ! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+      "color": 16438033,
+      "timestamp": 1648762938953,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​VibeZ"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959206032746381332",
+  "createdTimestamp": 1648762939393,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 18:42:19\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@527304650362191873>\n**🎲 ID de Registro:** ||ti3e3ceuwte24zw1ibvowqbxb||",
+      "color": 16438033,
+      "timestamp": 1648762939134
+    }
+  ],
+  "attachments": [
+    "959206032800899102"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "959206031660052540",
+    "createdTimestamp": 1648762939134,
+    "type": "DEFAULT",
+    "content": "<@527304650362191873>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) VibeZ ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer VibeZ! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1648762938953,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​VibeZ"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "959206031660052540",
+    "createdTimestamp": 1648762939134,
+    "type": "DEFAULT",
+    "content": "<@527304650362191873>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) VibeZ ao ButecoGamer🍻🎮",
+        "description": "Que bom te conhecer VibeZ! Apresento à você o ButecoGamer🍻🎮, uma pequena sociedade onde convivemos jogando e se divertindo, espero que se de bem com geral!",
+        "color": 16438033,
+        "timestamp": 1648762938953,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​VibeZ"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959206040568758312",
+  "createdTimestamp": 1648762941258,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 31/03/2022 18:42:19\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@527304650362191873>\n**📝 Conteúdo Novo:** <@527304650362191873>\n**🎲 ID de Registro:** zpg7wui9oq6cf6eeh45w12prw",
+      "color": 16438033,
+      "timestamp": 1648762939134
+    }
+  ],
+  "attachments": [
+    "959206040711331860"
+  ]
+}
+Message from henrique#0001:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "959220163771789372",
+  "createdTimestamp": 1648766308492,
+  "type": "DEFAULT",
+  "content": "mwanito, vamos a jugar un futchebol",
+  "authorId": "897291486285156362",
+  "nonce": "959220163213787136",
+  "attachments": [
+    "959220163566252042"
+  ],
+  "cleanContent": "mwanito, vamos a jugar un futchebol"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "959220166401601587",
+  "createdTimestamp": 1648766309119,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 31/03/2022 19:38:28\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** mwanito, vamos a jugar un futchebol\n**📎 Itens Fixados:** • [unknown.png](https://media.discordapp.net/attachments/472227733988966410/959220163566252042/unknown.png) (8 Kb)\n\n**🎲 ID de Registro:** ||q2435byrm4cew3fhxibu5nptc||",
+      "color": 16438033,
+      "timestamp": 1648766308492
+    }
+  ],
+  "attachments": [
+    "959220166795857950"
+  ]
+}

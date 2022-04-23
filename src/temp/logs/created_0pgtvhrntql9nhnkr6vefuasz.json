@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "946854421034332241",
+  "createdTimestamp": 1645818085679,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 25/02/2022 16:41:25\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p ai calica ai caralho\n**🎲 ID de Registro:** ||k3n62d8hymy1cu6qrimfmf4ef||",
+      "color": 16438033,
+      "timestamp": 1645818085639
+    }
+  ],
+  "attachments": [
+    "946854421436956803"
+  ]
+}

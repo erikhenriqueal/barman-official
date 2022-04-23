@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "953153579429027910",
+  "createdTimestamp": 1647319922073,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 15/03/2022 01:52:01\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p mundo colorido rapxis\n**🎲 ID de Registro:** ||v2sitexu1r1pk3k3qv7af2lbv||",
+      "color": 16438033,
+      "timestamp": 1647319921963
+    }
+  ],
+  "attachments": [
+    "953153579445796914"
+  ]
+}

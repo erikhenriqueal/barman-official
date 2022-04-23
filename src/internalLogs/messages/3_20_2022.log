@@ -1,0 +1,244 @@
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "955092355390783538",
+  "createdTimestamp": 1647782162283,
+  "type": "DEFAULT",
+  "content": "<@452491228257189888>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Crows ao ButecoGamer🍻🎮",
+      "description": "Muito legal te ver por aqui, Crows! Espero que consiga socializar em nossa comunidade, nosso intuito é fazer você conhecer novas pessoas, fazer novas amizades, zoar e se divertir com todos nossos membros.",
+      "color": 16438033,
+      "timestamp": 1647782162128,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​Crows"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "955092356053471243",
+  "createdTimestamp": 1647782162441,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/03/2022 10:16:02\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@452491228257189888>\n**🎲 ID de Registro:** ||hia07y16fvk4tie6qmc560ce1||",
+      "color": 16438033,
+      "timestamp": 1647782162283
+    }
+  ],
+  "attachments": [
+    "955092356435173466"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "955092355390783538",
+    "createdTimestamp": 1647782162283,
+    "type": "DEFAULT",
+    "content": "<@452491228257189888>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Crows ao ButecoGamer🍻🎮",
+        "description": "Muito legal te ver por aqui, Crows! Espero que consiga socializar em nossa comunidade, nosso intuito é fazer você conhecer novas pessoas, fazer novas amizades, zoar e se divertir com todos nossos membros.",
+        "color": 16438033,
+        "timestamp": 1647782162128,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Crows"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "955092355390783538",
+    "createdTimestamp": 1647782162283,
+    "type": "DEFAULT",
+    "content": "<@452491228257189888>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) Crows ao ButecoGamer🍻🎮",
+        "description": "Muito legal te ver por aqui, Crows! Espero que consiga socializar em nossa comunidade, nosso intuito é fazer você conhecer novas pessoas, fazer novas amizades, zoar e se divertir com todos nossos membros.",
+        "color": 16438033,
+        "timestamp": 1647782162128,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​Crows"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "955092363116687400",
+  "createdTimestamp": 1647782164125,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 20/03/2022 10:16:02\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@452491228257189888>\n**📝 Conteúdo Novo:** <@452491228257189888>\n**🎲 ID de Registro:** wiipg87d6pkui6hfimd0ygxd3",
+      "color": 16438033,
+      "timestamp": 1647782162283
+    }
+  ],
+  "attachments": [
+    "955092363271880724"
+  ]
+}
+Message from akasardat#4498:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "955119193647382558",
+  "createdTimestamp": 1647788561022,
+  "type": "DEFAULT",
+  "content": "<@!389563969540456458>",
+  "authorId": "813208336140599346",
+  "nonce": "955119197229154304",
+  "cleanContent": "@​RockyAloW"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "955119194352013333",
+  "createdTimestamp": 1647788561190,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/03/2022 12:02:41\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** <@!389563969540456458>\n**🎲 ID de Registro:** ||1w36je24wl0c9vq1kuk1jj2lf||",
+      "color": 16438033,
+      "timestamp": 1647788561022
+    }
+  ],
+  "attachments": [
+    "955119194792407100"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "955145912991232101",
+  "createdTimestamp": 1647794931410,
+  "type": "REPLY",
+  "content": "opa, tava almoçando",
+  "authorId": "389563969540456458",
+  "nonce": "955145891071655936",
+  "cleanContent": "opa, tava almoçando"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "955145913972719717",
+  "createdTimestamp": 1647794931644,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/03/2022 13:48:51\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** opa, tava almoçando\n**🎲 ID de Registro:** ||g7b1j1seiknz8rvlhtgeltwmv||",
+      "color": 16438033,
+      "timestamp": 1647794931410
+    }
+  ],
+  "attachments": [
+    "955145914073358427"
+  ]
+}
+Message from RockyAloW#1177:
+{
+  "channelId": "472227733988966410",
+  "guildId": "472200926820827157",
+  "id": "955145921413406740",
+  "createdTimestamp": 1647794933418,
+  "type": "DEFAULT",
+  "content": "fala ai",
+  "authorId": "389563969540456458",
+  "nonce": "955145899732893696",
+  "cleanContent": "fala ai"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "955145921996394506",
+  "createdTimestamp": 1647794933557,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 20/03/2022 13:48:53\n**🎯 Canal:** <#472227733988966410>\n**📝 Conteúdo:** fala ai\n**🎲 ID de Registro:** ||zosxyl7nn8l3dj23zneqg7p7v||",
+      "color": 16438033,
+      "timestamp": 1647794933418
+    }
+  ],
+  "attachments": [
+    "955145922013167626"
+  ]
+}

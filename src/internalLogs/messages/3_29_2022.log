@@ -1,0 +1,184 @@
+Message from Barman#1975:
+{
+  "channelId": "805791964435316826",
+  "guildId": "472200926820827157",
+  "id": "958442320523591804",
+  "createdTimestamp": 1648580856210,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💨 Um Membro Saiu de nossa Rede",
+      "description": "valentine ☾ deixou nossa Rede. Espero que um dia ele(a) volte!",
+      "color": 16438033,
+      "timestamp": 1648580856094
+    }
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "958442322712989716",
+  "createdTimestamp": 1648580856732,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 29/03/2022 16:07:36\n**🎯 Canal:** <#805791964435316826>\n**📝 Conteúdo:** --\n**🎲 ID de Registro:** ||t3lb47xdshrg8jenf36385c09||",
+      "color": 16438033,
+      "timestamp": 1648580856210
+    }
+  ],
+  "attachments": [
+    "958442322788515850"
+  ]
+}
+Message from Barman#1975:
+{
+  "channelId": "805791911558381568",
+  "guildId": "472200926820827157",
+  "id": "958510827730796574",
+  "createdTimestamp": 1648597189601,
+  "type": "DEFAULT",
+  "content": "<@933189318678294638>",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🚩 Membro Novo! Seja muito bem-vindo(a) nanath ao ButecoGamer🍻🎮",
+      "description": "Olá nanath! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+      "color": 16438033,
+      "timestamp": 1648597189491,
+      "fields": [
+        {
+          "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+          "name": "📎 Links Relacionados:"
+        },
+        {
+          "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+          "name": "🗺 Seções Importantes:"
+        },
+        {
+          "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+          "name": "🌐 Comunidade:"
+        }
+      ]
+    }
+  ],
+  "cleanContent": "@​nanath"
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "958510828468994069",
+  "createdTimestamp": 1648597189777,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 29/03/2022 20:39:49\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo:** <@933189318678294638>\n**🎲 ID de Registro:** ||o7pgzipt7pyjhrqpm56ev0wes||",
+      "color": 16438033,
+      "timestamp": 1648597189601
+    }
+  ],
+  "attachments": [
+    "958510828833873970"
+  ]
+}
+Message from Barman#1975 was updated:
+{
+  "old": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "958510827730796574",
+    "createdTimestamp": 1648597189601,
+    "type": "DEFAULT",
+    "content": "<@933189318678294638>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) nanath ao ButecoGamer🍻🎮",
+        "description": "Olá nanath! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+        "color": 16438033,
+        "timestamp": 1648597189491,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​nanath"
+  },
+  "new": {
+    "channelId": "805791911558381568",
+    "guildId": "472200926820827157",
+    "id": "958510827730796574",
+    "createdTimestamp": 1648597189601,
+    "type": "DEFAULT",
+    "content": "<@933189318678294638>",
+    "authorId": "903730942286364702",
+    "embeds": [
+      {
+        "type": "rich",
+        "title": "🚩 Membro Novo! Seja muito bem-vindo(a) nanath ao ButecoGamer🍻🎮",
+        "description": "Olá nanath! Seja muito bem vindo(a) à nossa Rede. Somos uma pequena comunidade de amigos e amigas onde costumamos conversar e jogar diariamente.",
+        "color": 16438033,
+        "timestamp": 1648597189491,
+        "fields": [
+          {
+            "value": "- 🔗 [Convite do Servidor](https://discord.gg/884HafWG9P)\n- 📞 [WhatsApp Oficial](https://chat.whatsapp.com/H2HidKT1AmyH9D6Gm55Aok)",
+            "name": "📎 Links Relacionados:"
+          },
+          {
+            "value": "- <#846106097663737887>\n- <#472225709738426368>\n- <#472225914114146315>",
+            "name": "🗺 Seções Importantes:"
+          },
+          {
+            "value": "- <#472409959695384579> 📝\n- <#472227733988966410> 📝\n- <#913210275379937331> 🔊",
+            "name": "🌐 Comunidade:"
+          }
+        ]
+      }
+    ],
+    "cleanContent": "@​nanath"
+  }
+}
+Message from Barman#1975:
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "958510831140761690",
+  "createdTimestamp": 1648597190414,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✂️ Mensagem Alterada",
+      "description": "**⏰ Data:** 29/03/2022 20:39:49\n**🎯 Canal:** <#805791911558381568>\n**📝 Conteúdo Anterior:** <@933189318678294638>\n**📝 Conteúdo Novo:** <@933189318678294638>\n**🎲 ID de Registro:** 2k4zbt2i1jyqe6fg8nbwq24t8",
+      "color": 16438033,
+      "timestamp": 1648597189601
+    }
+  ],
+  "attachments": [
+    "958510831279153243"
+  ]
+}

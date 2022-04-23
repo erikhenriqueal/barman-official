@@ -1,0 +1,21 @@
+
+{
+  "channelId": "831174452606926929",
+  "guildId": "472200926820827157",
+  "id": "964924976467693589",
+  "createdTimestamp": 1650126441829,
+  "type": "DEFAULT",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "✏️ Mensagem Recebida",
+      "description": "**⏰ Data:** 16/04/2022 13:27:21\n**🎯 Canal:** <#472228705893351435>\n**📝 Conteúdo:** 3p OS MOLEQUE TEM FAL, OS ALEMÃO SABE SE BROTA PASSA MAL (LC SHEIK)\n**🎲 ID de Registro:** ||i0zwpe6uc1yolzr33nzdxgvp1||",
+      "color": 16438033,
+      "timestamp": 1650126441690
+    }
+  ],
+  "attachments": [
+    "964924976543178794"
+  ]
+}

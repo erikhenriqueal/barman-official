@@ -1,0 +1,18 @@
+
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "940042534921601104",
+  "createdTimestamp": 1644194005471,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "💥 Falha na Execução",
+      "description": "Perdão <@897291486285156362>, mas infelizmente recebi um erro inesperado ao executar seu comando. Fica tranquilo! Meu desenvolvedor já foi avisado e logo logo corrigiremos o erro.",
+      "color": 16388369,
+      "timestamp": 1644194007445
+    }
+  ]
+}

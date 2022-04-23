@@ -1,0 +1,18 @@
+
+{
+  "channelId": "858214878770626591",
+  "guildId": "472200926820827157",
+  "id": "939976325131812875",
+  "createdTimestamp": 1644178219827,
+  "type": "REPLY",
+  "authorId": "903730942286364702",
+  "embeds": [
+    {
+      "type": "rich",
+      "title": "🪅 Restaurando Sistema",
+      "description": "<@897291486285156362>, você iniciou uma restauração em nosso Sistema.\nNão se preoculpe, isso não vai demorar muito! Já estou procurando por erros que possam ser corrigidos.\nAbaixo você encontra todo o processo da restauração, assim que finalizado, você saberá por lá.",
+      "color": 16438033,
+      "timestamp": 1644178219771
+    }
+  ]
+}
