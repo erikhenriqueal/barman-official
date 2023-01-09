@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "module": "CommonJS",
+    "target": "ES2022",
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": [ "./src/**/*.*" ],
+  "exclude": [ "./node_modules", "./src/index1.ts" ]
+}

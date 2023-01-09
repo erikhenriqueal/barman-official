@@ -1,0 +1,12 @@
+node_modules
+logs
+dist
+
+src/index1.ts
+
+yarn.lock
+yarn-error.log
+
+.env
+secret.txt
+mysql_schema.json

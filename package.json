@@ -1,0 +1,29 @@
+{
+  "name": "barman-official",
+  "version": "2.0.0",
+  "description": "It's a bot for my friend's community.",
+  "author": {
+    "name": "Erik H. A. Lima",
+    "email": "privado.erikhenrique@gmail.com",
+    "url": "https://github.com/erikhenriqueal"
+  },
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "dev": "tsnd --ignore-watch /./node_modules/ --rs src/index.ts",
+    "dev1": "tsnd --ignore-watch /./node_modules/ --rs src/index1.ts"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
