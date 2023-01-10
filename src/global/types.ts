@@ -24,4 +24,8 @@ declare global {
 	interface String {
 		resize(maxLength: number, options?: StringResizerOptions): string;
 	}
+
+	interface Math {
+		factorial(x: number): number;
+	}
 }

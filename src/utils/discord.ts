@@ -3,8 +3,8 @@ import log from './log';
 import { DiscordUtils } from '.';
 
 export namespace Patterns {
-	export const SnowflakeId: RegExp = new RegExp('\d{17,19}');
-	export const UserTag: RegExp = new RegExp('.{1,32}#\d{4}');
+	export const SnowflakeId: RegExp = new RegExp('^\\d{17,19}$');
+	export const UserTag: RegExp = new RegExp('^.{1,32}#\\d{4}$');
 }
 
 export namespace Cache {
@@ -65,10 +65,10 @@ export namespace DefaultEmbedsBuilders {
 		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL() });
 		if ((lang || interaction.locale) === 'pt-BR') embed
 		.setTitle('❌ Comando Inválido')
-		.setDescription(`> *Este comando não existe ou está em desenvolvimento.*`);
+		.setDescription(`> *Este comando está atualmente em desenvolvimento.*`);
 		else embed
 		.setTitle('❌ Invalid Command')
-		.setDescription(`> *This command doesn't exists on our network or is still being development.*`);
+		.setDescription(`> *This command is still being developed.*`);
 		return embed;
 	}
 }

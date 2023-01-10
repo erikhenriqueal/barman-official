@@ -1,5 +1,6 @@
 import Discord from 'discord.js';
 import { DiscordUtils } from '../../utils';
+import { database } from '../../';
 
 import UserCommandBuilder from '../../classes/UserCommand';
 export default new UserCommandBuilder()
@@ -7,10 +8,8 @@ export default new UserCommandBuilder()
 .setNameLocalization('pt-BR', 'Silenciar / Dessilenciar')
 .setDMPermission(false)
 .setDefaultMemberPermissions(new Discord.PermissionsBitField(['ModerateMembers', 'MuteMembers', 'DeafenMembers']).bitfield)
-.setExecute((interaction) => {
-	if (DiscordUtils.isDeveloperInteraction(interaction)) {
-
-	} else return interaction.sendReply({
+.setExecute(async (interaction) => {
+	interaction.sendReply({
 		ephemeral: true,
 		embeds: [ DiscordUtils.DefaultEmbedsBuilders.invalidCommand(interaction) ]
 	});

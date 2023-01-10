@@ -1,6 +1,8 @@
 import MySQL from 'mysql';
 import DatabaseUser, { DatabaseUserResolvable } from './DatabaseUser';
 import DatabaseGuild, { DatabaseGuildResolvable } from './DatabaseGuild';
+import { DiscordUtils } from '../utils';
+import { stringify } from '../utils/database';
 
 export default class Database {
 	static numberTypes = ['int', 'decimal', 'bigint', 'double', 'float', 'mediumint', 'real', 'tinyint', 'smallint'];
@@ -19,6 +21,18 @@ export default class Database {
 	
 	// Database Management
 	
+	/**
+	 * 
+	 */
+	public async query(string: string): Promise<{ results: any, fields?: MySQL.FieldInfo[] }> {
+		return new Promise((res, rej) => {
+			this.connection.query(string, (error: MySQL.MysqlError | null, results?: any, fields?: MySQL.FieldInfo[]) => {
+				if (error) return rej(error);
+				else return res({ results, fields });
+			});
+		});
+	}
+
 	/**
 	 * Returns the requested Column DataType or `undefined` if the column `table.column` doesn't exists.
 	 * @param table The table to find the column.
@@ -259,11 +273,57 @@ export default class Database {
 
 	constructor(connectionUri: string | MySQL.ConnectionConfig) {
 		this.connection = MySQL.createConnection(connectionUri);
-		this.connection.connect((error) => {
+		this.connection.connect(async (error) => {
 			if (error) return console.error(error);
 			const { host, database, user } = this.connection.config;
 			console.log(`[ MySQL ] Successfully connected as '${user}@${host}' in '${database}' database (schema).`);
 			this.available = true;
+
+			await this.query('CREATE TABLE IF NOT EXISTS `guilds` (`id` varchar(19) NOT NULL, `settings` text, `punishments` text, PRIMARY KEY (`id`))').catch(console.error);
+			await this.query('CREATE TABLE IF NOT EXISTS `users` (`id` varchar(19) NOT NULL, `punishments` text, `preferencies` text, PRIMARY KEY (`id`))').catch(console.error);
+
+			// await this.query('SHOW TABLES').then(async (res) => {
+			// 	const tables = res.results.map((r) => Object.values(r)).flat();
+			// 	for (const tablename of ['guilds', 'users']) {
+			// 		if (tables.includes(tablename)) {
+			// 			const table = (await this.query(`DESCRIBE ${tablename}`)).results;
+			// 			if (tablename === 'guilds') {
+			// 				const id = table.find((i) => i.Field === 'id'); // 
+			// 				const settings = table.find((i) => i.Field === 'settings');
+			// 				const punishments = table.find((i) => i.Field === 'punishments');
+							
+			// 			} else if (tablename === 'users') {
+			// 				const id = table.find((i) => i.Field === 'id');
+			// 				const punishments = table.find((i) => i.Field === 'punishments');
+			// 				const preferencies = table.find((i) => i.Field === 'preferencies');
+							
+			// 			}
+			// 		}
+			// 	}
+			// }).catch(console.error);
+
+			const guilds = await this.getGuilds();
+			for (const guild of guilds) {
+				if (!DiscordUtils.Patterns.SnowflakeId.test(guild.id)) throw new Error(`[ Database ] Invalid database ID '${guild.id}'`);
+				if (!Array.isArray(guild.punishments)) guild.punishments = [];
+				else for (const punishment of guild.punishments) {
+					if (!DiscordUtils.Patterns.SnowflakeId.test(punishment.authorId)) throw new Error(`[ Database ] Invalid punishment 'authorId' value (${punishment.authorId}) in '${guild.id}'`);
+					if (!DiscordUtils.Patterns.SnowflakeId.test(punishment.userId)) throw new Error(`[ Database ] Invalid punishment 'userId' value (${punishment.userId}) in '${guild.id}'`);
+					if (!isNaN(punishment.timestamp) || !Number.isSafeInteger(punishment.timestamp)) throw new Error(`[ Database ] Invalid punishment 'timestamp' (${punishment.timestamp}) in '${guild.id}'`);
+					if (!['ban', 'kick', 'mute'].includes(punishment.type)) throw new Error(`[ Database ] Punishment type '${punishment.type}' for '${guild.id}' doesn't match the choices: 'ban', 'kick' or 'mute'`);
+				}
+				if (!Array.isArray(guild.settings)) guild.settings = [];
+				else for (const setting of guild.settings) {
+					if (!DiscordUtils.Patterns.SnowflakeId.test(setting.id)) throw new Error(`[ Database ] Invalid setting 'id' value (${setting.id}) in '${guild.id}'`);
+					for (const name of [setting.name, ...Object.values(setting.nameLocalizations)]) if (!checkName(name)) throw new Error(`[ Database ] Invalid setting name '${name}' in '${guild.id}'`);
+					if (!['channel', 'role'].includes(setting.type)) throw new Error(`[ Database ] Invalid setting 'type' value (${setting.type}) in '${guild.id}'`);
+					function checkName(name: string): boolean {
+						return typeof name === 'string' && name.trim().length > 0;
+					}
+				}
+
+				await this.editGuild(guild, guild.toJSON());
+			}
 		});
 		this.connection.on('disconnect', (...args) => console.error(`[ MySQL ] Application disconnected.`, ...args));
 		this.connection.on('exit', (...args) => console.error(`[ MySQL ] Application exited.`, ...args));

@@ -25,7 +25,7 @@ export interface GuildPunishments<T extends keyof GuildPunishmentsTypes> {
 	userId: string;
 	authorId: string;
 	reason: string;
-	timestamp: string;
+	timestamp: number;
 	duration: number;
 }
 
@@ -151,15 +151,23 @@ export default class DatabaseGuild implements GuildData {
 	constructor(data: DatabaseGuildResolvable) {
 		if (!data || (typeof data !== 'string' && !data.id)) throw new Error(`[ DatabaseGuild - Invalid Data ] Can't obtain informations from '${data}'`);
 		const id = typeof data === 'string' ? data : data.id;
-		if (!/\d{17,19}/.test(id)) throw new Error(`[ DatabaseGuild - Invalid ID ] Guild's ID '${id}' is not valid.`);
+		if (!DiscordUtils.Patterns.SnowflakeId.test(id)) throw new Error(`[ DatabaseGuild - Invalid ID ] Guild's ID '${id}' is not valid.`);
 		this.id = id;
 		if (typeof data === 'string' || !data.settings) this.settings = [];
 		else if (typeof data.settings === 'string') {
 			try {
 				this.settings = parse(data.settings);
 			} catch(error) {
-				throw new Error(`[ DatabaseGuild - Invalid JSON ] Can't parse JSON object.`, error);
+				throw new Error(`[ DatabaseGuild - Invalid JSON ] Can't parse 'settings' JSON object.`, error);
 			}
 		} else this.settings = data.settings;
+		if (typeof data === 'string' || !data.punishments) this.punishments = [];
+		else if (typeof data.punishments === 'string') {
+			try {
+				this.punishments = parse(data.punishments);
+			} catch(error) {
+				throw new Error(`[ DatabaseGuild - Invalid JSON ] Can't parse 'punishments' JSON object.`, error);
+			}
+		} else this.punishments = data.punishments;
 	}
 }

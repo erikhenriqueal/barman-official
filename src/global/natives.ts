@@ -55,3 +55,10 @@ String.prototype.resize = function resize(this: string, maxLength, options): str
 	const e: boolean = maxLength >= this.length && options?.ellipsis ? false : true;
 	return `${this.slice(0, e ? maxLength - 3 : maxLength)}${e ? '...' : ''}`;
 }
+
+Math.factorial = function factorial(this: string, x: number) {
+	if (!Number.isSafeInteger(x)) return NaN;
+	let a = 1;
+	for (let b = 1; b <= x; b++) a = a * b;
+	return a;
+}
