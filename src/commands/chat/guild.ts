@@ -17,6 +17,8 @@ export default new InputCommandBuilder()
 .setNameLocalization('pt-BR', 'servidor')
 .setDescription('Manage this server settings.')
 .setDescriptionLocalization('pt-BR', 'Gerencie as configurações deste servidor.')
+.setDMPermission(false)
+.setDefaultMemberPermissions(Discord.PermissionFlagsBits.ManageGuild)
 .addSubcommand(
 	new Discord.SlashCommandSubcommandBuilder()
 	.setName('see')

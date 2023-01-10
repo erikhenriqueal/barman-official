@@ -45,13 +45,45 @@ export namespace Cache {
 }
 
 export namespace DefaultEmbedsBuilders {
-	export function unauthorized(interaction: Discord.RepliableInteraction) {
-		return new Discord.EmbedBuilder()
+	export function unauthorized(interaction: Discord.RepliableInteraction, lang?: Discord.LocaleString): Discord.EmbedBuilder {
+		const embed = new Discord.EmbedBuilder()
 		.setColor(interaction.guild?.members.me.displayHexColor)
-		.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL({ forceStatic: false }) })
+		.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL() })
+		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL() });
+		if ((lang || interaction.locale) === 'pt-BR') embed
 		.setTitle(`🚫 Operação Bloqueada`)
-		.setDescription(`Desculpe ${interaction.user.toString()}, mas não possuo permissões o suficiente para executar esta ação.`)
-		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL({ forceStatic: false }) })
+		.setDescription(`> *Desculpe ${interaction.user.toString()}, mas não possuo permissões o suficiente para executar esta ação.*`);
+		else embed
+		.setTitle('🚫 Operation Blocked')
+		.setDescription(`> *Sorry ${interaction.user.toString()}, but I don't have sufficient permissions to do this action.*`);
+		return embed;
+	}
+	export function invalidCommand(interaction: Discord.RepliableInteraction, lang?: Discord.LocaleString): Discord.EmbedBuilder {
+		const embed = new Discord.EmbedBuilder()
+		.setColor(interaction.guild?.members.me.displayHexColor)
+		.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL() })
+		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL() });
+		if ((lang || interaction.locale) === 'pt-BR') embed
+		.setTitle('❌ Comando Inválido')
+		.setDescription(`> *Este comando não existe ou está em desenvolvimento.*`);
+		else embed
+		.setTitle('❌ Invalid Command')
+		.setDescription(`> *This command doesn't exists on our network or is still being development.*`);
+		return embed;
+	}
+}
+
+export function isDeveloperInteraction(interaction: Discord.Interaction): boolean {
+	const hasDeveloperRole = interaction.member.roles instanceof Discord.GuildMemberRoleManager
+	? interaction.member.roles.cache.some((r) => matchName(r.name))
+	: interaction.member.roles.some((id) => matchName(interaction.guild.roles.cache.get(id)?.name));
+	
+	if (interaction.guildId == process.env.MAIN_GUILD_ID && hasDeveloperRole) return true;
+	return false;
+	
+	function matchName(name: string): boolean {
+		const developerRoleMatchs = ['developer', 'desenvolvedor'];
+		return name.toLowerCase().split(' ').some((a) => developerRoleMatchs.includes(a));
 	}
 }
 
