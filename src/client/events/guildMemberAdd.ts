@@ -1,6 +1,6 @@
 import { EmbedBuilder } from 'discord.js';
 import { database } from '../index';
-import Event from '../classes/Event';
+import Event from '../../classes/Event';
 export default new Event('guildMemberAdd', __dirname, async (member) => {
 	if (!(await database.hasUser(member.user.id))) await database.addUser(member.user.id);
 	// const databaseUser = await database.getUser(member.user.id);
@@ -31,7 +31,7 @@ export default new Event('guildMemberAdd', __dirname, async (member) => {
 		.setTitle(`🚩 Membro Novo! Seja muito bem-vindo(a) ${member.user.username} ao ${member.guild.name}`)
 		.setThumbnail(member.guild.iconURL())
 		.setDescription(`${welcomePhrases[Number.random(0, welcomePhrases.length - 1)]}`)
-		.setImage(member.guild.bannerURL({ size: 512 }))
+		.setImage(member.guild.bannerURL({ size: 1024 }))
 		.setFooter({ text: 'Obrigado por entrar!', iconURL: member.user.displayAvatarURL() });
 
   return await channel.send({ content: member.user.toString(), embeds: [welcomeEmbed] });

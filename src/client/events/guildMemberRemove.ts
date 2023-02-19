@@ -1,6 +1,6 @@
 import { EmbedBuilder } from 'discord.js';
-import { database } from '../';
-import Event from '../classes/Event';
+import { database } from '..';
+import Event from '../../classes/Event';
 export default new Event('guildMemberRemove', __dirname, async (member) => {
 	const databaseGuild = await database.getGuild(member.guild.id);
 	
@@ -13,7 +13,7 @@ export default new Event('guildMemberRemove', __dirname, async (member) => {
   const leftPhrases = [
     `${member.user.username} deixou nossa Rede. Espero que um dia ele(a) volte!`,
     `${member.user.username} abandonou nosso navio, infelizmente não sabia nadar e foi devorado por tubarões...`,
-    `Batalhão, temos um soldado ferido! Deem adeus à ${member.user.username}...`
+    `Batalhão, temos um soldado ferido! Dêem adeus à ${member.user.username}...`
   ];
 
   const leftEmbed = new EmbedBuilder()

@@ -1,9 +1,9 @@
 import { EmbedBuilder } from 'discord.js';
-import InputCommandBuilder from '../classes/InputCommand';
-import MessageCommandBuilder from '../classes/MessageCommand';
-import UserCommandBuilder from '../classes/UserCommand';
-import Event from '../classes/Event';
-import { sendReply, ChatInputCommandInteraction, MessageContextMenuCommandInteraction, InteractionReplyOptions, UserContextMenuCommandInteraction } from '../classes/Interaction';
+import InputCommandBuilder from '../../classes/InputCommand';
+import MessageCommandBuilder from '../../classes/MessageCommand';
+import UserCommandBuilder from '../../classes/UserCommand';
+import Event from '../../classes/Event';
+import { sendReply, ChatInputCommandInteraction, MessageContextMenuCommandInteraction, InteractionReplyOptions, UserContextMenuCommandInteraction } from '../../classes/Interaction';
 
 export default new Event('interactionCreate', __dirname, async (responseInteraction) => {
   if (responseInteraction.isAutocomplete()) {

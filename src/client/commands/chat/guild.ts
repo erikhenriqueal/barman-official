@@ -1,6 +1,6 @@
 import Discord from 'discord.js';
-import { database } from '../../';
-import InputCommandBuilder from '../../classes/InputCommand';
+import { database } from '../../../client';
+import InputCommandBuilder from '../../../classes/InputCommand';
 
 const channelDefaults: {[key: string]: Discord.ApplicationCommandOptionChoiceData } = {
 	default_join: { name: '⛳ Default Join Channel', nameLocalizations: { 'pt-BR': '⛳ Canal de Entradas Padrão' }, value: 'default_join' },
@@ -36,15 +36,15 @@ export default new InputCommandBuilder()
 	)
 ).addSubcommandGroup(
 	new Discord.SlashCommandSubcommandGroupBuilder()
-	.setName('add')
-	.setNameLocalization('pt-BR', 'adicionar')
-	.setDescription('Adds a new option in your guild settings.')
-	.setDescriptionLocalization('pt-BR', 'Adiciona uma nova opção nas configurações do servidor.')
+	.setName('set')
+	.setNameLocalization('pt-BR', 'definir')
+	.setDescription('Adds or changes a new option in your guild settings.')
+	.setDescriptionLocalization('pt-BR', 'Adiciona ou altera uma nova opção nas configurações do servidor.')
 	.addSubcommand(
 		new Discord.SlashCommandSubcommandBuilder()
 		.setName('channel')
 		.setNameLocalization('pt-BR', 'canal')
-		.setDescription('Adds a new channel option in your guild settings.')
+		.setDescription('Adds or changes a new channel option in your guild settings.')
 		.setDescriptionLocalization('pt-BR', 'Adiciona uma nova opção nas configurações do servidor.')
 		.addStringOption(
 			new Discord.SlashCommandStringOption()
@@ -73,7 +73,7 @@ export default new InputCommandBuilder()
 		new Discord.SlashCommandSubcommandBuilder()
 		.setName('role')
 		.setNameLocalization('pt-BR', 'cargo')
-		.setDescription('Adds a new role option in your guild settings.')
+		.setDescription('Adds or changes a new role option in your guild settings.')
 		.setDescriptionLocalization('pt-BR', 'Adiciona uma nova opção nas configurações do servidor.')
 		.addStringOption(
 			new Discord.SlashCommandStringOption()
@@ -99,28 +99,6 @@ export default new InputCommandBuilder()
 			.setDescription('O nome para se referir à esta opção. (em pt-BR)')
 		)
 	)
-).addSubcommand(
-	new Discord.SlashCommandSubcommandBuilder()
-	.setName('change')
-	.setNameLocalization('pt-BR', 'alterar')
-	.setDescription('Modify the guild settings data.')
-	.setDescriptionLocalization('pt-BR', 'Altera as configurações do servidor.')
-	.addStringOption(
-		new Discord.SlashCommandStringOption()
-		.setName('selector')
-		.setNameLocalization('pt-BR', 'seletor')
-		.setDescription('A label or id to select a setting.')
-		.setDescriptionLocalization('pt-BR', 'Nome ou identificador (id) da opção à ser alterada.')
-		.setRequired(true)
-		.setAutocomplete(true)
-	).addStringOption(
-		new Discord.SlashCommandStringOption()
-		.setName('value')
-		.setNameLocalization('pt-BR', 'valor')
-		.setDescription('Defines the value for this option.')
-		.setDescriptionLocalization('pt-BR', 'Define o valor desta opção.')
-		.setRequired(true)
-	)
 ).setAutocomplete(async (interaction) => {
 	if (!await database.hasGuild(interaction.guildId)) await database.addGuild(interaction.guildId);
 	const databaseGuild = await database.getGuild(interaction.guildId);
@@ -132,24 +110,18 @@ export default new InputCommandBuilder()
 	if (subcommandName === 'see' && focused.name === 'label') return databaseGuild.settings.map((i) => channelDefaults[i.name] ? channelDefaults[i.name] : ({ name: i.name, value: i.id }));
 	
 	// Add SubcommandGroup
-	if (subcommandGroupName === 'add') {
+	if (subcommandGroupName === 'set') {
 		if (subcommandName === 'channel' && focused.name === 'id') return Object.keys(channelDefaults).map((k) => ({ name: k, value: k }));
 		else if (subcommandName === 'role' && focused.name === 'id') return Object.keys(roleDefaults).map((k) => ({ name: k, value: k }));
-	}
-
-	// Change Subcommand
-	if (subcommandName === 'change') {
-		if (focused.name === 'selector') return [
-			...databaseGuild.settings.map((i) => ({ name: i.id, value: i.id })),
-			...databaseGuild.settings.map((i) => ({ name: i.name, value: i.id }))
-		];
 	}
 	return [];
 }).setExecute(async (interaction) => {
 	const embed = new Discord.EmbedBuilder()
 		.setColor(interaction.guild?.members.me.displayHexColor)
 		.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.avatarURL() })
-		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL() })
+		.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL() });
+	
+	const targetLang = (await database.getUser(interaction.user.id)).preferencies.lang || interaction.locale || interaction.guild.preferredLocale || interaction.guildLocale;
 
 	const subcommand = interaction.options.getSubcommand(true);
 	const subcommandGroup = interaction.options.getSubcommandGroup();
@@ -187,41 +159,113 @@ export default new InputCommandBuilder()
 				.setDescription(settings.map((i) => `• ${i.nameLocalizations[interaction.locale] ? i.nameLocalizations[interaction.locale] : i.name} (\`${i.id}\`): <${i.type === 'channel' ? '#' : i.type === 'role' ? '@&' : ''}${i.value}>`).join('\n'))
 			]
 		});
-	} if (subcommandGroup === 'add') {
+	} if (subcommandGroup === 'set') {
 		if (subcommand === 'channel') {
 			const id = interaction.options.getString('id', true);
 			const channel = interaction.options.getChannel('channel', true);
 			const label = interaction.options.getString('label');
 			const nome = interaction.options.getString('nome');
 
+			const oldValues = databaseGuild.getSetting(id, 'channel');
+			console.log(databaseGuild);
+
 			if (Object.keys(channelDefaults).includes(id)) {
 				const targetDefault = channelDefaults[id];
 				databaseGuild.setSetting('channel', id, targetDefault.name, channel.id, targetDefault.nameLocalizations);
-			}
-			databaseGuild.setSetting('channel', id, label, channel.id, { 'pt-BR': nome });
+			} else databaseGuild.setSetting('channel', id, label, channel.id, { 'pt-BR': nome });
 
 			const updatedDatabaseGuild = await database.editGuild(databaseGuild.id, databaseGuild);
+			console.log(updatedDatabaseGuild);
 
-			const added = updatedDatabaseGuild.getSetting(id, 'channel');
-			return interaction.sendReply({
-				ephemeral: true,
-				embeds: [ embed
-					.setTitle('⚙️ Item Alterado com Sucesso!')
-					.setDescription(`Pronto ${interaction.user.toString()}, as configurações de seu servidor foram alteradas!\n\n> Alterações feitas:\n> • ID: ${added.id}\n> Nome (en-US): ${added.name}\n> • Nome (pt-BR): ${added.nameLocalizations['pt-BR'] || '*nenhum*'}\n> • Canal: <#${added.value}>`)
-				]
-			});
+			const newValues = updatedDatabaseGuild.getSetting(id, 'channel');
+			console.log(newValues);
+
+			console.log(await database.getGuild(databaseGuild.id));
+
+			if (oldValues) {
+				if (targetLang === 'pt-BR') return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Canal Alterado com Sucesso!')
+						.setDescription(`Pronto ${interaction.user.toString()}, a configuração do canal ${newValues?.nameLocalizations['pt-BR'] || newValues.name} (\`${newValues.id}\`) foi alterada.\n\n> Alterações feitas:\n> • ID: ${newValues.id}\n> • Nome (en-US): ${oldValues.name} -> ${newValues.name}\n> • Nome (pt-BR): ${oldValues?.nameLocalizations['pt-BR'] || '*nenhum*'} -> ${newValues?.nameLocalizations['pt-BR'] || '*nenhum*'}\n> • Canal: <#${oldValues.value}> -> <#${newValues.value}>`)
+					]
+				});
+				else return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Channel Sucessfully Changed.!')
+						.setDescription(`Well done, ${interaction.user.toString()}! Channel ${newValues.name} (\`${newValues.id}\`) setting was changed.\n\n> Changes done:\n> • ID: ${newValues.id}\n> • Name (en-US): ${newValues.name}\n> • Name (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*none*'}\n> • Channel: <#${newValues.value}>`)
+					]
+				});
+			} else {
+				if (targetLang === 'pt-BR') return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Canal Adicionado com Sucesso!')
+						.setDescription(`Pronto ${interaction.user.toString()}, o canal ${newValues?.nameLocalizations['pt-BR'] || newValues.name} (\`${newValues.id}\`) foi adicionado às configurações.\n\n> • ID: ${newValues.id}\n> • Nome (en-US): ${newValues.name}\n> • Nome (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*nenhum*'}\n> • Cargo: <#${newValues.value}>`)
+					]
+				});
+				else return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Channel Sucessfully Added!')
+						.setDescription(`Well done, ${interaction.user.toString()}! Channel ${newValues.name} (\`${newValues.id}\`) setting was added.\n\n> • ID: ${newValues.id}\n> • Name (en-US): ${newValues.name}\n> • Name (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*none*'}\n> • Role: <#${newValues.value}>`)
+					]
+				});
+			}
+
 		} else if (subcommand === 'role') {
 			const id = interaction.options.getString('id', true);
 			const role = interaction.options.getRole('role', true);
 			const label = interaction.options.getString('label');
 			const nome = interaction.options.getString('nome');
+
+			const oldValues = databaseGuild.getSetting(id, 'role');
+
+			if (Object.keys(roleDefaults).includes(id)) {
+				const targetDefault = roleDefaults[id];
+				databaseGuild.setSetting('role', id, targetDefault.name, role.id, targetDefault.nameLocalizations);
+			} else databaseGuild.setSetting('role', id, label, role.id, { 'pt-BR': nome });
+
+			const updatedDatabaseGuild = await database.editGuild(databaseGuild.id, databaseGuild);
+
+			const newValues = updatedDatabaseGuild.getSetting(id, 'role');
+
+			if (oldValues) {
+				if (targetLang === 'pt-BR') return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Cargo Alterado com Sucesso!')
+						.setDescription(`Pronto ${interaction.user.toString()}, a configuração do cargo ${newValues?.nameLocalizations['pt-BR'] || newValues.name} (\`${newValues.id}\`) foi alterada.\n\n> Alterações feitas:\n> • ID: ${newValues.id}\n> • Nome (en-US): ${oldValues.name} -> ${newValues.name}\n> • Nome (pt-BR): ${oldValues?.nameLocalizations['pt-BR'] || '*nenhum*'} -> ${newValues?.nameLocalizations['pt-BR'] || '*nenhum*'}\n> • Cargo: <@&${oldValues.value}> -> <@&${newValues.value}>`)
+					]
+				});
+				else return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Role Sucessfully Changed.!')
+						.setDescription(`Well done, ${interaction.user.toString()}! Role ${newValues.name} (\`${newValues.id}\`) setting was changed.\n\n> Changes done:\n> • ID: ${newValues.id}\n> • Name (en-US): ${newValues.name}\n> • Name (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*none*'}\n> • Role: <@&${newValues.value}>`)
+					]
+				});
+			} else {
+				if (targetLang === 'pt-BR') return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Cargo Adicionado com Sucesso!')
+						.setDescription(`Pronto ${interaction.user.toString()}, o cargo ${newValues?.nameLocalizations['pt-BR'] || newValues.name} (\`${newValues.id}\`) foi adicionado às configurações.\n\n> • ID: ${newValues.id}\n> • Nome (en-US): ${newValues.name}\n> • Nome (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*nenhum*'}\n> • Cargo: <@&${newValues.value}>`)
+					]
+				});
+				else return interaction.sendReply({
+					ephemeral: true,
+					embeds: [ embed
+						.setTitle('⚙️ Role Sucessfully Added!')
+						.setDescription(`Well done, ${interaction.user.toString()}! Role ${newValues.name} (\`${newValues.id}\`) setting was added.\n\n> • ID: ${newValues.id}\n> • Name (en-US): ${newValues.name}\n> • Name (pt-BR): ${newValues?.nameLocalizations['pt-BR'] || '*none*'}\n> • Role: <@&${newValues.value}>`)
+					]
+				});
+			}
 		}
-	} else if (subcommand === 'change') {
-		const selector = interaction.options.getString('selector', true);
-		const value = interaction.options.getString('value');
 	}
 
-  interaction.sendReply({
+  if (targetLang === 'pt-BR') return interaction.sendReply({
 		ephemeral: true,
 		embeds: [
     	new Discord.EmbedBuilder()
@@ -229,6 +273,17 @@ export default new InputCommandBuilder()
 			.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL({ forceStatic: false }) })
 			.setTitle('⚙️ Configurações')
 			.setDescription(`> *Este comando está atualmente em desenvolvimento.*`)
+			.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL({ forceStatic: false }) })
+		]
+	});
+	return interaction.sendReply({
+		ephemeral: true,
+		embeds: [
+    	new Discord.EmbedBuilder()
+			.setColor(interaction.guild?.members.me.displayHexColor)
+			.setAuthor({ name: interaction.user.tag, iconURL: interaction.user.displayAvatarURL({ forceStatic: false }) })
+			.setTitle('⚙️ Settings')
+			.setDescription(`> *This command is still being developed.*`)
 			.setFooter({ text: `${interaction.guild?.name || interaction.client.user.username} © ${new Date().getFullYear()}`, iconURL: interaction.guild?.iconURL({ forceStatic: false }) })
 		]
 	});

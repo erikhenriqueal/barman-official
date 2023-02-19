@@ -1,1 +1,1 @@
-import './natives';
+import './natives'

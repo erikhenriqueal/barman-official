@@ -1,8 +1,8 @@
 import Discord from 'discord.js';
-import { DiscordUtils } from '../../utils';
+import { DiscordUtils } from '../../../utils';
 import { database } from '../../';
 
-import UserCommandBuilder from '../../classes/UserCommand';
+import UserCommandBuilder from '../../../classes/UserCommand';
 export default new UserCommandBuilder()
 .setName('Mute / Unmute')
 .setNameLocalization('pt-BR', 'Silenciar / Dessilenciar')

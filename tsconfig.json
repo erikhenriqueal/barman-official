@@ -8,5 +8,5 @@
     "resolveJsonModule": true
   },
   "include": [ "./src/**/*.*" ],
-  "exclude": [ "./node_modules", "./src/index1.ts" ]
+  "exclude": [ "./node_modules" ]
 }

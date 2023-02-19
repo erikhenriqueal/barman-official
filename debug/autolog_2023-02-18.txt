@@ -1,0 +1,18 @@
+[ 18/02/2023, 23:39:19.997 ] [ DEBUG ] [ Debugging ] Debugging mode is active.
+[ 18/02/2023, 23:39:19.997 ] [ DEBUG ] true
+[ 18/02/2023, 23:39:20.001 ] [ DEBUG ] [ Debug - Source ] 'ext' variable: .ts
+[ 18/02/2023, 23:39:20.006 ] [ DEBUG ] [ Debug - Source ] 'ext' variable: .ts
+[ 18/02/2023, 23:39:24.479 ] [ DEBUG ] Initializing client
+[ 18/02/2023, 23:39:24.841 ] [ DEBUG ] Initializing database
+[ 18/02/2023, 23:39:24.963 ] [ DEBUG ] Initializing events
+[ 18/02/2023, 23:39:26.715 ] [ DEBUG ] Initializing commands
+[ 18/02/2023, 23:39:27.617 ] [ DEBUG ] Logging in client
+[ 18/02/2023, 23:39:28.303 ] [ DEBUG ] Verifying system integrity
+[ 18/02/2023, 23:41:01.933 ] [ DEBUG ] Debugging mode is active.
+[ 18/02/2023, 23:41:01.941 ] [ DEBUG ] Working with '.ts' extension
+[ 18/02/2023, 23:41:06.694 ] [ DEBUG ] Initializing client
+[ 18/02/2023, 23:41:07.089 ] [ DEBUG ] Initializing database
+[ 18/02/2023, 23:41:07.231 ] [ DEBUG ] Initializing events
+[ 18/02/2023, 23:41:09.151 ] [ DEBUG ] Initializing commands
+[ 18/02/2023, 23:41:10.165 ] [ DEBUG ] Logging in client
+[ 18/02/2023, 23:41:10.844 ] [ DEBUG ] Verifying system integrity

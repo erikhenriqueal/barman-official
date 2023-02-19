@@ -31,10 +31,10 @@ export default class DatabaseUser implements UserData {
 		if (!Patterns.SnowflakeId.test(userId)) return false;
 		if (typeof data !== 'string') {
 			try {
-				if (typeof data.preferencies === 'string') JSON.parse(data.preferencies);
-				else JSON.stringify(data.preferencies);
-				if (typeof data.punishments === 'string') JSON.parse(data.punishments);
-				else JSON.stringify(data.punishments);
+				if (typeof data.preferencies === 'string') parse(data.preferencies);
+				else stringify(data.preferencies);
+				if (typeof data.punishments === 'string') parse(data.punishments);
+				else stringify(data.punishments);
 			} catch(error) {
 				return false;
 			}

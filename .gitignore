@@ -2,7 +2,7 @@ node_modules
 logs
 dist
 
-src/index1.ts
+src/client/index1.ts
 
 yarn.lock
 yarn-error.log

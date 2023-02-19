@@ -48,10 +48,10 @@ export default class DatabaseGuild implements GuildData {
 		if (!Patterns.SnowflakeId.test(guildId)) return false;
 		if (typeof data !== 'string') {
 			try {
-				if (typeof data.settings === 'string') JSON.parse(data.settings);
-				else JSON.stringify(data.settings);
-				if (typeof data.punishments === 'string') JSON.parse(data.punishments);
-				else JSON.stringify(data.punishments);
+				if (typeof data.settings === 'string') parse(data.settings);
+				else stringify(data.settings);
+				if (typeof data.punishments === 'string') parse(data.punishments);
+				else stringify(data.punishments);
 			} catch(error) {
 				return false;
 			}
@@ -68,16 +68,16 @@ export default class DatabaseGuild implements GuildData {
 	 * @param prefix A prefix to filter all settings (if null, return all settings).
 	 * @param type A type to filter in the settings.
 	 */
-	public getSettings(prefix?: string, type?: keyof GuildSettingTypes): GuildSetting<keyof GuildSettingTypes>[] {
-		return this.settings?.filter((item) => (type ? item.type === type : true) && (prefix ? [item.id, item.name, ...Object.values(item.nameLocalizations || {})].some((s) => s.startsWith(prefix)) : true));
+	public getSettings<T extends keyof GuildSettingTypes>(prefix?: string, type?: T): GuildSetting<T>[] {
+		return this.settings?.filter((item) => (type ? item.type === type : true) && (prefix ? [item.id, item.name, ...Object.values(item.nameLocalizations || {})].some((s) => s.startsWith(prefix)) : true)) as GuildSetting<T>[];
 	}
 	/**
 	 * Returns a specific item from guild's settings.
 	 * @param id An identificator (`id`, `name` or `nameLocalization` properties) to find the setting.
 	 * @param type The type of required setting.
 	 */
-	public getSetting(id: string, type?: keyof GuildSettingTypes): GuildSetting<keyof GuildSettingTypes> | undefined {
-		const filteredTypes = this.settings.filter((item) => (type ? item.type === type : true));
+	public getSetting<T extends keyof GuildSettingTypes>(id: string, type?: T): GuildSetting<T> | undefined {
+		const filteredTypes = this.settings.filter((item) => (type ? item.type === type : true)) as GuildSetting<T>[];
 		const idMatch = filteredTypes.find((item) => item.id === id);
 		const nameMatch = filteredTypes.find((item) => item.name === id);
 		const nameLocalesMatch = filteredTypes.find((item) => Object.values(item.nameLocalizations || {}).some((name) => name === id));
@@ -96,7 +96,7 @@ export default class DatabaseGuild implements GuildData {
 	 * @param value 
 	 * @param nameLocalizations 
 	 */
-	public setSetting(type: keyof GuildSettingTypes, id: string, name: string, value: string, nameLocalizations?: LocalizationMap): GuildSetting<keyof GuildSettingTypes> {
+	public setSetting<T extends keyof GuildSettingTypes>(type: T, id: string, name: string, value: string, nameLocalizations?: LocalizationMap): GuildSetting<T> {
 		const target = this.getSetting(id, type);
 		if (target) {
 			if (target.name != name) target.name = name;
@@ -116,7 +116,7 @@ export default class DatabaseGuild implements GuildData {
 		}
 	}
 
-	public getPunishments(input?: Partial<GuildPunishments<keyof GuildPunishmentsTypes>>): GuildPunishments<keyof GuildPunishmentsTypes>[] {
+	public getPunishments<T extends keyof GuildPunishmentsTypes>(input?: Partial<GuildPunishments<T>>): GuildPunishments<T>[] {
 		return this.punishments.filter((punishment) => {
 			if (input?.authorId === punishment.authorId) return true;
 			if (input?.duration === punishment.duration) return true;
@@ -124,7 +124,7 @@ export default class DatabaseGuild implements GuildData {
 			if (input?.timestamp === punishment.timestamp) return true;
 			if (input?.userId === punishment.userId) return true;
 			return false;
-		});
+		}) as GuildPunishments<T>[];
 	}
 	public setPunishments(...inputs: GuildPunishments<keyof GuildPunishmentsTypes>[]): this {
 		for (let i = 0; i < inputs.length; i++) {

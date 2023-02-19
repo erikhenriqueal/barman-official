@@ -12,8 +12,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node .",
-    "dev": "tsnd --ignore-watch /./node_modules/ --rs src/index.ts",
-    "dev1": "tsnd --ignore-watch /./node_modules/ --rs src/index1.ts",
+    "dev": "tsnd --respawn src/index.ts",
 		"commit": "git add . && git commit -m \"Commit\" && git push -u origin main"
   },
   "dependencies": {

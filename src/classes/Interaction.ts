@@ -8,7 +8,7 @@ export function sendReply(interaction: Discord.Interaction<Discord.CacheType>, o
     if (interaction.replied || interaction.deferred) return interaction.editReply(options);
     else return interaction.reply(options);
   } catch(error) {
-    log(`[ Interaction - sendReply ] Can't reply to the interaction: ${error}`, true);
+    console.error(`[ Interaction - sendReply ] Can't reply to the interaction: ${error}`, true);
   }
 }
 
