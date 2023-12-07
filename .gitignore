@@ -6,7 +6,6 @@ yarn.lock
 yarn-error.log
 
 .env
-.editorconfig
 .gitignore
 secret.txt
 mysql_schema.json
