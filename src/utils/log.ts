@@ -2,11 +2,11 @@ import '../global'
 import { join, normalize, parse } from 'path'
 import fs from 'fs'
 
-export default function log(options: string | { paths?: string[], message: string, timestamp?: number }, print: boolean = false, printDate: boolean = false): void {
+export default function log(options: string | { paths?: string[], message: string, timestamp?: number, type?: 'default' | 'error' }, print: boolean = false, printDate: boolean = false): void {
 	const date = new Date(typeof options === 'string' || !options.timestamp ? Date.now() : options.timestamp)
 	const rawMessage = typeof options === 'string' ? options : options.message
 	const message = rawMessage.split('\n').map((ln) => `[ ${date.format('d/mon/y, h:min:s.ms')} ] ${ln}`).join('\n')
-	const paths = [ join(process.cwd(), 'logs'), ...(typeof options === 'string' ? [] : options.paths || []) ].map(p => normalize(p)).uniques()
+	const paths = [ join(process.cwd(), 'logs'), ...(typeof options === 'string' ? [] : [...(options.paths || []), ...(options.type === 'error' ? [join(process.cwd(), 'logs/errors')] : [])]) ].map(p => normalize(p)).uniques()
 	if (print) {
 		if (printDate) console.log(message)
 		else console.log(rawMessage)

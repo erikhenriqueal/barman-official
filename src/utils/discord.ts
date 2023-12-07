@@ -1,4 +1,6 @@
 import Discord from 'discord.js'
+import log from './log'
+import { sendReply, MessageInteractionReplyOptions } from '../classes/Interaction'
 
 export namespace Patterns {
 	export const SnowflakeId: RegExp = new RegExp('^\\d{17,19}$')
@@ -43,6 +45,12 @@ export namespace Cache {
 }
 
 export namespace DefaultEmbedsBuilders {
+	/**
+	 * ```
+	 * Title -> '🚫 Operation Blocked'  
+	 * Description -> '> *Sorry ${user}, but I don't have sufficient permissions to do this action.*'
+	 * ```
+	 */
 	export function unauthorized(interaction: Discord.RepliableInteraction, lang?: Discord.LocaleString): Discord.EmbedBuilder {
 		const embed = new Discord.EmbedBuilder()
 			.setColor(interaction.guild?.members.me.displayHexColor)
@@ -56,6 +64,12 @@ export namespace DefaultEmbedsBuilders {
 			.setDescription(`> *Sorry ${interaction.user.toString()}, but I don't have sufficient permissions to do this action.*`)
 		return embed
 	}
+	/**
+	 * ```
+	 * Title -> '❌ Invalid Command'  
+	 * Description -> '> *This command is still being developed.*'
+	 * ```
+	 */
 	export function invalidCommand(interaction: Discord.RepliableInteraction, lang?: Discord.LocaleString): Discord.EmbedBuilder {
 		const embed = new Discord.EmbedBuilder()
 			.setColor(interaction.guild?.members.me.displayHexColor)
@@ -71,17 +85,22 @@ export namespace DefaultEmbedsBuilders {
 	}
 }
 
-export function isDeveloperInteraction(interaction: Discord.Interaction): boolean {
+export function isDeveloperInteraction(interaction: Discord.Interaction<Discord.CacheType> | Discord.Message<boolean>, developerOnly?: boolean): boolean {
 	const hasDeveloperRole = interaction.member.roles instanceof Discord.GuildMemberRoleManager
-		? interaction.member.roles.cache.some((r) => matchName(r.name))
-		: interaction.member.roles.some((id) => matchName(interaction.guild.roles.cache.get(id)?.name))
+		? interaction.member.roles.cache.some(r => matchName(r.name))
+		: interaction.member.roles.some(id => matchName(interaction.guild.roles.cache.get(id)?.name))
 	
-	if (interaction.guildId == process.env.MAIN_GUILD_ID && hasDeveloperRole) return true
+	const userId = interaction instanceof Discord.Message ? interaction.author.id : interaction.user.id
+	const isServerOwner = interaction.guild.ownerId == userId
+	const isDeveloperAccount = process.env.DEVELOPER_ID == userId
+	
+	if ((developerOnly !== true && interaction.guildId == process.env.MAIN_GUILD_ID && (hasDeveloperRole || isServerOwner)) || isDeveloperAccount) return true
 	return false
 	
 	function matchName(name: string): boolean {
-		const developerRoleMatchs = ['developer', 'desenvolvedor']
-		return name.toLowerCase().split(' ').some((a) => developerRoleMatchs.includes(a))
+		if (typeof name != 'string') return false
+		const developerRoleMatchs = ['developer', 'desenvolvedor', 'dev', 'programador']
+		return name.toLowerCase().split(' ').some(a => developerRoleMatchs.includes(a))
 	}
 }
 
@@ -98,7 +117,7 @@ export function deleteMessages(channel: Discord.GuildTextBasedChannel, messages:
 		try {
 			const deleted = await channel.bulkDelete(targetMessages, true)
 			if (deleted.size < targetMessages.length && options.force === true) {
-				const nonDeleted = targetMessages.filter((m) => !deleted.some((d) => d.id === m.id))
+				const nonDeleted = targetMessages.filter(m => !deleted.some(d => d.id === m.id))
 				for (const message of nonDeleted) {
 					if (message.deletable) {
 						await message.delete()
@@ -108,8 +127,18 @@ export function deleteMessages(channel: Discord.GuildTextBasedChannel, messages:
 			}
 			return res(deleted)
 		} catch (error) {
-			console.error(`[ discord.ts - deleteMessages ] Can't delete messages: ${error}`)
+			log({ message: `[ discord.ts - deleteMessages ] Can't delete messages: ${error}`, type: 'error' }, true)
 			rej(error)
 		}
 	})
+}
+
+export type MessageInteraction<InGuild extends boolean = boolean> = Discord.Message<InGuild> & { sendReply(options: MessageInteractionReplyOptions): Promise<Discord.Message<boolean>> }
+export function createMessageInteraction<InGuild extends boolean = boolean>(message: Discord.Message<InGuild>): MessageInteraction<InGuild> {
+	const interaction: MessageInteraction<InGuild> = Object.assign(message, {
+		sendReply(options: MessageInteractionReplyOptions): Promise<Discord.Message<boolean>> {
+			return sendReply(message, options) as any
+		}
+	})
+	return interaction
 }

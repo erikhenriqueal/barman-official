@@ -27,7 +27,7 @@ Number.prototype.resize = function resize(
 }
 
 Date.prototype.format = function format(this: Date, replacer: string) {
-	return replacer.replace(/d|mon|y|h|min|s|ms|gmt/gi, (str) => {
+	return replacer.replace(/d|mon|y|h|min|s|ms|gmt/gi, str => {
 		switch (str.toLowerCase()) {
 			case 'd':
 				return `${this.getDate().resize(2)}`

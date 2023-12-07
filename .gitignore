@@ -1,13 +1,12 @@
 node_modules
-debug
 logs
 dist
-
-src/client/index1.ts
 
 yarn.lock
 yarn-error.log
 
 .env
+.editorconfig
+.gitignore
 secret.txt
 mysql_schema.json

@@ -1,8 +1,13 @@
-import MySQL from 'mysql'
-import DatabaseUser, { DatabaseUserResolvable } from './DatabaseUser'
-import DatabaseGuild, { DatabaseGuildResolvable } from './DatabaseGuild'
-import { DiscordUtils, debug } from '../utils'
-import { stringify } from '../utils/database'
+import MySQL from 'mysql2/promise'
+import { isPlainObject, mapValues } from 'lodash'
+
+export const { identify: identifyQuery } = require('sql-query-identifier')
+
+import DatabaseUser, { DatabaseUserData, DatabaseUserResolvable } from './DatabaseUser'
+import DatabaseGuild, { DatabaseGuildData, DatabaseGuildResolvable } from './DatabaseGuild'
+import { DatabaseUtils, DiscordUtils, debug } from '../utils'
+
+export type MySQLResult = MySQL.RowDataPacket[] | MySQL.RowDataPacket[][] | MySQL.OkPacket | MySQL.OkPacket[] | MySQL.ResultSetHeader
 
 export default class Database {
 	static numberTypes = ['int', 'decimal', 'bigint', 'double', 'float', 'mediumint', 'real', 'tinyint', 'smallint']
@@ -18,316 +23,319 @@ export default class Database {
 		return result
 	}
 	
-	public connection: MySQL.Connection
+	public readonly pool: MySQL.Pool;
+
+	public async getConnection(): Promise<MySQL.PoolConnection> {
+		const connection = await this.pool.getConnection()
+		connection.on('disconnect', (...args) => console.error(`[ MySQL ] Application disconnected.`, ...args))
+		connection.on('exit', (...args) => console.error(`[ MySQL ] Application exited.`, ...args))
+		connection.on('error', (...args) => {
+			console.error(`[ MySQL ] Received an error.`, ...args)
+			// console.error(`[ MySQL ] Received an error. Trying to force reload.`, ...args)
+			// connection.end(err => console.error(`[ MySQL ] Coudn't end connection`, err))
+		})
+		return connection
+	}
 	
 	// Database Management
 	
 	/**
-	 * 
+	 * Process the values to be queried.
+	 * @param value The value you want to process.
+	 * @param options Additional options:
+	 * ```
+	 * const options: Options = {
+	 * - json: 'Whether you want to parse Object\'s and Array\'s to a JSON String.'
+	 * }
+	 * ```
 	 */
-	public async query(string: string): Promise<{ results: any, fields?: MySQL.FieldInfo[] }> {
-		await this.awaitValidation()
-		return new Promise((res, rej) => {
-			debug(`Querying '${string}'...`)
-			
-			return this.connection.query(string, (error: MySQL.MysqlError | null, results?: any, fields?: MySQL.FieldInfo[]) => {
-				if (error) {
-					debug(`MySQL Query Error:`, error)
-					return rej(error)
+	public processValue(value: any, options?: { json?: boolean; }): any {
+		// typeof value === 'function'
+		// typeof value === 'object'
+		// typeof value === 'symbol'
+		// typeof value === 'undefined'
+		const bypassableTypes = [ 'bigint', 'boolean', 'number', 'string' ]
+		if (value === undefined) return null
+		if (bypassableTypes.includes(typeof value)) return value
+		if (Array.isArray(value) || isPlainObject(value)) {
+			if (options?.json === true) return JSON.stringify(value)
+			return mapValues(value, this.processValue)
+		}
+		return String(value)
+	}
+
+	/**
+	 * Parses your Query values by your SQL Query String.
+	 * @param queryString Query string of your request.
+	 * @param values Values you need to put in your query.
+	 * @param options Additional options.  
+	 * ---
+	 * - `options`.`force`: Uses bruteforce to prevent TypeError's by converting all invalid values to `null`. It's recommended to treat that errors by applying `NOT NULL` option on creating a new key.
+	 */
+	public parseQueryStringValues(queryString: string, values?: any, options?: { force?: boolean }): any {
+		if ([null, undefined].includes(values)) return null
+		
+		const bruteforce = options?.force === true
+		
+		const namedPlaceholders = queryString.match(/:[a-z]+/ig) || []
+		const [ { parameters: placeholders } ] = identifyQuery(queryString, { dialect: 'mysql' })
+		
+		const cause = {
+			query_string: queryString,
+			placeholders: placeholders,
+			named_placeholders: namedPlaceholders,
+			values
+		}
+		
+		if (placeholders.length === 1) {
+			if (Array.isArray(values)) return [ this.processValue(values[0], { json: true }) ]
+			else if (![ 'bigint', 'boolean', 'number', 'string' ].includes(typeof values)) return this.processValue(values, { json: true })
+			return [ values ]
+		}
+		if (placeholders.length > 0 && Array.isArray(values)) return values.map(v => this.processValue(v, { json: true }))
+		if (namedPlaceholders.length > 0 && isPlainObject(values)) {
+			const keys = Object.keys(values)
+			return Object.fromEntries(namedPlaceholders.map((k: `:${string}`) => {
+				const key = k.slice(1)
+				if (!keys.includes(key)) {
+					if (bruteforce) return [key, null]
+					else throw new Error(`Parameter '${key}' not found on values object.`, { cause })
 				}
-				return res({ results, fields })
-			})
-		})
+				return [key, this.processValue(values[key], { json: true })]
+			}))
+		}
+
+		return null
 	}
 
-	/**
-	 * Returns the requested Column DataType or `undefined` if the column `table.column` doesn't exists.
-	 * @param table The table to find the column.
-	 * @param column The column to get the DataType.
-	 */
-	public async getDataType(table: string, column: string): Promise<string | undefined> {
-		await this.awaitValidation()
-		return new Promise((res, rej) => {
-			debug(`Getting Database type for '${table}.${column}'...`)
+	public async query(string: string, values?: any, connection?: MySQL.Connection | MySQL.PoolConnection): Promise<[ MySQL.RowDataPacket[] | MySQL.RowDataPacket[][] | MySQL.OkPacket | MySQL.OkPacket[] | MySQL.ResultSetHeader, MySQL.FieldPacket[] ]> {
+		const conn: MySQL.Connection | MySQL.PoolConnection = connection ? connection : await this.getConnection()
+		const parsedValues = this.parseQueryStringValues(string, values)
+		const response = await conn.execute(string, parsedValues)
+
+		if (!connection) (conn as MySQL.PoolConnection).release()
+
+		return response
+	}
+
+	public async set(table: string, data: { [key: string]: any }[]): Promise<MySQL.ResultSetHeader[]> {
+		/**
+		 * [!] Implementation Note
+		 * - Add a grouping mapping of the received values to insert that ones with the same structure.
+		 */
+		const insertQueries = data.map(item => {
+			const keys = Object.keys(item).map(k => `\`${k}\``).join(',')
+			const values = Object.values(item)
+			return this.query(`INSERT INTO \`${table}\` (${keys}) VALUES (${values.map(() => '?').join(',')})`, values)
+		})
+
+		const response = await Promise.all(insertQueries)
+		const results = response.map(r => r[0] as MySQL.ResultSetHeader)
+		return results
+	}
+
+	public async get(table: string, keys?: string[], filter?: (target: any) => boolean): Promise<[ MySQL.RowDataPacket[], MySQL.FieldPacket[] ]> {
+		const queryString = !keys || keys.length === 0
+			? `SELECT * FROM \`${table}\``
+			: `SELECT ${keys.map(k => `\`${k}\``).join(', ')} FROM \`${table}\``
+
+		const [ results, fields ] = await this.query(queryString) as [ MySQL.RowDataPacket[], MySQL.FieldPacket[] ]
+
+		if (!filter) return [ results, fields ]
+		else {
+			const filteredResults = results.filter(v => filter(v))
+			return [ filteredResults, fields ]
+		}
+	}
+
+	public async edit(table: string, data: (data: any) => any, filter?: (target: any) => boolean): Promise<MySQL.ResultSetHeader[]> {
+		const [ targets, fields ] = await this.get(table, [], filter)
+
+		const primaryKey: string = fields.find(f => (f.flags & 2) !== 0)?.name
+		// Removing PRIMARY KEYS (2) and UNIQUE INDEXES (4) using Bitwise Operator from Fields Flags.
+		const uniqueKeys: string[] = fields.filter(f => (f.flags & 4) !== 0).map(f => f.name)
+
+		const updateQueries = targets.map(t => {
+			const targetKeys: string[] = Object.keys(t)
+
+			const updatedData = data(new Object(t))
+			const editableKeys: string[] = targetKeys.filter(k => ![primaryKey, ...uniqueKeys].includes(k))
 			
-			return this.query(`SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='${this.connection.config.database}' AND TABLE_NAME='${table}' AND COLUMN_NAME='${column}'`)
-			.then(response => {
-				const type = response.results[0]?.DATA_TYPE
-				debug(`Database type for '${table}.${column}': ${type}`)
-				res(type)
-			})
-			.catch(error => {
-				debug(`MySQL 'getDataType' Error:`, error)
-				return rej(error)
-			})
-		})
-	}
-	/**
-	 * Add a new value to the database.
-	 * @param table The database `table` you want to add this value.
-	 * @param data Data to add in the `table`.
-	 * @returns The database `table`.
-	 */
-	public async set(table: string, data: { [key: string]: any }): Promise<any[]> {
-		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			debug('Trying to set MySQL data:', { table, data })
-
-			const types: { [key: string]: string } = {}
-			const entries = Object.entries(data)
-			for (const entry of entries.map(e => e[0]).flat()) types[entry] = await this.getDataType(table, entry)
-			const keys = entries.map(e => `\`${e[0]}\``)
-			const values = entries.map(e => Database.typeParse(e[1], types[e[0]]))
-
-			return this.query(`INSERT INTO \`${table}\` (${keys.join(', ')}) VALUES (${values.join(', ')})`)
-			.then(async () => {
-				const response = await this.get(table)
-				debug('Data sucessfully setted up on Database:', { table: response })
-				res(response)
-			})
-			.catch(error => {
-				debug('MySQL \'set\' Error:', error)
-				rej(error)
-			})
-		})
-	}
-	/**
-	 * Get a data list from your database.
-	 * @param table The table to find the results.
-	 * @param keys Keys whitelist. If there's no `keys`, it'll return all that.
-	 * @param filter If you need to use some filter on this request.
-	 */
-	public async get(table: string, keys?: string[], filter?: (target: any) => boolean): Promise<any[]> {
-		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			debug('Trying to get data:', { table, keys, filter })
-
-			if (!keys || keys.length === 0) callback(() => this.query(`SELECT * FROM \`${table}\``))
-			else callback(() => this.query(`SELECT ${keys.map(k => `\`${k}\``).join(', ')} FROM \`${table}\``))
-
-			function callback(fn: () => Promise<{ results: any; fields?: MySQL.FieldInfo[] }>): void {
-				fn()
-				.then(response => {
-					if (!filter) {
-						debug('Getted results:', response.results)
-						return res(response.results)
-					} else {
-						const filtered = response.results.filter(i => filter(i))
-						debug('Getted results:', { raw: response.results, filtered })
-						return res(filtered)
-					}
-				})
-				.catch(error => {
-					debug('MySQL \'get\' Error:', error)
-					return rej(error)
-				})
-			}
-		})
-	}
-	/**
-	 * Edit a data inside your database.
-	 * @param table The table to be updated.
-	 * @param filter Filter all elements you want to modify.
-	 * @param data The data modifier to apply to each filtered database item.
-	 */
-	public async edit(table: string, filter: (target: any) => boolean, data: (data: any) => any): Promise<any[]> {
-		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			debug(`Trying to edit database '${table}' table...`)
-
-			const items = await this.get(table, [], filter)
-			debug('Filtered Database items to edit:', items)
-			if (items.length === 0) return res([])
-
-			for (let results = [], i = 0; i < items.length; i++) {
-				const item = items[i]
-				const entries = Object.entries(item)
-				const types: { [key: string]: any } = {}
-				for (const entry of entries) types[entry[0]] = await this.getDataType(table, entry[0])
-				const newData = Object.assign(item, data(item))
-				const newDataEntries = Object.entries(newData)
-				const newDataString = newDataEntries.map(e => `\`${e[0]}\`=${Database.typeParse(e[1], types[e[0]])}`).join(', ')
-				const conditions = entries.map(e => `\`${e[0]}\`=${Database.typeParse(e[1], types[e[0]])}`)
-				
-				return this.query(`UPDATE \`${table}\` SET ${newDataString} WHERE ${conditions.join(' AND ')}`)
-				.then(() => {
-					results.push(newData)
-					if (i === items.length - 1) {
-						debug('Database editing finished:', { old_data: items, new_data: results })
-						return res(results)
-					}
-				}).catch(error => {
-					debug('MySQL \'edit\' Error:', error)
-					return res(error)
-				})
-			}
-		})
-	}
-	/**
-	 * Delete data from database.
-	 * @param table Table to be used.
-	 * @param filter Data values to filter. If there's no `filter`, all that `table`'s items will be deleted.
-	 */
-	public async delete(table: string, filter?: (target: any) => boolean): Promise<any[]> {
-		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			debug(`Trying to delete Database items in '${table}'...`)
+			const processedEntries: [string, any][] = editableKeys.map(k => [k, this.processValue(updatedData[k], { json: true })])
+			const processedItem: { [k: string]: any } = Object.fromEntries(processedEntries)
 			
-			try {
-				const results = await this.get(table, [], filter)
-				debug('Filtered Database items to delete:', results)
+			const valuesString = editableKeys.map(k => `\`${k}\` = :${k}`).join(', ')
 
-				const types: { [key: string]: any } = {}
-				for (const item of results) {
-					const entries = Object.entries(item)
-					for (const entry of entries) types[entry[0]] = await this.getDataType(table, entry[0])
-				}
-
-				const conditions = results.map(r => Object.entries(r).map(e => `\`${e[0]}\`=${Database.typeParse(e[1], types[e[0]])}`))
-				
-				return this.query(`DELETE FROM \`${table}\`${filter ? ` WHERE ${conditions.map(c => `(${c.join(' AND ')})`).join(' OR ')}` : ''}`)
-				.then(response => {
-					debug('Sucessfully deleted database items:', { response: response.results })
-					return res(response.results)
-				})
-			} catch(error) {
-				debug('MySQL \'delete\' Error:', error)
-				return rej(error)
+			const selectorKeys: string[] = []
+			if (typeof primaryKey === 'string') selectorKeys.push(primaryKey)
+			else {
+				const keys: string[] = uniqueKeys.length > 0 ? uniqueKeys : targetKeys
+				selectorKeys.push(...keys)
 			}
+			const deleteCondition: string = selectorKeys.map(k => `\`${k}\` = :old${k}`).join(' AND ')
+			
+			const selectorEntries = selectorKeys.map(k => [`old${k}`, t[k]])
+			const selectorObject = Object.fromEntries(selectorEntries)
+			
+			const queryString = `UPDATE \`${table}\` SET ${valuesString} WHERE ${deleteCondition}`
+			const values = Object.assign(processedItem, selectorObject)
+			
+			return this.query(queryString, values)
 		})
+
+		const response = await Promise.all(updateQueries)
+		const results = response.map(r => r[0] as MySQL.ResultSetHeader)
+		return results
+	}
+
+	public async delete(table: string, filter?: (target: any) => boolean): Promise<[MySQL.RowDataPacket[], MySQL.ResultSetHeader[]]> {
+		await this.awaitValidation()
+		const [ targets, fields ] = await this.get(table, [], filter)
+
+		const primaryKey: string = fields.find(f => (f.flags & 2) !== 0)?.name
+		// Removing PRIMARY KEYS (2) and UNIQUE INDEXES (4) using Bitwise Operator from Fields Flags.
+		const uniqueKeys: string[] = fields.filter(f => (f.flags & 4) !== 0).map(f => f.name)
+
+		const deleteQueries = targets.map(t => {
+			const selectorKeys: string[] = []
+			if (typeof primaryKey === 'string') selectorKeys.push(primaryKey)
+			else {
+				const keys: string[] = uniqueKeys.length > 0 ? uniqueKeys : Object.keys(t)
+				selectorKeys.push(...keys)
+			}
+
+			const deleteCondition: string = selectorKeys.map(k => `\`${k}\` = :${k}`).join(' AND ')
+
+			const entries: [string, any][] = selectorKeys.map(k => [k, t[k]])
+			const values: { [k: string]: any } = Object.fromEntries(entries)
+			
+			return this.query(`DELETE FROM \`${table}\` WHERE ${deleteCondition}`, values)
+		})
+
+		const response = await Promise.all(deleteQueries)
+		const results = response.map(r => r[0] as MySQL.ResultSetHeader)
+		return [ targets, results ]
 	}
 
 	
 	// Users Management
 
 
-	public async getUsers(): Promise<DatabaseUser[]> {
+	public async getUsers(filter?: (user: DatabaseUser) => boolean): Promise<DatabaseUser[]> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => this.get('users').then(users => res(users.map(u => new DatabaseUser(u)))).catch(rej))
+		const [ databaseUsers ] = await this.get('users', [], filter)
+		return databaseUsers.map(u => new DatabaseUser(u))
 	}
 	public async getUser(data: DatabaseUserResolvable): Promise<DatabaseUser | undefined> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => {
-			const userId = typeof data === 'string' ? data : data.id
-			return this.get('users', [], d => d.id == userId).then(users => {
-				if (!users[0]) return res(undefined)
-				return res(new DatabaseUser(users[0]))
-			}).catch(rej)
-		})
+		const userId = String(DatabaseUtils.isIdOnly(data) ? data : data.id)
+		const [ user ] = (await this.get('users', [], u => u.id == userId))[0]
+		if (!user) return undefined
+		return new DatabaseUser(user)
 	}
 	public async hasUser(data: DatabaseUserResolvable): Promise<boolean> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => this.getUser(data).then(user => user ? res(true) : res(false)).catch(rej))
+		const user = await this.getUser(data)
+		if (!user) return false
+		return true
 	}
 	public async addUser(data: DatabaseUserResolvable): Promise<DatabaseUser> {
 		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			const target = await this.getUser(data)
-			if (!target) {
-				const user = new DatabaseUser(data)
-				await this.set('users', user.toJSON()).catch(rej)
-				return res(await this.getUser(data))
-			} else res(target)
-		})
+		const target = await this.getUser(data)
+		if (!target) {
+			const user = new DatabaseUser(data)
+			await this.set('users', [ user ])
+			return user
+		} else return target
 	}
-	public async editUser(target: DatabaseUserResolvable, data: DatabaseUserResolvable | ((oldData: DatabaseUser) => DatabaseUserResolvable)): Promise<DatabaseUser> {
+	public async editUser(target: DatabaseUserResolvable, data: DatabaseUserData | MySQL.RowDataPacket | ((oldData: DatabaseUserData | MySQL.RowDataPacket) => DatabaseUserData | MySQL.RowDataPacket)): Promise<DatabaseUser> {
 		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			const targetId = typeof target === 'string' ? target : target.id
-			this.edit('users', t => t.id == targetId, oldData => new DatabaseUser(typeof data === 'function' ? data(new DatabaseUser(oldData)) : data).toJSON())
-			.then(async () => res(await this.getUser(targetId)))
-			.catch(rej)
-		})
+		const targetId = String(DatabaseUtils.isIdOnly(target) ? target : target.id)
+		const newData = (oldData: DatabaseUserData | MySQL.RowDataPacket): DatabaseUserData | MySQL.RowDataPacket => typeof data === 'function' ? data(oldData) : data
+		await this.edit('users', newData, t => t.id == targetId)
+		return await this.getUser(targetId)
 	}
-	public async deleteUser(target: DatabaseUserResolvable): Promise<DatabaseUser | undefined> {
+	public async deleteUsers(...targets: DatabaseUserResolvable[]): Promise<DatabaseUser[]> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => {
-			const targetId = typeof target === 'string' ? target : target.id
-			this.delete('users', t => t.id == targetId).then(deleted => {
-				const user = deleted.find(d => d.id == targetId)
-				if (!user) return res(null)
-				else return res(new DatabaseUser(user))
-			}).catch(rej)
-		})
+		const targetsIds = targets.map(t => String(DatabaseUtils.isIdOnly(t) ? t : t.id))
+		const [ deleted ] = await this.delete('users', t => targetsIds.includes(String(t.id)))
+		return deleted.map(d => new DatabaseUser(d))
 	}
 
 
 	// Guilds Management
 
 
-	public async getGuilds(): Promise<DatabaseGuild[]> {
+	public async getGuilds(filter?: (user: DatabaseUser) => boolean): Promise<DatabaseGuild[]> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => this.get('guilds').then(guilds => res(guilds.map((u) => new DatabaseGuild(u)))).catch(rej))
+		const [ databaseGuilds ] = await this.get('guilds', [], filter)
+		return databaseGuilds.map(u => new DatabaseGuild(u))
 	}
 	public async getGuild(data: DatabaseGuildResolvable): Promise<DatabaseGuild | undefined> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => this.get('guilds', [], d => d.id == (typeof data === 'string' ? data : data.id)).then(guilds => res(0 in guilds ? new DatabaseGuild(guilds[0]) : undefined)).catch(rej))
+		const guildId = String(DatabaseUtils.isIdOnly(data) ? data : data.id)
+		const [[ guild ]] = await this.get('guilds', [], g => g.id == guildId)
+		if (!guild) return undefined
+		return new DatabaseGuild(guild)
 	}
 	public async hasGuild(data: DatabaseGuildResolvable): Promise<boolean> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => this.getGuild(data).then(guild => guild ? res(true) : res(false)).catch(rej))
+		const target = await this.getGuild(data)
+		if (!target) return false
+		else return true
 	}
 	public async addGuild(data: DatabaseGuildResolvable): Promise<DatabaseGuild> {
 		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			const target = await this.getGuild(data)
-			if (!target) {
-				const guild = new DatabaseGuild(data)
-				await this.set('guilds', guild.toJSON()).catch(rej)
-				return res(await this.getGuild(data))
-			} else res(target)
-		})
+		const target = await this.getGuild(data)
+		if (!target) {
+			const guild = new DatabaseGuild(data)
+			await this.set('guilds', [ guild ])
+			return await this.getGuild(data)
+		}
+		return target
 	}
-	public async editGuild(target: DatabaseGuildResolvable, data: DatabaseGuildResolvable | ((oldData: DatabaseGuild) => DatabaseGuildResolvable)): Promise<DatabaseGuild> {
+	public async editGuild(target: DatabaseGuildResolvable, data: DatabaseGuildData | MySQL.RowDataPacket | ((oldData: DatabaseGuildData | MySQL.RowDataPacket) => DatabaseGuildData | MySQL.RowDataPacket)): Promise<DatabaseGuild> {
 		await this.awaitValidation()
-		return new Promise(async (res, rej) => {
-			const targetId = typeof target === 'string' ? target : target.id
-			try {
-				const results = await this.edit('guilds', t => t.id == targetId, oldData => new DatabaseGuild(typeof data === 'function' ? data(new DatabaseGuild(oldData)) : data).toJSON())
-				console.log('Results:', results)
-				return res(new DatabaseGuild(results[0]))
-			} catch (error) {
-				rej(error)
-			}
-		})
+		const targetId = String(DatabaseUtils.isIdOnly(target) ? target : target.id)
+		const newData = (oldData: DatabaseGuildData | MySQL.RowDataPacket): DatabaseGuildData | MySQL.RowDataPacket => typeof data === 'function' ? data(oldData) : data
+		await this.edit('users', newData, t => t.id == targetId)
+		return await this.getGuild(targetId)
 	}
-	public async deleteGuild(target: DatabaseGuildResolvable): Promise<DatabaseGuild | undefined> {
+	public async deleteGuilds(...targets: DatabaseGuildResolvable[]): Promise<DatabaseGuild[]> {
 		await this.awaitValidation()
-		return new Promise((res, rej) => {
-			const targetId = typeof target === 'string' ? target : target.id
-			this.delete('guilds', t => t.id == targetId).then((deleted) => {
-				const guild = deleted.find(d => d.id == targetId)
-				if (!guild) return res(undefined)
-				else return res(new DatabaseGuild(guild))
-			}).catch(rej)
-		})
+		const targetsIds = targets.map(t => String(DatabaseUtils.isIdOnly(t) ? t : t.id))
+		const [ deleted ] = await this.delete('guilds', t => targetsIds.includes(String(t.id)))
+		return deleted.map(d => new DatabaseGuild(d))
 	}
 
 
 	// Verification Only
 
 
-	private available: boolean = false
-	private awaitValidation(): Promise<boolean> {
+	public checked: boolean = false
+	private valid: boolean = false
+	private awaitValidation(checkedOnly: boolean = true): Promise<boolean> {
 		return new Promise(res => {
 			const interval = setInterval(() => {
-				if (!this.available) return
-				clearInterval(interval)
-				res(true)
+				if (this.valid === true && (checkedOnly === true ? this.checked === true : true)) {
+					clearInterval(interval)
+					res(true)
+				}
 			}, 0)
 		})
 	}
 
-	constructor(connectionUri: string | MySQL.ConnectionConfig) {
-		this.connection = MySQL.createConnection(connectionUri)
-		this.connection.connect(async error => {
-			if (error) return console.error(error)
-			const { host, database, user } = this.connection.config
+	constructor(connectionUri: MySQL.PoolOptions) {
+		this.pool = MySQL.createPool(connectionUri);
+
+		(async () => {
+			const connection = await this.pool.getConnection()
+			const { host, database, user } = connection.config
 			console.log(`[ MySQL ] Successfully connected as '${user}@${host}' in '${database}' database (schema).`)
 			
-			await this.query('CREATE TABLE IF NOT EXISTS `guilds` (`id` varchar(19) NOT NULL, `settings` text, `punishments` text, PRIMARY KEY (`id`))').catch(console.error)
-			await this.query('CREATE TABLE IF NOT EXISTS `users` (`id` varchar(19) NOT NULL, `punishments` text, `preferencies` text, PRIMARY KEY (`id`))').catch(console.error)
-
+			await this.query('CREATE TABLE IF NOT EXISTS `guilds` (`id` varchar(19) PRIMARY KEY NOT NULL, `settings` JSON, `punishments` JSON)').catch(console.error)
+			await this.query('CREATE TABLE IF NOT EXISTS `users` (`id` varchar(19) PRIMARY KEY NOT NULL, `punishments` JSON, `preferencies` JSON)').catch(console.error)
+	
 			// await this.query('SHOW TABLES').then(async res => {
 			// 	const tables = res.results.map(r => Object.values(r)).flat()
 			// 	for (const tablename of ['guilds', 'users']) {
@@ -347,7 +355,10 @@ export default class Database {
 			// 		}
 			// 	}
 			// }).catch(console.error)
-
+	
+			this.valid = true
+			console.log(`[ Database ] Database is now available for use. Checking Database Integrity...`)
+	
 			const guilds = await this.getGuilds()
 			for (const guild of guilds) {
 				if (!DiscordUtils.Patterns.SnowflakeId.test(guild.id)) throw new Error(`[ Database ] Invalid database ID '${guild.id}'`)
@@ -367,15 +378,12 @@ export default class Database {
 						return typeof name === 'string' && name.trim().length > 0
 					}
 				}
-
+	
 				await this.editGuild(guild, guild.toJSON())
 			}
-
-			this.available = true
-			console.log(`[ Database ] Database is now available for use.`)
-		})
-		this.connection.on('disconnect', (...args) => console.error(`[ MySQL ] Application disconnected.`, ...args))
-		this.connection.on('exit', (...args) => console.error(`[ MySQL ] Application exited.`, ...args))
-		this.connection.on('error', (...args) => console.error(`[ MySQL ] Received an error.`, ...args))
+	
+			this.checked = true
+			console.log(`[ Database ] Database Integrity Check complete.`)
+		})()
 	}
 }
